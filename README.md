@@ -21,23 +21,23 @@ Tony is a custom trader mod for SPT-AKI 3.11 designed to help new and low-level 
 ## 📁 Installation
 
 1. **Extract** the folder into your `user/mods` directory:
-SPT-AKI/
-└── user/
-└── mods/
-└── YetAnotherTraderMod/
+- SPT-AKI/
+- └── user/
+- └── mods/
+- └── YetAnotherTraderMod/
 
 2. Make sure the structure looks like this:
-YetAnotherTraderMod/
-├── src/
-├── db/
-│ └── assort/
-│ ├── base.json
-│ └── extra/
-├── config/
-│ └── trader.json
-├── mod.js
-├── package.json
-└── README.md
+- YetAnotherTraderMod/
+- ├── src/
+- ├── db/
+- │ └── assort/
+- │ ├── base.json
+- │ └── extra/
+- ├── config/
+- │ └── trader.json
+- ├── mod.js
+- ├── package.json
+- └── README.md
 
 3. Launch your server!
 
