@@ -65,7 +65,7 @@ These will be automatically loaded if present, allowing easy extension by other 
 
 ## 🖼️ Credits
 
-- Trader Avatar: AI-generated composite styled after Tagilla in military gear  
+- Trader Avatar: AI-generated composite styled after Propor  
 - Original idea and concept: AlmightyTank
 - SPT-AKI Team for their fantastic framework
 
