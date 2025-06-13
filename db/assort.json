@@ -1051,8 +1051,7 @@
 				"UnlimitedCount": true,
 				"StackObjectsCount": 999999
 			}
-    }
-    ,
+    },
     {
       "_name": "Raid bag",
       "_id": "684b95190c8dd7758a491913",
@@ -1098,6 +1097,204 @@
       "_tpl": "6576500f526e320fbe03577f",
       "parentId": "684b95be1500f279373da192",
       "slotId": "Groin_back"
+    },
+    {
+      "_name": "3BTG",
+      "_id": "684b9a3e4b195c87372b3447",
+      "_tpl": "5ed515c8d380ab312177c0fa",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "AHF1M",
+      "_id": "684b9a70903e5ac7660ed25e",
+      "_tpl": "5ed515f6915ec335206e4152",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "ADRENALINE",
+      "_id": "684b9a7aa82cc92ded17b182",
+      "_tpl": "5c10c8fd86f7743d7d706df3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "MULE",
+      "_id": "684b9acedefa218837c51e8d",
+      "_tpl": "5ed51652f6c34d2cc26336a1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "MELDONIN",
+      "_id": "684b9a9db551026a85452a43",
+      "_tpl": "5ed5160a87bb8443d10680b5",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "BLUEBLOOD",
+      "_id": "684b9aadbd98c5c11c5c7b9e",
+      "_tpl": "637b6251104668754b72f8f9",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "SJ12",
+      "_id": "684b9aba037f67f65e61bd04",
+      "_tpl": "637b612fb7afa97bfc3d7005",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "TRIMADOL",
+      "_id": "684b9ad487b49f28cab630dd",
+      "_tpl": "637b620db7afa97bfc3d7009",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "XTG12",
+      "_id": "684b9b29f18c33b8fa2ea76e",
+      "_tpl": "5fca138c2a7b221b2852a5c6",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "SURV12",
+      "_id": "684b9b37d8c9aa2933989ed7",
+      "_tpl": "5d02797c86f774203f38e30a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "IBOPROFEN",
+      "_id": "684b9c6ddc045993ac7007d3",
+      "_tpl": "5af0548586f7743a532b7e99",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "MAXENERGY",
+      "_id": "684b9b6463f384d0585fe90e",
+      "_tpl": "5751435d24597720a27126d1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "WATER0.6",
+      "_id": "684b9b74684f0bd7822be385",
+      "_tpl": "5448fee04bdc2dbc018b4567",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "AQUA",
+      "_id": "684b9b892786851f0293131c",
+      "_tpl": "5c0fa877d174af02a012e1cf",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "TUSHONKA",
+      "_id": "684b9b959343a433adc5350d",
+      "_tpl": "57347da92459774491567cf5",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "SQUASH",
+      "_id": "684b9ba82188620f839689fa",
+      "_tpl": "57347d8724597744596b4e76",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "MRE",
+      "_id": "684b9bbc7f6b336e04a9d98a",
+      "_tpl": "590c5f0d86f77413997acfab",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "ISKRA",
+      "_id": "684b9bbeab252bc7f2685392",
+      "_tpl": "590c5d4b86f774784e1b9c45",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
     }
   ],
   "barter_scheme": {
@@ -1179,7 +1376,25 @@
     "6848ee82c9835bbd1392fad0": [[{"count": 9346, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684a19e851d6b920f6e59d86": [[{"count": 9789, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684b95190c8dd7758a491913": [[{"count": 89280, "_tpl": "5449016a4bdc2d6f028b456f"}]],
-    "684b95be1500f279373da192": [[{"count": 39321, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    "684b9a3e4b195c87372b3447": [[{"count": 19336, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9a70903e5ac7660ed25e": [[{"count": 28665, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9a7aa82cc92ded17b182": [[{"count": 19819, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9acedefa218837c51e8d": [[{"count": 27436, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9a9db551026a85452a43": [[{"count": 35217, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9aadbd98c5c11c5c7b9e": [[{"count": 41580, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9aba037f67f65e61bd04": [[{"count": 25830, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9ad487b49f28cab630dd": [[{"count": 37800, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b29f18c33b8fa2ea76e": [[{"count": 50778, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b37d8c9aa2933989ed7": [[{"count": 45360, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9c6ddc045993ac7007d3": [[{"count": 15898, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b6463f384d0585fe90e": [[{"count": 5628, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b74684f0bd7822be385": [[{"count": 1543, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b95be1500f279373da192": [[{"count": 39321, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b892786851f0293131c": [[{"count": 19915, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9b959343a433adc5350d": [[{"count": 10327, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9ba82188620f839689fa": [[{"count": 10185, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9bbc7f6b336e04a9d98a": [[{"count": 10748, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9bbeab252bc7f2685392": [[{"count": 12195, "_tpl": "5449016a4bdc2d6f028b456f"}]]
   },
   "loyal_level_items": {
     "6848be54277d63f84c2eb60e": 1,
@@ -1260,6 +1475,24 @@
     "6848ee82c9835bbd1392fad0": 2,
     "684a19e851d6b920f6e59d86": 1,
     "684b95190c8dd7758a491913": 2,
-    "684b95be1500f279373da192": 1
+    "684b95be1500f279373da192": 1,
+    "684b9a3e4b195c87372b3447": 1,
+    "684b9a70903e5ac7660ed25e": 2,
+    "684b9a7aa82cc92ded17b182": 1,
+    "684b9acedefa218837c51e8d": 2,
+    "684b9a9db551026a85452a43": 2,
+    "684b9aadbd98c5c11c5c7b9e": 2,
+    "684b9aba037f67f65e61bd04": 2,
+    "684b9ad487b49f28cab630dd": 2,
+    "684b9b29f18c33b8fa2ea76e": 2,
+    "684b9b37d8c9aa2933989ed7": 3,
+    "684b9c6ddc045993ac7007d3": 2,
+    "684b9b6463f384d0585fe90e": 1,
+    "684b9b74684f0bd7822be385": 1,
+    "684b9b892786851f0293131c": 2,
+    "684b9b959343a433adc5350d": 1,
+    "684b9ba82188620f839689fa": 2,
+    "684b9bbc7f6b336e04a9d98a": 2,
+    "684b9bbeab252bc7f2685392": 2
   }
 }
