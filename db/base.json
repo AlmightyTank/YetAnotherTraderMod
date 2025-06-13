@@ -58,7 +58,7 @@
         },
         {
             "minLevel": 5,
-            "minSalesSum": 100000,
+            "minSalesSum": 0,
             "minStanding": 0.15,
             "buy_price_coef": 0,
             "repair_price_coef": 150,
@@ -68,7 +68,7 @@
         },
         {
             "minLevel": 15,
-            "minSalesSum": 3000000,
+            "minSalesSum": 0,
             "minStanding": 0.35,
             "buy_price_coef": 0,
             "repair_price_coef": 125,
@@ -78,7 +78,7 @@
         },
         {
             "minLevel": 25,
-            "minSalesSum": 7000000,
+            "minSalesSum": 0,
             "minStanding": 0.7,
             "buy_price_coef": 0,
             "repair_price_coef": 100,

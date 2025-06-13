@@ -1295,6 +1295,28 @@
 				"UnlimitedCount": true,
 				"StackObjectsCount": 999999
 			}
+    },
+    {
+      "_name": "LARGEFUEL",
+      "_id": "684b9f0dd662b04ecbab9e0c",
+      "_tpl": "5d1b36a186f7742523398433",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "SMALLFUEL",
+      "_id": "684b9f6490f9d3f6c7f61f62",
+      "_tpl": "5d1b371186f774253763a656",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
     }
   ],
   "barter_scheme": {
@@ -1394,7 +1416,9 @@
     "684b9b959343a433adc5350d": [[{"count": 10327, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684b9ba82188620f839689fa": [[{"count": 10185, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684b9bbc7f6b336e04a9d98a": [[{"count": 10748, "_tpl": "5449016a4bdc2d6f028b456f"}]],
-    "684b9bbeab252bc7f2685392": [[{"count": 12195, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    "684b9bbeab252bc7f2685392": [[{"count": 12195, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9f0dd662b04ecbab9e0c": [[{"count": 30240, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684b9f6490f9d3f6c7f61f62": [[{"count": 31500, "_tpl": "5449016a4bdc2d6f028b456f"}]]
   },
   "loyal_level_items": {
     "6848be54277d63f84c2eb60e": 1,
@@ -1493,6 +1517,9 @@
     "684b9b959343a433adc5350d": 1,
     "684b9ba82188620f839689fa": 2,
     "684b9bbc7f6b336e04a9d98a": 2,
-    "684b9bbeab252bc7f2685392": 2
+    "684b9bbeab252bc7f2685392": 2,
+    "684b9f0dd662b04ecbab9e0c": 2,
+    "684b9f6490f9d3f6c7f61f62": 1
+    
   }
 }
