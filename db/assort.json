@@ -2921,18 +2921,6 @@
       "_id": "684c26391603e34d6804239f",
       "_tpl": "58491f3324597764bc48fa02",
       "slotId": "mod_scope",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      },
       "parentId": "684c26391603e34d6804239c"
     },
     {
@@ -2951,18 +2939,6 @@
       "_id": "684c26391603e34d680423a2",
       "_tpl": "5894a81786f77427140b8347",
       "slotId": "mod_sight_rear",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      },
       "parentId": "684c26391603e34d6804239c"
     },
     {
@@ -2987,12 +2963,6 @@
       "_id": "684c26391603e34d680423a6",
       "_tpl": "56def37dd2720bec348b456a",
       "slotId": "mod_tactical",
-      "upd": {
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      },
       "parentId": "684c26391603e34d680423a4"
     },
     {
@@ -3000,6 +2970,138 @@
       "_tpl": "5b057b4f5acfc4771e1bd3e9",
       "slotId": "mod_foregrip",
       "parentId": "684c26391603e34d680423a5"
+    },
+    {
+      "_name": "Azimut SS Khamelion chest harness (Olive)",
+      "_id": "684c33642adb990618225bb6",
+      "_tpl": "63611865ba5b90db0c0399d1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "WARTECH TV-109 + TV-106 chest rig (A-TACS FG)",
+      "_id": "684c33eafc82cf1881d1537f",
+      "_tpl": "59e7643b86f7742cbf2c109a",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "BlackRock chest rig (Gray)",
+      "_id": "684c340917aa6755e62d547c",
+      "_tpl": "5648a69d4bdc2ded0b8b457b",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "Crye Precision AVS plate carrier (Ranger Green)",
+      "_id": "684c347fade062aa1726a267",
+      "_tpl": "544a5caa4bdc2d1a388b4568",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_name": "ANA Tactical M1 plate carrier (Olive Drab)",
+      "_id": "684c34a33fb82b7a718a1749",
+      "_tpl": "5c0e722886f7740458316a57",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_id": "684c3596f18972623803400d",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "684c34a33fb82b7a718a1749",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "684c3596f18972623803400e",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "684c34a33fb82b7a718a1749",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "684c3596f18972623803400f",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "684c34a33fb82b7a718a1749",
+      "slotId": "Groin"
+    },
+    {
+      "_id": "684c3596f189726238034010",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "684c34a33fb82b7a718a1749",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "684c3596f189726238034011",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "684c34a33fb82b7a718a1749",
+      "slotId": "Back_plate"
+    },
+    {
+      "_name": "UMTBS 6Sh112 Scout-Sniper chest rig (EMR)",
+      "_id": "684c34dfefdcd3ce47a1df0c",
+      "_tpl": "5929a2a086f7744f4b234d43",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+    },
+    {
+      "_id": "684c35a6f189726238034013",
+      "_tpl": "65730c0e292ecadbfa09ad49",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "684c35a6f189726238034014",
+      "_tpl": "65730c2213a2f660f60bea96",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "684c35a6f189726238034015",
+      "_tpl": "65730c2b292ecadbfa09ad50",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "684c35a6f189726238034016",
+      "_tpl": "65730c35292ecadbfa09ad54",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "soft_armor_right"
+    },
+    {
+      "_id": "684c35a6f189726238034017",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "684c35a6f189726238034018",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "684c34dfefdcd3ce47a1df0c",
+      "slotId": "Back_plate"
     }
   ],
   "barter_scheme": {
@@ -3122,7 +3224,13 @@
     "684c2ff6e19cff9a2831eae3": [[{"count": 139863, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684c30a06a3d808480487e5a": [[{"count": 102656, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684c31148b00817876801ce5": [[{"count": 122463, "_tpl": "5449016a4bdc2d6f028b456f"}]],
-    "684c3177a354af14f20260e7": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    "684c3177a354af14f20260e7": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c33642adb990618225bb6": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c33eafc82cf1881d1537f": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c340917aa6755e62d547c": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c347fade062aa1726a267": [[{"count": 86610, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c34a33fb82b7a718a1749": [[{"count": 58968, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684c34dfefdcd3ce47a1df0c": [[{"count": 43517, "_tpl": "5449016a4bdc2d6f028b456f"}]]
   },
   "loyal_level_items": {
     "6848be54277d63f84c2eb60e": 1,
@@ -3244,6 +3352,12 @@
     "684c2ff6e19cff9a2831eae3": 3,
     "684c30a06a3d808480487e5a": 3,
     "684c31148b00817876801ce5": 3,
-    "684c3177a354af14f20260e7": 3
+    "684c3177a354af14f20260e7": 3,
+    "684c33642adb990618225bb6": 1,
+    "684c33eafc82cf1881d1537f": 1,
+    "684c340917aa6755e62d547c": 1,
+    "684c347fade062aa1726a267": 2,
+    "684c34a33fb82b7a718a1749": 2,
+    "684c34dfefdcd3ce47a1df0c": 2
   }
 }
