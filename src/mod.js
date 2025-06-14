@@ -8,11 +8,13 @@ const baseJson = require("../db/base.json");
 const assortJson = require("../db/assort.json");
 const questJson = require("../db/questassort.json");
 const traderHelpers_1 = require("./traderHelpers");
+const loadFleaAssort_1 = require("./loadFleaAssort");
 class YetAnotherTraderMod {
     mod;
     traderImgPath;
     logger;
     traderHelper;
+    preSptModLoader;
     constructor() {
         this.mod = "YetAnotherTraderMod"; // Set name of mod so we can log it to console later - match this to your folder name that's built for \user\mods\
         this.traderImgPath = "res/trader.png"; // Set path to trader image
@@ -27,6 +29,7 @@ class YetAnotherTraderMod {
         this.logger.debug(`[${this.mod}] preSpt Loading... `);
         // Get SPT code/data we need later
         const preSptModLoader = container.resolve("PreSptModLoader");
+        this.preSptModLoader = preSptModLoader;
         const imageRouter = container.resolve("ImageRouter");
         const configServer = container.resolve("ConfigServer");
         const traderConfig = configServer.getConfig(ConfigTypes_1.ConfigTypes.TRADER);
@@ -56,6 +59,8 @@ class YetAnotherTraderMod {
         this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson);
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
+        const existingTpls = new Set(tables.traders[baseJson._id].assort.items.map(i => i._tpl));
+        (0, loadFleaAssort_1.addFleaOnlyWeaponPartsToAssort)(tables, this.logger, existingTpls, baseJson._id);
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
 }

@@ -20,6 +20,8 @@ import assortJson = require("../db/assort.json");
 import questJson = require("../db/questassort.json");
 import tonysQuests = require("../../Virtual's Custom Quest Loader/database/quests/YATM.json");
 import { TraderHelper } from "./traderHelpers";
+import { addFleaOnlyWeaponPartsToAssort  } from "./loadFleaAssort";
+
 
 class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
 {
@@ -27,6 +29,7 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
     private traderImgPath: string;
     private logger: ILogger;
     private traderHelper: TraderHelper;
+    private preSptModLoader: PreSptModLoader;
 
     constructor() {
         this.mod = "YetAnotherTraderMod"; // Set name of mod so we can log it to console later - match this to your folder name that's built for \user\mods\
@@ -45,6 +48,7 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
 
         // Get SPT code/data we need later
         const preSptModLoader: PreSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
+        this.preSptModLoader = preSptModLoader;
         const imageRouter: ImageRouter = container.resolve<ImageRouter>("ImageRouter");
         const configServer = container.resolve<ConfigServer>("ConfigServer");
         const traderConfig: ITraderConfig = configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
@@ -84,6 +88,10 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
         
+        const existingTpls = new Set(tables.traders[baseJson._id].assort.items.map(i => i._tpl));
+
+        addFleaOnlyWeaponPartsToAssort(tables, this.logger, existingTpls, baseJson._id);
+
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
 }
