@@ -20,7 +20,7 @@ import assortJson = require("../db/assort.json");
 import questJson = require("../db/questassort.json");
 import tonysQuests = require("../../Virtual's Custom Quest Loader/database/quests/YATM.json");
 import { TraderHelper } from "./traderHelpers";
-import { addFleaOnlyWeaponPartsToAssort  } from "./loadFleaAssort";
+import { addFleaOnlyWeaponPartsToAssort  } from "./addFleaOnlyWeaponPartsToAssort";
 
 
 class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
