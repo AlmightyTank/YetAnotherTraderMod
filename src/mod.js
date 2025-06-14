@@ -9,7 +9,6 @@ const assortJson = require("../db/assort.json");
 const questJson = require("../db/questassort.json");
 const traderHelpers_1 = require("./traderHelpers");
 const addFleaOnlyWeaponPartsToAssort_1 = require("./addFleaOnlyWeaponPartsToAssort");
-const fleaScanner_1 = require("./fleaScanner");
 class YetAnotherTraderMod {
     mod;
     traderImgPath;
@@ -62,7 +61,6 @@ class YetAnotherTraderMod {
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
         const existingTpls = new Set(tables.traders[baseJson._id].assort.items.map(i => i._tpl));
         (0, addFleaOnlyWeaponPartsToAssort_1.addFleaOnlyWeaponPartsToAssort)(tables, this.logger, existingTpls, baseJson._id);
-        (0, fleaScanner_1.addFleaBannedArmorToAssort)(tables, this.logger, existingTpls, baseJson._id);
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
 }
