@@ -21,6 +21,7 @@ import questJson = require("../db/questassort.json");
 import tonysQuests = require("../../Virtual's Custom Quest Loader/database/quests/YATM.json");
 import { TraderHelper } from "./traderHelpers";
 import { addFleaOnlyWeaponPartsToAssort  } from "./addFleaOnlyWeaponPartsToAssort";
+import { Loader } from "./loader";
 
 
 class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
@@ -91,6 +92,9 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         const existingTpls = new Set(tables.traders[baseJson._id].assort.items.map(i => i._tpl));
 
         addFleaOnlyWeaponPartsToAssort(tables, this.logger, existingTpls, baseJson._id);
+
+        const loader = new Loader(container);
+        loader.loadAssorts(baseJson._id, this.preSptModLoader, this.mod);
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
