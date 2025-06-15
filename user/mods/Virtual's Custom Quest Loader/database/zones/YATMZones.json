@@ -1,0 +1,77 @@
+[
+  {
+    "ZoneId": "tony_fc_jammer_0",
+    "ZoneName": "tony_fc_jammer_0",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "40.13383",
+      "Y": "1.362828",
+      "Z": "-11.17792",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3.75",
+      "Y": "2.5",
+      "Z": "9.25",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "tony_cu_jammer_0",
+    "ZoneName": "tony_cu_jammer_0",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "205.2093",
+      "Y": "1.804545",
+      "Z": "-121.2793",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.06540313",
+      "Z": "0",
+      "W": "0.9978589"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "6",
+      "Z": "11",
+      "W": "0"
+    }
+  },  
+  {
+    "ZoneId": "tony_in_jammer_0",
+    "ZoneName": "tony_in_jammer_0",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-240.1045",
+      "Y": "21.50334",
+      "Z": "-310.8752",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "16.5",
+      "Y": "8.75",
+      "Z": "40.5",
+      "W": "0"
+    }
+  }
+]
