@@ -88,8 +88,8 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
 
-        const loader = new Loader(container);
-        loader.loadAssorts(baseJson._id, this.preSptModLoader, this.mod);
+        //const loader = new Loader(container);
+        //loader.loadAssorts(baseJson._id, this.preSptModLoader, this.mod);
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
