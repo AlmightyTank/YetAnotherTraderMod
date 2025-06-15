@@ -47,8 +47,8 @@
     "gridHeight": 150,
     "loyaltyLevels": [
         {
-            "minLevel": 1,
-            "minSalesSum": 100000,
+            "minLevel": 0,
+            "minSalesSum": 0,
             "minStanding": 0,
             "buy_price_coef": 0,
             "repair_price_coef": 175,
@@ -58,7 +58,7 @@
         },
         {
             "minLevel": 5,
-            "minSalesSum": 200000,
+            "minSalesSum": 100000,
             "minStanding": 0.15,
             "buy_price_coef": 0,
             "repair_price_coef": 150,
@@ -68,7 +68,7 @@
         },
         {
             "minLevel": 15,
-            "minSalesSum": 300000,
+            "minSalesSum": 200000,
             "minStanding": 0.35,
             "buy_price_coef": 0,
             "repair_price_coef": 125,
@@ -78,7 +78,7 @@
         },
         {
             "minLevel": 25,
-            "minSalesSum": 400000,
+            "minSalesSum": 300000,
             "minStanding": 0.7,
             "buy_price_coef": 0,
             "repair_price_coef": 100,
