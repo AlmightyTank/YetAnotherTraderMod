@@ -3825,6 +3825,86 @@
 				"UnlimitedCount": true,
 				"StackObjectsCount": 999999
       }
+    },
+    {
+      "_id": "684ed223b959d50d92582217",
+      "_tpl": "5e217ba4c1434648c13568cd",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed23333332d94c917c538",
+      "_tpl": "5b80242286f77429445e0b47",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed23d8226a919cf9b9bef",
+      "_tpl": "5d4aaa54a4b9365392071170",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed25286deeb1ef63be582",
+      "_tpl": "5e2192a498a36665e8337386",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed2628415b1c3cd40963b",
+      "_tpl": "6719023b612cc94b9008e78c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed26bcc881119aa660189",
+      "_tpl": "66ac9d9740e27931602042d4",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed26f238c46469728a2a0",
+      "_tpl": "5d4aaa73a4b9365392071175",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
+    },
+    {
+      "_id": "684ed2737e22b3f1e6dd63d6",
+      "_tpl": "669fa5271bd4416eaa09b3ce",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+      }
     }
   ],
   "barter_scheme": {
@@ -3990,7 +4070,15 @@
     "684e0fefd6bdc297b346fda8": [[{"count": 62837, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684e10494cb9343ad5ba15de": [[{"count": 63447, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684e10b4808f74a5394899f3": [[{"count": 60465, "_tpl": "5449016a4bdc2d6f028b456f"}]],
-    "684e1127c83ccdfc9c047ce1": [[{"count": 63447, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    "684e1127c83ccdfc9c047ce1": [[{"count": 63447, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed223b959d50d92582217": [[{"count": 14996, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed23333332d94c917c538": [[{"count": 24642, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed23d8226a919cf9b9bef": [[{"count": 15568, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed25286deeb1ef63be582": [[{"count": 9800, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed2628415b1c3cd40963b": [[{"count": 7049, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed26bcc881119aa660189": [[{"count": 2038, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed26f238c46469728a2a0": [[{"count": 13552, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "684ed2737e22b3f1e6dd63d6": [[{"count": 3030, "_tpl": "5449016a4bdc2d6f028b456f"}]]
   },
   "loyal_level_items": {
     "6848be54277d63f84c2eb60e": 1,
@@ -4155,6 +4243,14 @@
     "684e0fefd6bdc297b346fda8": 3,
     "684e10494cb9343ad5ba15de": 3,
     "684e10b4808f74a5394899f3": 3,
-    "684e1127c83ccdfc9c047ce1": 3
+    "684e1127c83ccdfc9c047ce1": 3,
+    "684ed223b959d50d92582217": 2,
+    "684ed23333332d94c917c538": 2,
+    "684ed23d8226a919cf9b9bef": 2,
+    "684ed25286deeb1ef63be582": 2,
+    "684ed2628415b1c3cd40963b": 2,
+    "684ed26bcc881119aa660189": 2,
+    "684ed26f238c46469728a2a0": 2,
+    "684ed2737e22b3f1e6dd63d6": 2
   }
 }

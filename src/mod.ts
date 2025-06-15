@@ -20,7 +20,6 @@ import assortJson = require("../db/assort.json");
 import questJson = require("../db/questassort.json");
 import tonysQuests = require("../../Virtual's Custom Quest Loader/database/quests/YATM.json");
 import { TraderHelper } from "./traderHelpers";
-import { addFleaOnlyWeaponPartsToAssort  } from "./addFleaOnlyWeaponPartsToAssort";
 import { Loader } from "./loader";
 
 
@@ -88,10 +87,6 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson);
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
-        
-        const existingTpls = new Set(tables.traders[baseJson._id].assort.items.map(i => i._tpl));
-
-        addFleaOnlyWeaponPartsToAssort(tables, this.logger, existingTpls, baseJson._id);
 
         const loader = new Loader(container);
         loader.loadAssorts(baseJson._id, this.preSptModLoader, this.mod);
