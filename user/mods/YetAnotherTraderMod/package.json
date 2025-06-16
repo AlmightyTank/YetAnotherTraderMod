@@ -1,6 +1,6 @@
 {
     "name": "YetAnotherTraderMod",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "sptVersion": "~3.11",
     "loadBefore": [],
     "loadAfter": [],
