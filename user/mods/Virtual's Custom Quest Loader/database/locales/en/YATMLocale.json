@@ -129,6 +129,7 @@
   "684f7f84fe6feeb209cbbfa8 acceptPlayerMessage": "Stick around. Do good work. I’ll notice.",
   "684f7f84fe6feeb209cbbfa8 changeQuestMessageText": "Keep at it. You’re close.",
   "684f7f84fe6feeb209cbbfa8 completePlayerMessage": "You’ve got my respect — and access.",
+  "684f80148bb6025ca146524e": "Reach 0.35 standing with Tony",
   "684f83fdb88b85b3fc85ac9e name": "Echoes of Tagilla",
   "684f83fdb88b85b3fc85ac9e note": "Hide one of Tagilla’s masks inside ZB-014 and another in ZB-016 on Woods.",
   "684f83fdb88b85b3fc85ac9e description": "You know that lunatic with the sledge? Tagilla? Turns out his mask still sends a message — even when he’s not wearing it.\n\nI want one planted in each of the old bunkers on Woods — ZB-014 and ZB-016. Call it a warning. Call it a tribute. Doesn’t matter to me.\n\nGet in. Place 'em. Leave quiet.",
@@ -137,5 +138,7 @@
   "684f83fdb88b85b3fc85ac9e declinePlayerMessage": "Too scared of ghosts?",
   "684f83fdb88b85b3fc85ac9e acceptPlayerMessage": "This isn’t about him. It’s about what he stood for.",
   "684f83fdb88b85b3fc85ac9e changeQuestMessageText": "Still waiting on those drops.",
-  "684f83fdb88b85b3fc85ac9e completePlayerMessage": "Good. That’ll echo loud enough."
+  "684f83fdb88b85b3fc85ac9e completePlayerMessage": "Good. That’ll echo loud enough.",
+  "684f84a8c7cb2cf85bd82c40": "Hide one of Tagilla’s masks inside ZB-014",
+  "684f84ac37bce8c5bc9c6e34": "Hide one of Tagilla’s masks inside ZB-016"
 }
