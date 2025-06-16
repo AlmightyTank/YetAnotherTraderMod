@@ -973,7 +973,7 @@
     "type": "Elimination"
   },
   "684e5b83c09ae0cc049ef798": {
-    "QuestName": "Workbench Delivery",
+    "QuestName": "Power Supply Run",
     "_id": "684e5b83c09ae0cc049ef798",
     "acceptPlayerMessage": "684e5b83c09ae0cc049ef798 acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -2301,5 +2301,337 @@
     "successMessageText": "684f719376e2499045047901 successMessageText",
     "traderId": "66eeef8b2a166b73d2066a7e",
     "type": "WeaponAssembly"
+  },
+  "684f7f84fe6feeb209cbbfa8": {
+    "QuestName": "Tony's Trust",
+    "_id": "684f7f84fe6feeb209cbbfa8",
+    "acceptPlayerMessage": "684f7f84fe6feeb209cbbfa8 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "684f7f84fe6feeb209cbbfa8 changeQuestMessageText",
+    "completePlayerMessage": "684f7f84fe6feeb209cbbfa8 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "TraderLoyalty",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f80148bb6025ca146524e",
+          "index": 0,
+          "parentId": "",
+          "target": "66eeef8b2a166b73d2066a7e",
+          "value": 0.35,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f8019773e16cba446e34c",
+          "index": 0,
+          "parentId": "",
+          "value": 13,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f80305bb5bcf62613bed5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "684edc10a8af5086d3e6557b",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f8036b2442390bd3ff014",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "684e5b83c09ae0cc049ef798",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "684f7f84fe6feeb209cbbfa8 declinePlayerMessage",
+    "description": "684f7f84fe6feeb209cbbfa8 description",
+    "failMessageText": "684f7f84fe6feeb209cbbfa8 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/friend_1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "684f7f84fe6feeb209cbbfa8 name",
+    "note": "684f7f84fe6feeb209cbbfa8 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "684f80f286b2ef9421d36656",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6700
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "684f80ee5537a9dcdc583481",
+          "index": 0,
+          "target": "66eeef8b2a166b73d2066a7e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "684f80e525c3f7da2d3cc33d",
+          "index": 0,
+          "items": [
+            {
+              "_id": "684f80e9ccd0be2731d2c26a",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 400
+              }
+            }
+          ],
+          "target": "684f80e9ccd0be2731d2c26a",
+          "type": "Item",
+          "unknown": false,
+          "value": 400
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "684f7f84fe6feeb209cbbfa8 startedMessageText",
+    "status": 0,
+    "successMessageText": "684f7f84fe6feeb209cbbfa8 successMessageText",
+    "traderId": "66eeef8b2a166b73d2066a7e",
+    "type": "Standing"
+  },
+  "684f83fdb88b85b3fc85ac9e": {
+    "QuestName": "Echoes of Tagilla",
+    "_id": "684f83fdb88b85b3fc85ac9e",
+    "acceptPlayerMessage": "684f83fdb88b85b3fc85ac9e acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "684f83fdb88b85b3fc85ac9e changeQuestMessageText",
+    "completePlayerMessage": "684f83fdb88b85b3fc85ac9e completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f84a8c7cb2cf85bd82c40",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "60a7ad2a2198820d95707a2e"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_1"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f84ac37bce8c5bc9c6e34",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 30,
+          "target": [
+            "60a7ad3a0c5cb24b0134664a"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_2"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f84b0a754bd841b69404e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "684f7f84fe6feeb209cbbfa8",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f84b4c4ffdbd657cc2c31",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "684f83fdb88b85b3fc85ac9e declinePlayerMessage",
+    "description": "684f83fdb88b85b3fc85ac9e description",
+    "failMessageText": "684f83fdb88b85b3fc85ac9e failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/friend_1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e3c2d2720bac5b8b4567",
+    "name": "684f83fdb88b85b3fc85ac9e name",
+    "note": "684f83fdb88b85b3fc85ac9e note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "id": "684f85da9ef1adfe2d0e2728",
+          "index": 0,
+          "items": [
+            {
+              "_id": "684f85ded13af6950a2f6a19",
+              "_tpl": "60a7ad2a2198820d95707a2e"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "684f85ded13af6950a2f6a19",
+          "traderId": "66eeef8b2a166b73d2066a7e",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "684f85e22547c96489985da0",
+          "index": 0,
+          "items": [
+            {
+              "_id": "684f85e6ff2c0a56d2c753e8",
+              "_tpl": "60a7ad3a0c5cb24b0134664a"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "684f85e6ff2c0a56d2c753e8",
+          "traderId": "66eeef8b2a166b73d2066a7e",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "684f8659d22e7478ec876cfc",
+          "index": 0,
+          "items": [
+            {
+              "_id": "684f865cbb3443d165ba61b4",
+              "_tpl": "60a7ad2a2198820d95707a2e"
+            }
+          ],
+          "target": "684f865cbb3443d165ba61b4",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "684f865fdf7d0ab0d1903e37",
+          "index": 0,
+          "items": [
+            {
+              "_id": "684f8664a926f3c2d6a9badf",
+              "_tpl": "60a7ad3a0c5cb24b0134664a"
+            }
+          ],
+          "target": "684f8664a926f3c2d6a9badf",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "684f85270ea8432901e31cbe",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 8150
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "684f854f92257c0a900ab101",
+          "index": 0,
+          "target": "Crafting",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "684f85529348e046f19dd2fe",
+          "index": 0,
+          "target": "Intellect",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "684f83fdb88b85b3fc85ac9e startedMessageText",
+    "status": 0,
+    "successMessageText": "684f83fdb88b85b3fc85ac9e successMessageText",
+    "traderId": "66eeef8b2a166b73d2066a7e",
+    "type": "Multi"
   }
 }
