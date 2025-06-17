@@ -54,7 +54,7 @@ export class TraderHelper
         // Load extras-config.json
         const extrasConfigPath = path.join(preSptModLoader.getModPath(mod), "db", "extras-config.json");
         if (!fs.existsSync(extrasConfigPath)) {
-            console.warn(`⚠️ extras-config.json not found at ${extrasConfigPath}`);
+            //console.warn(`⚠️ extras-config.json not found at ${extrasConfigPath}`);
             return;
         }
 
@@ -64,7 +64,7 @@ export class TraderHelper
             const modConfig = extrasConfig.mods[modName];
 
             if (!modConfig.enabled) {
-                console.log(`⛔ Skipping mod ${modName} — not enabled`);
+                //console.log(`⛔ Skipping mod ${modName} — not enabled`);
                 continue;
             }
 
@@ -73,7 +73,7 @@ export class TraderHelper
             console.log(modFolderPath);
 
             if (fs.existsSync(modFolderPath)) {
-                console.log(`✅ Loading extras for mod: ${modName}`);
+               // console.log(`✅ Loading extras for mod: ${modName}`);
 
                 const extrasPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, `assort.json`);
                 if (fs.existsSync(extrasPath)) {
@@ -100,12 +100,12 @@ export class TraderHelper
                         }
                     }
 
-                    console.log(`✅ Finished loading extras for mod: ${modName}`);
+                    //console.log(`✅ Finished loading extras for mod: ${modName}`);
                 } else {
-                    console.warn(`⚠️ No extras JSON found for mod: ${modName} at ${extrasPath}`);
+                   // console.warn(`⚠️ No extras JSON found for mod: ${modName} at ${extrasPath}`);
                 }
             } else {
-                console.log(`⛔ Skipping mod ${modName} — folder not found in user/mods/`);
+                //console.log(`⛔ Skipping mod ${modName} — folder not found in user/mods/`);
             }
         }
     }
