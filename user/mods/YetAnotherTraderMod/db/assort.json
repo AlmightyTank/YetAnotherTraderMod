@@ -3925,6 +3925,17 @@
       "_tpl": "5dfa3d2b0dee1b22f862eade",
       "slotId": "mod_muzzle",
       "parentId": "684f7185b016ce6494035809"
+    },
+    {
+      "_name": "Army Bandage",
+      "_id": "6852e21a381c2279295b8055",
+      "_tpl": "5751a25924597722c463c472",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
     }
   ],
   "barter_scheme": {
@@ -4099,7 +4110,8 @@
     "684ed26bcc881119aa660189": [[{"count": 2038, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684ed26f238c46469728a2a0": [[{"count": 13552, "_tpl": "5449016a4bdc2d6f028b456f"}]],
     "684ed2737e22b3f1e6dd63d6": [[{"count": 3030, "_tpl": "5449016a4bdc2d6f028b456f"}]],
-    "684f74082c0b893f8c4c60d4": [[{"count": 3030, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    "684f74082c0b893f8c4c60d4": [[{"count": 3030, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+    "6852e21a381c2279295b8055": [[{"count": 330, "_tpl": "5449016a4bdc2d6f028b456f"}]]
   },
   "loyal_level_items": {
     "6848be54277d63f84c2eb60e": 1,
@@ -4273,6 +4285,7 @@
     "684ed26bcc881119aa660189": 2,
     "684ed26f238c46469728a2a0": 2,
     "684ed2737e22b3f1e6dd63d6": 2,
-    "684f74082c0b893f8c4c60d4": 2
+    "684f74082c0b893f8c4c60d4": 2,
+    "6852e21a381c2279295b8055": 1
   }
 }
