@@ -858,21 +858,6 @@
           "parentId": "",
           "value": 5,
           "visibilityConditions": []
-        },
-        {
-          "availableAfter": 0,
-          "conditionType": "Quest",
-          "dispersion": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "684f582c2bdc0252098f1b89",
-          "index": 1,
-          "parentId": "",
-          "status": [
-            4
-          ],
-          "target": "684ecf521be562815af93edc",
-          "visibilityConditions": []
         }
       ],
       "Fail": []
@@ -1495,12 +1480,12 @@
         },
         {
           "availableInGameEditions": [],
-          "id": "684ef783f3d95a9a58e16f5d",
+          "id": "684a45dd06c5844493fb3336",
           "index": 0,
           "target": "66eeef8b2a166b73d2066a7e",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.08
+          "value": 0.15
         },
         {
           "availableInGameEditions": [],
