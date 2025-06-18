@@ -38,7 +38,7 @@ export class TraderHelper
      * @param jsonUtil json utility class
      * @param fs FileSystem class
      */
-    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any, preSptModLoader: any, mod: string): void
+    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any): void
     {
         // Add trader to trader table
         tables.traders[traderDetailsToAdd._id] = {
@@ -50,62 +50,6 @@ export class TraderHelper
                 fail: {},
             },
         };
-
-        // Load extras-config.json
-        const extrasConfigPath = path.join(preSptModLoader.getModPath(mod), "db", "extras-config.json");
-        if (!fs.existsSync(extrasConfigPath)) {
-            //console.warn(`⚠️ extras-config.json not found at ${extrasConfigPath}`);
-            return;
-        }
-
-        const extrasConfig = jsonUtil.deserialize(fs.readFileSync(extrasConfigPath, "utf-8")) as any;
-
-        for (const modName in extrasConfig.mods) {
-            const modConfig = extrasConfig.mods[modName];
-
-            if (!modConfig.enabled) {
-                //console.log(`⛔ Skipping mod ${modName} — not enabled`);
-                continue;
-            }
-
-            const modFolderPath = path.join(preSptModLoader.getModPath(mod), "..", modName);
-
-            if (fs.existsSync(modFolderPath)) {
-               // console.log(`✅ Loading extras for mod: ${modName}`);
-
-                const extrasPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, `assort.json`);
-                if (fs.existsSync(extrasPath)) {
-                    const extrasData = jsonUtil.deserialize(fs.readFileSync(extrasPath, "utf-8")) as any;
-
-                    // Add extra items
-                    if (extrasData.items) {
-                        for (const [itemId, itemData] of Object.entries(extrasData.items)) {
-                            tables.traders[traderDetailsToAdd._id].assort.items[itemId] = itemData;
-                        }
-                    }
-
-                    // Add extra barter schemes
-                    if (extrasData.barter_scheme) {
-                        for (const [assortId, barterData] of Object.entries(extrasData.barter_scheme)) {
-                            tables.traders[traderDetailsToAdd._id].assort.barter_scheme[assortId] = barterData;
-                        }
-                    }
-
-                    // Add extra loyal_level_items
-                    if (extrasData.loyal_level_items) {
-                        for (const [assortId, loyalData] of Object.entries(extrasData.loyal_level_items)) {
-                            tables.traders[traderDetailsToAdd._id].assort.loyal_level_items[assortId] = loyalData;
-                        }
-                    }
-
-                    //console.log(`✅ Finished loading extras for mod: ${modName}`);
-                } else {
-                   // console.warn(`⚠️ No extras JSON found for mod: ${modName} at ${extrasPath}`);
-                }
-            } else {
-                //console.log(`⛔ Skipping mod ${modName} — folder not found in user/mods/`);
-            }
-        }
     }
 
 
