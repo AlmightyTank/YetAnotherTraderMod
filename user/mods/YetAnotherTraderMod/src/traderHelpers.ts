@@ -38,7 +38,7 @@ export class TraderHelper
      * @param jsonUtil json utility class
      * @param fs FileSystem class
      */
-    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any): void
+    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any, preSptModLoader: any, mod: string): void
     {
         // Add trader to trader table
         tables.traders[traderDetailsToAdd._id] = {
@@ -50,6 +50,93 @@ export class TraderHelper
                 fail: {},
             },
         };
+
+        // Load extras-config.json
+        const extrasConfigPath = path.join(preSptModLoader.getModPath(mod), "db", "extras-config.json");
+        if (!fs.existsSync(extrasConfigPath)) {
+            //console.warn(`⚠️ extras-config.json not found at ${extrasConfigPath}`);
+            return;
+        }
+
+        const extrasConfig = jsonUtil.deserialize(fs.readFileSync(extrasConfigPath, "utf-8")) as any;
+
+        for (const modName in extrasConfig.mods) {
+            const modConfig = extrasConfig.mods[modName];
+
+            if (!modConfig.enabled) {
+                //console.log(`⛔ Skipping mod ${modName} — not enabled`);
+                continue;
+            }
+
+            const modFolderPath = path.join(preSptModLoader.getModPath(mod), "..", modName);
+
+            if (fs.existsSync(modFolderPath)) {
+               // console.log(`✅ Loading extras for mod: ${modName}`);
+
+                const extrasPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, `assort.json`);
+                if (fs.existsSync(extrasPath)) {
+                    const extrasData = jsonUtil.deserialize(fs.readFileSync(extrasPath, "utf-8")) as any;
+
+                    const assort = tables.traders[traderDetailsToAdd._id].assort;
+
+                    function mergeNestedObjects(oldObj: any, newObj: any): any {
+                        // If both are arrays, merge with deduplication
+                        if (Array.isArray(oldObj) && Array.isArray(newObj)) {
+                            const mergedArray = [...oldObj];
+                            for (const item of newObj) {
+                                if (!oldObj.some((existing: any) => JSON.stringify(existing) === JSON.stringify(item))) {
+                                    mergedArray.push(item);
+                                }
+                            }
+                            return mergedArray;
+                        }
+
+                        // If both are plain objects, merge keys recursively
+                        if (
+                            typeof oldObj === "object" &&
+                            oldObj !== null &&
+                            !Array.isArray(oldObj) &&
+                            typeof newObj === "object" &&
+                            newObj !== null &&
+                            !Array.isArray(newObj)
+                        ) {
+                            const result: Record<string, any> = { ...oldObj };
+                            for (const key in newObj) {
+                                if (newObj.hasOwnProperty(key)) {
+                                    result[key] = mergeNestedObjects(oldObj[key], newObj[key]);
+                                }
+                            }
+                            return result;
+                        }
+
+                        // Otherwise, overwrite with new value
+                        return newObj;
+                    }
+
+                    const assortItems = Object.values(assort.items);
+                    const extrasDataItems = Object.values(extrasData.items);
+
+                    assort.items = mergeNestedObjects(assortItems, extrasDataItems);
+
+                    const assortBarterScheme = assort.barter_scheme;
+                    const extrasDataBarterScheme = extrasData.barter_scheme;
+
+                    assort.barter_scheme = mergeNestedObjects(assortBarterScheme, extrasDataBarterScheme);
+
+                    const assortLoyal = assort.loyal_level_items;
+                    const extrasDataLoyal = extrasData.loyal_level_items;
+
+                    assort.loyal_level_items = mergeNestedObjects(assortLoyal, extrasDataLoyal);
+
+
+                    //console.log(`✅ Finished loading extras for mod: ${modName}`);
+                } else {
+                   // console.warn(`⚠️ No extras JSON found for mod: ${modName} at ${extrasPath}`);
+                }
+            } else {
+                //console.log(`⛔ Skipping mod ${modName} — folder not found in user/mods/`);
+            }
+        }
     }
 
 
