@@ -984,7 +984,7 @@
           "target": [
             "5c06779c86f77426e00dd782"
           ],
-          "value": 10,
+          "value": 5,
           "visibilityConditions": []
         },
                 {
@@ -1003,7 +1003,7 @@
           "target": [
             "5c06782b86f77426df5407d2"
           ],
-          "value": 10,
+          "value": 5,
           "visibilityConditions": []
         },
         {
@@ -1021,7 +1021,7 @@
           "target": [
             "5c06779c86f77426e00dd782"
           ],
-          "value": 10,
+          "value": 5,
           "visibilityConditions": []
         },
         {
@@ -1039,7 +1039,7 @@
           "target": [
             "5c06782b86f77426df5407d2"
           ],
-          "value": 10,
+          "value": 5,
           "visibilityConditions": []
         }
       ],
@@ -1551,7 +1551,7 @@
                 "id": "598f0c6986f77468ba349ed5",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "Any",
                 "value": 1,
                 "weapon": [],
                 "weaponCaliber": [],
@@ -1608,7 +1608,7 @@
                 "id": "684a4552979b77c6622cc30e",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "Any",
                 "value": 1,
                 "weapon": [],
                 "weaponCaliber": [],
@@ -1665,7 +1665,7 @@
                 "id": "684a4601988522b08939bd99",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "Any",
                 "value": 1,
                 "weapon": [],
                 "weaponCaliber": [],
