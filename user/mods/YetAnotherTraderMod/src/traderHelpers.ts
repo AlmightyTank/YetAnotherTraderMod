@@ -70,8 +70,6 @@ export class TraderHelper
 
             const modFolderPath = path.join(preSptModLoader.getModPath(mod), "..", modName);
 
-            console.log(modFolderPath);
-
             if (fs.existsSync(modFolderPath)) {
                // console.log(`✅ Loading extras for mod: ${modName}`);
 
