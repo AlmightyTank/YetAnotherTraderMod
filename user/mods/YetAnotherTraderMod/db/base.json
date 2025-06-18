@@ -44,7 +44,7 @@
         "max_storage_time": 200,
         "excluded_category": []
     },
-    "gridHeight": 250,
+    "gridHeight": 400,
     "loyaltyLevels": [
         {
             "minLevel": 0,

@@ -1,0 +1,13 @@
+{
+    "mods": {
+        "Massivesoft-Guns": {
+            "enabled": true
+        },
+        "modName2": {
+            "enabled": false
+        },
+        "modName3": {
+            "enabled": false
+        }
+    }
+}

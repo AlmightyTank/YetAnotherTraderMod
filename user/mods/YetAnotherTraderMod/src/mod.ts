@@ -83,7 +83,7 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         const tables = databaseServer.getTables();
     
         // Add new trader to the trader dictionary in DatabaseServer - this is where the assort json is loaded
-        this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson);
+        this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson, this.preSptModLoader, this.mod);
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
 
