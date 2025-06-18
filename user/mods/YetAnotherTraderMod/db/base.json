@@ -13,7 +13,7 @@
         "id_list": []
     },
     "customization_seller": false,
-    "medic": true,
+    "medic": false,
     "name": "Human",
     "surname": "Survivor's Friend",
     "nickname": "Tony",
