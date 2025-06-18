@@ -20,16 +20,15 @@ import assortJson = require("../db/assort.json");
 import questJson = require("../db/questassort.json");
 import tonysQuests = require("../../Virtual's Custom Quest Loader/database/quests/YATM.json");
 import { TraderHelper } from "./traderHelpers";
-import { Loader } from "./loader";
 
 
 class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
 {
-    private mod: string;
+    public mod: string;
     private traderImgPath: string;
     private logger: ILogger;
     private traderHelper: TraderHelper;
-    private preSptModLoader: PreSptModLoader;
+    public preSptModLoader: PreSptModLoader;
 
     constructor() {
         this.mod = "YetAnotherTraderMod"; // Set name of mod so we can log it to console later - match this to your folder name that's built for \user\mods\
@@ -87,9 +86,6 @@ class YetAnotherTraderMod implements IPreSptLoadMod, IPostDBLoadMod
         this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson);
         tables.traders[baseJson._id].questassort = questJson;
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Human", baseJson.nickname, baseJson.location, "A streetwise fixer with deep underworld ties. Tony trades rare gear, meds and guns, no questions asked. If you’ve got the cash, he’s got the connections.");
-
-        //const loader = new Loader(container);
-        //loader.loadAssorts(baseJson._id, this.preSptModLoader, this.mod);
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }

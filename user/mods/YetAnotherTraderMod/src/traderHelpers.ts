@@ -4,6 +4,9 @@ import { ITraderConfig, UpdateTime } from "@spt/models/spt/config/ITraderConfig"
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ImageRouter } from "@spt/routers/ImageRouter";
 import { JsonUtil } from "@spt/utils/JsonUtil";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import * as fs from "fs";
+import * as path from "path";
 
 export class TraderHelper
 {
@@ -33,20 +36,22 @@ export class TraderHelper
      * @param traderDetailsToAdd trader details
      * @param tables database
      * @param jsonUtil json utility class
+     * @param fs FileSystem class
      */
-    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson : any): void
+    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any): void
     {
-        // Add trader to trader table, key is the traders id
+        // Add trader to trader table
         tables.traders[traderDetailsToAdd._id] = {
-            assort: jsonUtil.deserialize(jsonUtil.serialize(assortJson)) as ITraderAssort, // Deserialise/serialise creates a copy of the json and allows us to cast it as an ITraderAssort
-            base: jsonUtil.deserialize(jsonUtil.serialize(traderDetailsToAdd)) as ITraderBase, // Deserialise/serialise creates a copy of the json and allows us to cast it as an ITraderBase
+            assort: jsonUtil.deserialize(jsonUtil.serialize(assortJson)) as ITraderAssort,
+            base: jsonUtil.deserialize(jsonUtil.serialize(traderDetailsToAdd)) as ITraderBase,
             questassort: {
                 started: {},
                 success: {},
                 fail: {},
-            }, // questassort is empty as trader has no assorts unlocked by quests
+            },
         };
     }
+
 
     /**
      * Add traders name/location/description to the locale table
