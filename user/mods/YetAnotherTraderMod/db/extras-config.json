@@ -1,48 +1,31 @@
 {
+    "base": {
+        "overridePrices": true
+    },
     "mods": {
         "Massivesoft-Guns": {
-            "enabled": true
+            "enabled": true,
+            "overridePrices": true
         },
-        "modName2": {
-            "enabled": false
+        "zSerWolfik-Heavy-Troopers": {
+            "enabled": false,
+            "overridePrices": true
         },
-        "modName3": {
-            "enabled": false
-        }
-    },
-    "autoPricing": {
-        "enabled": true,
-        "percent": 0.85,,
-        "multiplier": 2,
-        "weapons": {
-            "multiplier": 2,
-            "discount": 0.75
+        "aMoxoPixel-Painter": {
+            "enabled": false,
+            "overridePrices": true
         },
-        "stims": {
-            "multiplier": 2,
-            "discount": 0.75,
-            "maxDiffPercent": 0.3,
-            "fallbackDiscount": 0.7
+        "MoxoPixel-BlackCore": {
+            "enabled": false,
+            "overridePrices": true
         },
-        "mags": {
-            "multiplier": 2,
-            "discount": 0.75
+        "MoxoPixel-MagTape": {
+            "enabled": false,
+            "overridePrices": true
         },
-        "nads": {
-            "multiplier": 2,
-            "discount": 0.75
-        },
-        "fallback": {
-            "multiplier": 4,
-            "discount": 0.75
-        },
-        "fallbackPrices": {
-            "617fd91e5539a84ec44ce155": 11527,
-            "618a431df1eb8e24b8741deb": 15472,
-            "544a37c44bdc2d25388b4567": 35672,
-            "59c1383d86f774290a37e0ca": 36331,
-            "5cfe8010d7ad1a59283b14c6": 38447,
-            "5b7bef9c5acfc43d102852ec": 37674
+        "MoxoPixel-TacticalGearComponent": {
+            "enabled": false,
+            "overridePrices": true
         }
     }
 }
