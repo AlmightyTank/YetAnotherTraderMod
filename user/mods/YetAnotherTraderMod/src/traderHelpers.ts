@@ -132,6 +132,7 @@ export class TraderHelper
 
                     if (extrasConfig.autoPricing?.enabled) {
                         const markupPercent = extrasConfig.autoPricing?.percent || 1.05;
+                        const markupMulti = extrasConfig.autoPricing?.multiplier || 2
                         const fleaPrices = tables.templates.prices;
                         const handbook = tables.templates.handbook.Items;
 
@@ -213,19 +214,23 @@ export class TraderHelper
                                     finalPrice = (Math.max(fleaPrice, handbookPrice, assortPrice)) * magsConf.multiplier * magsConf.discount;
                                 } else if (isNads) {
                                     const nadsConf = extrasConfig.autoPricing?.nads || { multiplier: 2, discount: 0.75 };
-                                    finalPrice = (Math.min(fleaPrice, handbookPrice, assortPrice)) * nadsConf.multiplier * nadsConf.discount;
+                                    if (barterId._id  === "5e32f56fcb6d5863cc5e5ee4" || barterId._id  === "5e32f56fcb6d5863cc5e5ee4" ) {
+                                        finalPrice = fleaPrice * nadsConf.multiplier * nadsConf.discount
+                                    } else {
+                                        finalPrice = (Math.min(fleaPrice, handbookPrice, assortPrice)) * nadsConf.multiplier * nadsConf.discount;
+                                    }
                                 } else {
-                                    finalPrice = priceBase * markupPercent;
+                                    finalPrice = priceBase * markupMulti * markupPercent;
                                 } 
 
                                 finalPrice = Math.round(finalPrice); // Round to nearest whole
 
-                                if (isNaN(finalPrice) || finalPrice <= 0) {
+                                if (isNaN(finalPrice) || finalPrice <= 0 || extrasConfig.autoPricing?.fallbackPrices?.[tpl]) {
                                     if (extrasConfig.autoPricing?.fallbackPrices?.[tpl]) {
                                         finalPrice = extrasConfig.autoPricing.fallbackPrices[tpl];
-                                        logger.warning(`[YATM] Fallback to price from config for item ${tpl}: ${finalPrice}`);
+                                        logger.debug(`[YATM] Fallback to price from config for item ${tpl}: ${finalPrice}`);
                                     } else {
-                                        logger.warning(`[YATM] No fallback price found in config for item ${tpl}, keeping assortPrice`);
+                                        logger.debug(`[YATM] No fallback price found in config for item ${tpl}, keeping assortPrice`);
                                         finalPrice = assortPrice;
                                     }
                                 }
