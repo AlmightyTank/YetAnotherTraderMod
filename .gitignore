@@ -1,2 +1,4 @@
 *.zip
 user/mods/YetAnotherTraderMod/questFlow.txt
+user/mods/YetAnotherTraderMod/db/extras/calculateOverridePricesFromConfig.js
+user/mods/YetAnotherTraderMod/db/extras/calculateOverridePricesFromExtrasConfig.js
