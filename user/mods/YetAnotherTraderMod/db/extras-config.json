@@ -8,8 +8,8 @@
             "overridePrices": true
         },
         "zSerWolfik-Heavy-Troopers": {
-            "enabled": false,
-            "overridePrices": true
+            "enabled": true,
+            "overridePrices": false
         },
         "aMoxoPixel-Painter": {
             "enabled": false,
