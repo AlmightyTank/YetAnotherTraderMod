@@ -1,13 +1,31 @@
 {
+    "base": {
+        "overridePrices": true
+    },
     "mods": {
         "Massivesoft-Guns": {
-            "enabled": true
+            "enabled": true,
+            "overridePrices": true
         },
-        "modName2": {
-            "enabled": false
+        "zSerWolfik-Heavy-Troopers": {
+            "enabled": true,
+            "overridePrices": false
         },
-        "modName3": {
-            "enabled": false
+        "aMoxoPixel-Painter": {
+            "enabled": false,
+            "overridePrices": true
+        },
+        "MoxoPixel-BlackCore": {
+            "enabled": false,
+            "overridePrices": true
+        },
+        "MoxoPixel-MagTape": {
+            "enabled": false,
+            "overridePrices": true
+        },
+        "MoxoPixel-TacticalGearComponent": {
+            "enabled": false,
+            "overridePrices": true
         }
     }
 }

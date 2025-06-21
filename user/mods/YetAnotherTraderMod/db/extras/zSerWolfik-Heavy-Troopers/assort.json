@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+            "_id": "6854aa050a8672ddc609c5d5",
+            "_tpl": "6753b339cec7fc449f055444",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        },
+        {
+            "_id": "6854aa4674a95baed7419707",
+            "_tpl": "6753b339cec7fc449f055443",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        },
+        {
+            "_id": "6854aa4af958a24b2275543d",
+            "_tpl": "6753b339cec7fc449f055440",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        },
+        {
+            "_id": "6854aa4f7de718de9c5fd6c0",
+            "_tpl": "6753b339cec7fc449f055442",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        },
+        {
+            "_id": "6854aa53b414ddd5723870a4",
+            "_tpl": "6753b339cec7fc449f055441",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        }
+    ],
+    "barter_scheme": {
+        "6854aa050a8672ddc609c5d5": [[{"count": 413332, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+        "6854aa4674a95baed7419707": [[{"count": 173600, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+        "6854aa4af958a24b2275543d": [[{"count": 341000, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+        "6854aa4f7de718de9c5fd6c0": [[{"count": 198400, "_tpl": "5449016a4bdc2d6f028b456f"}]],
+        "6854aa53b414ddd5723870a4": [[{"count": 108500, "_tpl": "5449016a4bdc2d6f028b456f"}]]
+    },
+    "loyal_level_items": {
+        "6854aa050a8672ddc609c5d5": 4,
+        "6854aa4674a95baed7419707": 4,
+        "6854aa4af958a24b2275543d": 3,
+        "6854aa4f7de718de9c5fd6c0": 3,
+        "6854aa53b414ddd5723870a4": 2
+    }
+}

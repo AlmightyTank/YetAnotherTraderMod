@@ -31,6 +31,37 @@ export class TraderHelper
         traderConfig.updateTime.push(traderRefreshRecord);
     }
 
+    private mergeNestedObjects(oldObj: any, newObj: any): any {
+        if (Array.isArray(oldObj) && Array.isArray(newObj)) {
+            const mergedArray = [...oldObj];
+            for (const item of newObj) {
+                if (!oldObj.some((existing: any) => JSON.stringify(existing) === JSON.stringify(item))) {
+                    mergedArray.push(item);
+                }
+            }
+            return mergedArray;
+        }
+
+        if (
+            typeof oldObj === "object" &&
+            oldObj !== null &&
+            !Array.isArray(oldObj) &&
+            typeof newObj === "object" &&
+            newObj !== null &&
+            !Array.isArray(newObj)
+        ) {
+            const result: Record<string, any> = { ...oldObj };
+            for (const key in newObj) {
+                if (newObj.hasOwnProperty(key)) {
+                    result[key] = this.mergeNestedObjects(oldObj[key], newObj[key]);
+                }
+            }
+            return result;
+        }
+
+        return newObj;
+    }
+
     /**
      * Add our new trader to the database
      * @param traderDetailsToAdd trader details
@@ -38,7 +69,7 @@ export class TraderHelper
      * @param jsonUtil json utility class
      * @param fs FileSystem class
      */
-    public addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any, preSptModLoader: any, mod: string): void
+    public addTraderToDb( traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil, assortJson: any, preSptModLoader: any, mod: string, logger: any ): void
     {
         // Add trader to trader table
         tables.traders[traderDetailsToAdd._id] = {
@@ -54,91 +85,126 @@ export class TraderHelper
         // Load extras-config.json
         const extrasConfigPath = path.join(preSptModLoader.getModPath(mod), "db", "extras-config.json");
         if (!fs.existsSync(extrasConfigPath)) {
-            //console.warn(`⚠️ extras-config.json not found at ${extrasConfigPath}`);
             return;
         }
 
         const extrasConfig = jsonUtil.deserialize(fs.readFileSync(extrasConfigPath, "utf-8")) as any;
 
+        const assort = tables.traders[traderDetailsToAdd._id].assort;
+        
+
+        // --- STEP 1: Apply BASE overridePrices.json ---
+        const baseOverridePricesPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", "overridePrices.json");
+
+        if (extrasConfig.base?.overridePrices && fs.existsSync(baseOverridePricesPath)) {
+            const baseOverridePricesRaw = fs.readFileSync(baseOverridePricesPath, "utf-8").trim();
+
+            if (baseOverridePricesRaw.length === 0) {
+                logger.debug(`⚠️ [BASE] overridePrices.json is empty — skipping`);
+            } else {
+                let baseOverridePricesData: any;
+
+                try {
+                    baseOverridePricesData = jsonUtil.deserialize(baseOverridePricesRaw);
+                } catch (err) {
+                    logger.error(`❌ [BASE] Failed to parse overridePrices.json: ${err}`);
+                    baseOverridePricesData = {};
+                }
+
+                if (Object.keys(baseOverridePricesData).length === 0) {
+                    logger.debug(`⚠️ [BASE] overridePrices.json has no entries — skipping`);
+                } else {
+                    for (const itemId in baseOverridePricesData) {
+                        assort.barter_scheme[itemId] = baseOverridePricesData[itemId];
+                        logger.debug(`🔁 [BASE] Overriding price for item: ${itemId}`);
+                    }
+
+                    logger.debug(`✅ [BASE] Finished applying overridePrices.json`);
+                }
+            }
+        }
+
+
+        // --- STEP 2: For each mod ---
         for (const modName in extrasConfig.mods) {
             const modConfig = extrasConfig.mods[modName];
 
             if (!modConfig.enabled) {
-                //console.log(`⛔ Skipping mod ${modName} — not enabled`);
                 continue;
             }
 
             const modFolderPath = path.join(preSptModLoader.getModPath(mod), "..", modName);
 
-            if (fs.existsSync(modFolderPath)) {
-               // console.log(`✅ Loading extras for mod: ${modName}`);
+            if (!fs.existsSync(modFolderPath)) {
+                continue;
+            }
 
-                const extrasPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, `assort.json`);
-                if (fs.existsSync(extrasPath)) {
-                    const extrasData = jsonUtil.deserialize(fs.readFileSync(extrasPath, "utf-8")) as any;
+            const extrasPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, `assort.json`);
 
-                    const assort = tables.traders[traderDetailsToAdd._id].assort;
+            if (!fs.existsSync(extrasPath)) {
+                continue;
+            }
 
-                    function mergeNestedObjects(oldObj: any, newObj: any): any {
-                        // If both are arrays, merge with deduplication
-                        if (Array.isArray(oldObj) && Array.isArray(newObj)) {
-                            const mergedArray = [...oldObj];
-                            for (const item of newObj) {
-                                if (!oldObj.some((existing: any) => JSON.stringify(existing) === JSON.stringify(item))) {
-                                    mergedArray.push(item);
-                                }
-                            }
-                            return mergedArray;
+            // --- Merge extrasData.barter_scheme ---
+            const extrasData = jsonUtil.deserialize(fs.readFileSync(extrasPath, "utf-8")) as any;
+            const extrasDataBarterScheme = extrasData.barter_scheme;
+            const assortBarterScheme = assort.barter_scheme;
+            assort.barter_scheme = this.mergeNestedObjects(assortBarterScheme, extrasDataBarterScheme);
+
+             // --- Merge extrasData.items ---
+            const assortItems = Object.values(assort.items);
+            const extrasDataItems = Object.values(extrasData.items);
+            assort.items = this.mergeNestedObjects(assortItems, extrasDataItems);
+
+
+            // --- Merge extrasData.loyal_level_items ---
+            const assortLoyal = assort.loyal_level_items;
+            const extrasDataLoyal = extrasData.loyal_level_items;
+            assort.loyal_level_items = this.mergeNestedObjects(assortLoyal, extrasDataLoyal);
+
+            // --- STEP 2a: Load mod overridePrices.json ---
+            const modOverridePricesPath = path.join(preSptModLoader.getModPath(mod), "db", "extras", modName, "overridePrices.json");
+
+            if (modConfig.overridePrices && fs.existsSync(modOverridePricesPath)) {
+                const modOverridePricesRaw = fs.readFileSync(modOverridePricesPath, "utf-8").trim();
+
+                if (modOverridePricesRaw.length === 0) {
+                    logger.debug(`⚠️ [${modName}] overridePrices.json is empty — skipping`);
+                } else {
+                    let allowedOverrides: string[] = [];
+
+                    if (fs.existsSync(modOverridePricesPath)) {
+                        const modOverridePricesData = jsonUtil.deserialize(fs.readFileSync(modOverridePricesPath, "utf-8")) as any;
+                        allowedOverrides = Object.keys(modOverridePricesData);
+
+                        // Apply mod overrides
+                        for (const itemId of allowedOverrides) {
+                            assort.barter_scheme[itemId] = modOverridePricesData[itemId];
+                            logger.debug(`🔁 [${modName}] Overriding price for item: ${itemId}`);
                         }
 
-                        // If both are plain objects, merge keys recursively
-                        if (
-                            typeof oldObj === "object" &&
-                            oldObj !== null &&
-                            !Array.isArray(oldObj) &&
-                            typeof newObj === "object" &&
-                            newObj !== null &&
-                            !Array.isArray(newObj)
-                        ) {
-                            const result: Record<string, any> = { ...oldObj };
-                            for (const key in newObj) {
-                                if (newObj.hasOwnProperty(key)) {
-                                    result[key] = mergeNestedObjects(oldObj[key], newObj[key]);
-                                }
-                            }
-                            return result;
-                        }
-
-                        // Otherwise, overwrite with new value
-                        return newObj;
+                        logger.debug(`✅ [${modName}] Finished applying overridePrices.json`);
                     }
 
-                    const assortItems = Object.values(assort.items);
-                    const extrasDataItems = Object.values(extrasData.items);
+                    // --- STEP 2b: Process extrasData.barter_scheme ---
+                    for (const itemId in extrasDataBarterScheme) {
+                        if (!allowedOverrides.includes(itemId)) {
+                            // Item not in mod overridePrices.json — skip
+                            logger.debug(`⏭️ [${modName}] Skipping item (not in overridePrices.json): ${itemId}`);
+                            continue;
+                        }
 
-                    assort.items = mergeNestedObjects(assortItems, extrasDataItems);
-
-                    const assortBarterScheme = assort.barter_scheme;
-                    const extrasDataBarterScheme = extrasData.barter_scheme;
-
-                    assort.barter_scheme = mergeNestedObjects(assortBarterScheme, extrasDataBarterScheme);
-
-                    const assortLoyal = assort.loyal_level_items;
-                    const extrasDataLoyal = extrasData.loyal_level_items;
-
-                    assort.loyal_level_items = mergeNestedObjects(assortLoyal, extrasDataLoyal);
-
-
-                    //console.log(`✅ Finished loading extras for mod: ${modName}`);
-                } else {
-                   // console.warn(`⚠️ No extras JSON found for mod: ${modName} at ${extrasPath}`);
+                        // Item already overridden — no need to add/merge
+                        logger.debug(`✅ [${modName}] Item already overridden by overridePrices.json: ${itemId}`);
+                    }
                 }
             } else {
-                //console.log(`⛔ Skipping mod ${modName} — folder not found in user/mods/`);
-            }
+                if (!modConfig.overridePrices) {
+                    logger.debug(`[${modName}] overridePrices disabled by config`);
+                }
+            }  
         }
     }
-
 
     /**
      * Add traders name/location/description to the locale table
