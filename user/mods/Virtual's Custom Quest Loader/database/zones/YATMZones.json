@@ -1,6 +1,6 @@
 [
   {
-    "ZoneId": "tony_fc_jammer_0",
+    "ZoneId": "68581154b33fa5ac953a3e54",
     "ZoneName": "tony_fc_jammer_0",
     "ZoneLocation": "factory4_day",
     "ZoneType": "placeitem",
@@ -25,7 +25,7 @@
     }
   },
   {
-    "ZoneId": "tony_cu_jammer_0",
+    "ZoneId": "6858115bf4f2e16759f47afb",
     "ZoneName": "tony_cu_jammer_0",
     "ZoneLocation": "bigmap",
     "ZoneType": "placeitem",
@@ -50,7 +50,7 @@
     }
   },  
   {
-    "ZoneId": "tony_in_jammer_0",
+    "ZoneId": "6858115ed2aaf8849fc817a1",
     "ZoneName": "tony_in_jammer_0",
     "ZoneLocation": "Interchange",
     "ZoneType": "placeitem",
