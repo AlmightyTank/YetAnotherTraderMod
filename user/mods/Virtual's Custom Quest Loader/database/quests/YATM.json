@@ -375,7 +375,7 @@
           ],
           "value": 1,
           "visibilityConditions": [],
-          "zoneId": "tony_fc_jammer_0"
+          "zoneId": "68581154b33fa5ac953a3e54"
         },
         {
           "conditionType": "PlaceBeacon",
@@ -390,7 +390,7 @@
           ],
           "value": 1,
           "visibilityConditions": [],
-          "zoneId": "tony_cu_jammer_0"
+          "zoneId": "6858115bf4f2e16759f47afb"
         },
         {
           "conditionType": "PlaceBeacon",
@@ -405,7 +405,7 @@
           ],
           "value": 1,
           "visibilityConditions": [],
-          "zoneId": "tony_in_jammer_0"
+          "zoneId": "6858115ed2aaf8849fc817a1"
         },
         {
           "completeInSeconds": 0,
@@ -1782,7 +1782,8 @@
                     "62e2a7138e1ac9380579c122"
                   ],
                   [
-                    "64c196ad26a15b84aa07132f"]
+                    "64c196ad26a15b84aa07132f"
+                  ]
                 ],
                 "weaponModsInclusive": []
               },
@@ -2065,7 +2066,8 @@
                     "62e2a7138e1ac9380579c122"
                   ],
                   [
-                    "64c196ad26a15b84aa07132f"]
+                    "64c196ad26a15b84aa07132f"
+                  ]
                 ],
                 "weaponModsInclusive": []
               },
@@ -2348,7 +2350,8 @@
                     "62e2a7138e1ac9380579c122"
                   ],
                   [
-                    "64c196ad26a15b84aa07132f"]
+                    "64c196ad26a15b84aa07132f"
+                  ]
                 ],
                 "weaponModsInclusive": []
               },
