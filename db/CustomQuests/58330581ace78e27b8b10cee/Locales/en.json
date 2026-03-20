@@ -1,0 +1,15 @@
+{
+  "699a80908991ef784965077b name": "The Silent Investor",
+  "699a80908991ef784965077b description": "You’ve been operating quietly — no noise, no unnecessary bodies, no attention. Not many manage that in Tarkov. Fewer still get noticed for it. There’s a man watching the movement of supplies across the region. Not a trader in the usual sense… more of an investor. He funds operations that stay invisible and rewards those who understand discretion. He wants proof you can move valuable equipment without drawing attention. Deliver the electronics to the old bunker on Woods. No fighting. No chaos. Just business. If he’s satisfied… you may earn an introduction.",
+  "699a80908991ef784965077b successMessageText": "Efficient. Clean. Exactly what he wanted to see. I passed your name along. Tony agreed to meet you — don’t make me regret the recommendation.",
+  "699a80908991ef784965077b startedMessageText": "The bunker is isolated and forgotten — perfect for quiet work. Leave the equipment intact and unseen. This isn’t about profit. It’s about trust.",
+  "699a80908991ef784965077b changeQuestMessageText": "",
+  "699a80908991ef784965077b completePlayerMessage": "Everything is in place. Quiet job. No witnesses.",
+  "699a80908991ef784965077b declinePlayerMessage": "",
+  "699a80908991ef784965077b failMessageText": "You were told to keep things quiet. Violence attracts attention — and attention ruins business. The introduction is off the table.",
+  "699a80908991ef784965077b note": "",
+  "699a89442f81f9f2473dea69": "Stash a Power Supply Unit inside the Scav Bunker on Woods",
+  "699a8947001c9856295b0162": "Stash a Power Cord inside the Scav Bunker on Woods",
+  "699a894c4b7f8801448de3b4": "Stash a Working LCD inside the Scav Bunker on Woods",
+  "699a895cb58f77a9cc88c5b1": "Stash a PC CPU inside the Scav Bunker on Woods"
+}
