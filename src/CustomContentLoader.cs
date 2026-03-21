@@ -1,14 +1,12 @@
 using CommonCore.Core;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
+using SPTarkov.Server.Core.Models.Spt.Mod;
 using System.Reflection;
+using Range = SemanticVersioning.Range;
 
-namespace YetAnotherTraderMod.src.Services;
+namespace YetAnotherTraderMod.src;
 
-/// <summary>
-/// Loads all custom item content from /db through CommonCore.
-/// Quest zones and quests are loaded after items.
-/// </summary>
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 55)]
 public sealed class CustomContentLoader(
     CommonCore.Core.CommonCore commonCore) : IOnLoad
@@ -33,9 +31,6 @@ public sealed class CustomContentLoader(
                 YATMLogger.Log($"[CustomContentLoader] DB folder not found: {dbPath}");
                 return;
             }
-
-            YATMLogger.LogDebug("[CustomContentLoader] Loading all item content from db...");
-            await commonCore.CreateCustomItemsFromDirectory(dbPath);
 
             YATMLogger.LogDebug("[CustomContentLoader] Loading Custom Quest Zones...");
             await commonCore.CreateCustomQuestZones(assembly);
