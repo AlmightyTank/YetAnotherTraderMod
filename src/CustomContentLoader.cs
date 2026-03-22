@@ -7,7 +7,7 @@ using Range = SemanticVersioning.Range;
 
 namespace YetAnotherTraderMod.src;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 55)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 50)]
 public sealed class CustomContentLoader(
     CommonCore.Core.CommonCore commonCore) : IOnLoad
 {

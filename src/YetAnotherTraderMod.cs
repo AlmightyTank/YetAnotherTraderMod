@@ -22,7 +22,7 @@ public record ModMetadata : AbstractModMetadata
         { "com.amightytank.commoncore", new Range("~1.0.0") }
     };
     public override string? Url { get; init; } = null;
-    public override bool? IsBundleMod { get; init; } = true;
+    public override bool? IsBundleMod { get; init; } = false;
     public override string License { get; init; } = "MIT";
 }
 
