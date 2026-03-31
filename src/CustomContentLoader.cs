@@ -1,4 +1,3 @@
-using CommonCore.Core;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Spt.Mod;
@@ -7,9 +6,9 @@ using Range = SemanticVersioning.Range;
 
 namespace YetAnotherTraderMod.src;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 50)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 4)]
 public sealed class CustomContentLoader(
-    CommonCore.Core.CommonCore commonCore) : IOnLoad
+    WTTServerCommonLib.WTTServerCommonLib wttCommon) : IOnLoad
 {
     public async Task OnLoad()
     {
@@ -33,10 +32,10 @@ public sealed class CustomContentLoader(
             }
 
             YATMLogger.LogDebug("[CustomContentLoader] Loading Custom Quest Zones...");
-            await commonCore.CreateCustomQuestZones(assembly);
+            await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
 
             YATMLogger.LogDebug("[CustomContentLoader] Loading Custom Quests...");
-            await commonCore.CreateCustomQuests(assembly);
+            await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
 
             YATMLogger.Log("[CustomContentLoader] Finished loading all custom content.");
         }

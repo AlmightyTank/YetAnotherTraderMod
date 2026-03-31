@@ -63,7 +63,7 @@ public class YATMConfig
 
             return ((dynamic)item).Id; 
         }
-        catch (Exception ex)
+        catch (Exception)
         {
              // Console.WriteLine($"[YATM] Error getting template id: {ex.Message}");
              return null;
