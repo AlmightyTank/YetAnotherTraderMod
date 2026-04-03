@@ -6,7 +6,7 @@ using Range = SemanticVersioning.Range;
 
 namespace YetAnotherTraderMod.src;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 4)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 5)]
 public sealed class CustomContentLoader(
     WTTServerCommonLib.WTTServerCommonLib wttCommon) : IOnLoad
 {
