@@ -31,7 +31,7 @@ public record ModMetadata : AbstractModMetadata
     public override string License { get; init; } = "MIT";
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 3)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
 public sealed class YetAnotherTraderModMod(
     ModHelper modHelper,
     ImageRouter imageRouter,
