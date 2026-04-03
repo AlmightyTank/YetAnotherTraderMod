@@ -633,22 +633,6 @@
             },
             {
                 "availableInGameEditions": [],
-                "id": "69a3646ef4b1c76d7a1cb041",
-                "index": 0,
-                "items": [
-                {
-                    "_id": "69a36473cd0b06280739987d",
-                    "_tpl": "699bacc55a0601415c931358"
-                }
-                ],
-                "loyaltyLevel": 2,
-                "target": "69a36473cd0b06280739987d",
-                "traderId": "698f904cd0fa772942d237c7",
-                "type": "AssortmentUnlock",
-                "unknown": false
-            },
-            {
-                "availableInGameEditions": [],
                 "id": "6849870a0f75c8089b7af47d",
                 "index": 0,
                 "items": [
@@ -903,104 +887,6 @@
             "traderId": "698f904cd0fa772942d237c7",
             "type": "AssortmentUnlock",
             "unknown": false
-            },
-            {
-                "availableInGameEditions": [],
-                "id": "69a37d2636a47ebf025bf9d1",
-                "index": 0,
-                "items": [
-                {
-                    "_id": "69a37d29a40e9f6c4bffe618",
-                    "_tpl": "69a3720ee1e82f687c7b2735"
-                }
-                ],
-                "loyaltyLevel": 2,
-                "target": "69a37d29a40e9f6c4bffe618",
-                "traderId": "698f904cd0fa772942d237c7",
-                "type": "AssortmentUnlock",
-                "unknown": false
-            },
-                {
-                "availableInGameEditions": [],
-                "gameMode": [
-                    "regular",
-                    "pve"
-                ],
-                "id": "69a382f028380d9b99e0bffb",
-                "isHidden": false,
-                "items": [
-                    {
-                        "_id": "69a37fe9054480423cc8f7ac",
-                        "_tpl": "69a37e14f145f5d3dbc1117e",
-                        "upd": {
-                            "FireMode": {
-                            "FireMode": "single"
-                            },
-                            "Foldable": {
-                            "Folded": false
-                            }
-                        }
-                    },
-                    {
-                        "_id": "69a37ffae39c3d1c8671650a",
-                        "_tpl": "5c0e2ff6d174af02a1659d4a",
-                        "parentId": "69a37fe9054480423cc8f7ac",
-                        "slotId": "mod_pistol_grip"
-                    },
-                    {
-                        "_id": "69a38001338eeb2cbcb47f1b",
-                        "_tpl": "5aaa5e60e5b5b000140293d6",
-                        "parentId": "69a37fe9054480423cc8f7ac",
-                        "slotId": "mod_magazine"
-                    },
-                    {
-                        "_id": "69a380088fe47df64cb12405",
-                        "_tpl": "5c07a8770db8340023300450",
-                        "parentId": "69a37fe9054480423cc8f7ac",
-                        "slotId": "mod_reciever"
-                    },
-                    {
-                        "_id": "69a3800d28b37e876fcc6cbb",
-                        "_tpl": "5c0e2f94d174af029f650d56",
-                        "parentId": "69a380088fe47df64cb12405",
-                        "slotId": "mod_barrel"
-                    },
-                    {
-                        "_id": "69a38014a484f014ae08eafc",
-                        "_tpl": "56eabcd4d2720b66698b4574",
-                        "parentId": "69a3800d28b37e876fcc6cbb",
-                        "slotId": "mod_muzzle"
-                    },
-                    {
-                        "_id": "69a3801b87f973c41d7cba2a",
-                        "_tpl": "5ae30e795acfc408fb139a0b",
-                        "parentId": "69a3800d28b37e876fcc6cbb",
-                        "slotId": "mod_gas_block"
-                    },
-                    {
-                        "_id": "69a380216bcd02449cf9a63c",
-                        "_tpl": "5c0e2f5cd174af02a012cfc9",
-                        "parentId": "69a380088fe47df64cb12405",
-                        "slotId": "mod_handguard"
-                    },
-                    {
-                        "_id": "69a380279d5815e6eaea5d92",
-                        "_tpl": "5c0faeddd174af02a962601f",
-                        "parentId": "69a37fe9054480423cc8f7ac",
-                        "slotId": "mod_stock"
-                    },
-                    {
-                        "_id": "69a3802c7978132fad005861",
-                        "_tpl": "5c0faf68d174af02a96260b8",
-                        "parentId": "69a37fe9054480423cc8f7ac",
-                        "slotId": "mod_charge"
-                    }
-                ],
-                "loyaltyLevel": 1,
-                "target": "69a37fe9054480423cc8f7ac",
-                "traderId": "698f904cd0fa772942d237c7",
-                "type": "AssortmentUnlock",
-                "unknown": false
             }
         ]
         },
