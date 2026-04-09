@@ -10,5 +10,11 @@
     "OutOfStockChance": 15, //[Stock] The percentage chance (0-100) that an item is out of stock (if Randomize is true).
     "UnlimitedStock": true, //[Stock] If true, all items have infinite stock. Overrides randomization. Note: Refilling issues are currently being patched by auto-clearing BuyRestrictions.    
     "PriceMultiplier": 1.50, //[Pricing] Global multiplier for all item prices. 1.0 = standard price. 1.0127 = +1.27%.    
-    "DebugLogging": true //[Debug] Enables detailed logs in the server console for troubleshooting.
+    "DebugLogging": true, //[Debug] Enables detailed logs in the server console for troubleshooting.
+
+    "useBasePriceGeneration": true,
+    "basePriceSource": "Handbook",
+    "basePriceMultiplier": 1.0,
+    "basePriceFloor": 1.0,
+    "repriceCashOffersOnly": false
 }
