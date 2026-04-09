@@ -36,11 +36,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CommonCore\CommonLibExtended.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="CommonLibExtended">
-      <HintPath>..\..\SPT\SPT\user\mods\CommonLibExtended\CommonLibExtended.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">
     <Exec Command="&quot;$(ProjectDir)build\deploy.cmd&quot; $(AssemblyName) &quot;$(TargetDir)&quot; &quot;$(ProjectDir)&quot;" />
