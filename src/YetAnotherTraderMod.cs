@@ -1,5 +1,6 @@
 using CommonLibExtended.Services;
 using CommonLibExtended.Traders.Models;
+using CommonLibExtended.Traders.Services;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
@@ -34,35 +35,41 @@ public record ModMetadata : AbstractModMetadata
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 4)]
-public sealed class YetAnotherTraderModMod(
+public sealed class YetAnotherTraderMod(
     ModHelper modHelper,
     ImageRouter imageRouter,
     ConfigServer configServer,
-    CLETraderBootstrap traderBootstrap)
+    CLETraderBootstrap traderBootstrap,
+    JsonUtil jsonUtil)
     : IOnLoad
 {
-    private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
-    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private readonly ModHelper _modHelper = modHelper;
+    private readonly ImageRouter _imageRouter = imageRouter;
+    private readonly ConfigServer _configServer = configServer;
+    private readonly CLETraderBootstrap _bootstrap = traderBootstrap;
+    private readonly JsonUtil _jsonUtil = jsonUtil;
 
     public Task OnLoad()
     {
         var assembly = Assembly.GetExecutingAssembly();
-        var modRoot = modHelper.GetAbsolutePathToModFolder(assembly);
 
-        traderBootstrap.LoadTrader(
-            assembly,
-            Path.Join("db", "base.json"),
-            Path.Join("db", "assort.json"),
-            Path.Join("config", "settings.json"),
-            _traderConfig,
-            _ragfairConfig,
-            path => modHelper.GetJsonDataFromFile<TraderBase>(modRoot, Path.GetRelativePath(modRoot, path)),
-            path => modHelper.GetJsonDataFromFile<TraderAssort>(modRoot, Path.GetRelativePath(modRoot, path)),
-            path => modHelper.GetJsonDataFromFile<CustomTraderSettings>(modRoot, Path.GetRelativePath(modRoot, path)),
-            firstName: "Priscilu",
-            description: "",
-            imageRouter: imageRouter,
-            traderImageRelativePath: Path.Join("db", "trader.png"));
+        _bootstrap.LoadTrader(
+            assembly: assembly,
+            traderBaseRelativePath: "db/base.json",
+            assortRelativePath: "db/assort.json",
+            settingsRelativePath: "config/settings.json",
+            traderConfig: _configServer.GetConfig<TraderConfig>(),
+            ragfairConfig: _configServer.GetConfig<RagfairConfig>(),
+            loadTraderBase: path => _jsonUtil.Deserialize<TraderBase>(File.ReadAllText(path))
+                ?? throw new InvalidDataException($"Failed to deserialize trader base: {path}"),
+            loadTraderAssort: path => _jsonUtil.Deserialize<TraderAssort>(File.ReadAllText(path))
+                ?? throw new InvalidDataException($"Failed to deserialize trader assort: {path}"),
+            loadTraderSettings: path => _jsonUtil.Deserialize<CustomTraderSettings>(File.ReadAllText(path))
+                ?? throw new InvalidDataException($"Failed to deserialize trader settings: {path}"),
+            firstName: "Tony",
+            description: "Ex-mafia fixer with premium black market connections.",
+            imageRouter: _imageRouter,
+            traderImageRelativePath: "db/trader.png");
 
         return Task.CompletedTask;
     }
