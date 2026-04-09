@@ -1,32 +1,131 @@
 {
-    "MinLevel": 5, //[Level Requirement] The minimum level required to access the trader's level 1 loyalty.   
-    "UnlockedByDefault": false, //[Unlock] If true, the trader is unlocked immediately regardless of level.
-    "TraderRefreshMin": 1800, //[Restock Timer] Minimum and Maximum time (in seconds) for trader restock. 1800s = 30 min, 3600s = 60 min. The system picks a random time between these two.
-    "TraderRefreshMax": 3600,
-    "AddTraderToFleaMarket": true, //[Flea Market] If true, YATM's offers appear on the Flea Market search.
-    "InsurancePriceCoef": 50, // [Insurance] Price multiplier for insurance. 25 = 25%. Higher is more expensive.
-    "RepairQuality": 0.8, // [Repair] Quality of repairs (0.0 to 1.0). 0.8 is High Quality (loss accumulation is lower).
-    "RandomizeStockAvailable": true, //[Stock] If true, some items will randomly be out of stock each reset.
-    "OutOfStockChance": 15, //[Stock] The percentage chance (0-100) that an item is out of stock (if Randomize is true).
-    "UnlimitedStock": true, //[Stock] If true, all items have infinite stock. Overrides randomization. Note: Refilling issues are currently being patched by auto-clearing BuyRestrictions.    
-    "PriceMultiplier": 1.50, //[Pricing] Global multiplier for all item prices. 1.0 = standard price. 1.0127 = +1.27%.    
-    "DebugLogging": true, //[Debug] Enables detailed logs in the server console for troubleshooting.
+    // ============================================
+    // 🧠 YATM Trader Config
+    // ============================================
+    // This config controls:
+    // - trader unlock & progression
+    // - stock behavior
+    // - pricing system (flea + handbook)
+    // - weapon build pricing
+    //
+    // ⚠️ Recommended:
+    // - Keep "repriceCashOffersOnly" = true
+    // - Only enable barter rebuilding if you understand the system
+    // ============================================
+
+    // =========================
+    // 🔹 TRADER ACCESS & PROGRESSION
+    // =========================
+
+    "minLevel": 5,
+    "unlockedByDefault": false,
+
+    // =========================
+    // 🔹 REFRESH / RESTOCK
+    // =========================
+
+    "traderRefreshMin": 1800,
+    "traderRefreshMax": 3600,
+
+    // =========================
+    // 🔹 FLEA MARKET
+    // =========================
+
+    "addTraderToFleaMarket": true,
+
+    // =========================
+    // 🔹 SERVICES
+    // =========================
+
+    "insurancePriceCoef": 50,
+    "repairQuality": 0.8,
+
+    // =========================
+    // 🔹 STOCK CONTROL
+    // =========================
+
+    "randomizeStockAvailable": true,
+    "outOfStockChance": 15,
+    "unlimitedStock": true,
+
+    // =========================
+    // 🔹 DEBUGGING
+    // =========================
+
+    "debugLogging": true,
+
+    // =========================
+    // 🔹 CORE PRICING SYSTEM
+    // =========================
 
     "useBasePriceGeneration": true,
-    "useFleaPricing": true,
-    "useAttachmentPricing": true,
-    "useAttachmentWeighting": true,
-
-    "handbookWeight": 0.7,
-    "fleaWeight": 0.3,
-
-    "fleaMinMultiplier": 0.6,
-    "fleaMaxMultiplier": 1.8,
-
     "basePriceMultiplier": 1.0,
+    "basePriceFloor": 1.0,
+
+    // =========================
+    // 🔹 FLEA-AWARE PRICING
+    // =========================
+
+    "useFleaPricing": true,
+    "handbookWeight": 0.3,
+    "fleaWeight": 0.7,
+
+    // =========================
+    // 🔹 FALLBACK PRICING
+    // =========================
+    // Used when handbook + flea both fail or return 0
+    // Category keys are parent template IDs
+
+    "categoryBasePrices": {
+        "5422acb9af1c889c16000029": 45000,
+        "5485a8684bdc2da71d8b4567": 800,
+        "5448e54d4bdc2dcc718b4568": 65000,
+        "5a341c4086f77401f2541505": 50000,
+        "55818add4bdc2d5b648b456f": 22000,
+        "55818a684bdc2ddd698b456d": 9000,
+        "550aa4bf4bdc2dd6348b456b": 18000,
+        "543be5dd4bdc2deb348b4569": 40000,
+        "5448f3a14bdc2d27728b4569": 9000,
+        "57864a66245977548f04a81f": 7000
+    },
+
+    "rarityMultipliers": {
+        "common": 1.0,
+        "uncommon": 1.15,
+        "rare": 1.35,
+        "superrare": 1.6
+    },
+
+    // =========================
+    // 🔹 FINAL PRICE MULTIPLIER
+    // =========================
+
     "priceMultiplier": 1.15,
 
+    // =========================
+    // 🔹 BARTER CONTROL
+    // =========================
+
+    "repriceCashOffersOnly": true,
+    "rebuildItemBarters": false,
+    "barterValueTolerance": 0.15,
+    "maxBarterComponents": 3,
+
+    "preferredBarterTpls": [
+        // Add item template IDs here if enabling barter rebuilding
+    ],
+
+    // =========================
+    // 🔹 WEAPON BUILD PRICING
+    // =========================
+
+    "useAttachmentPricing": true,
+    "useAttachmentWeighting": true,
     "minAttachmentPrice": 1000,
+
+    // =========================
+    // 🔹 ATTACHMENT CATEGORY MULTIPLIERS
+    // =========================
 
     "attachmentCategoryMultipliers": {
         "5448bc234bdc2d3c308b4569": 1.2,
