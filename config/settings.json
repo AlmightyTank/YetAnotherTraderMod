@@ -13,8 +13,24 @@
     "DebugLogging": true, //[Debug] Enables detailed logs in the server console for troubleshooting.
 
     "useBasePriceGeneration": true,
-    "basePriceSource": "Handbook",
+    "useFleaPricing": true,
+    "useAttachmentPricing": true,
+    "useAttachmentWeighting": true,
+
+    "handbookWeight": 0.7,
+    "fleaWeight": 0.3,
+
+    "fleaMinMultiplier": 0.6,
+    "fleaMaxMultiplier": 1.8,
+
     "basePriceMultiplier": 1.0,
-    "basePriceFloor": 1.0,
-    "repriceCashOffersOnly": false
+    "priceMultiplier": 1.15,
+
+    "minAttachmentPrice": 1000,
+
+    "attachmentCategoryMultipliers": {
+        "5448bc234bdc2d3c308b4569": 1.2,
+        "55818add4bdc2d5b648b456f": 1.1,
+        "55818a684bdc2ddd698b456d": 0.85
+    }
 }
