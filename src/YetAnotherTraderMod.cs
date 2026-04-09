@@ -36,16 +36,10 @@ public record ModMetadata : AbstractModMetadata
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 4)]
 public sealed class YetAnotherTraderMod(
-    ModHelper modHelper,
-    ImageRouter imageRouter,
-    ConfigServer configServer,
     CLETraderBootstrap traderBootstrap,
     JsonUtil jsonUtil)
     : IOnLoad
 {
-    private readonly ModHelper _modHelper = modHelper;
-    private readonly ImageRouter _imageRouter = imageRouter;
-    private readonly ConfigServer _configServer = configServer;
     private readonly CLETraderBootstrap _bootstrap = traderBootstrap;
     private readonly JsonUtil _jsonUtil = jsonUtil;
 
@@ -58,17 +52,8 @@ public sealed class YetAnotherTraderMod(
             traderBaseRelativePath: "db/base.json",
             assortRelativePath: "db/assort.json",
             settingsRelativePath: "config/settings.json",
-            traderConfig: _configServer.GetConfig<TraderConfig>(),
-            ragfairConfig: _configServer.GetConfig<RagfairConfig>(),
-            loadTraderBase: path => _jsonUtil.Deserialize<TraderBase>(File.ReadAllText(path))
-                ?? throw new InvalidDataException($"Failed to deserialize trader base: {path}"),
-            loadTraderAssort: path => _jsonUtil.Deserialize<TraderAssort>(File.ReadAllText(path))
-                ?? throw new InvalidDataException($"Failed to deserialize trader assort: {path}"),
-            loadTraderSettings: path => _jsonUtil.Deserialize<CustomTraderSettings>(File.ReadAllText(path))
-                ?? throw new InvalidDataException($"Failed to deserialize trader settings: {path}"),
             firstName: "Tony",
             description: "Ex-mafia fixer with premium black market connections.",
-            imageRouter: _imageRouter,
             traderImageRelativePath: "db/trader.png");
 
         return Task.CompletedTask;
