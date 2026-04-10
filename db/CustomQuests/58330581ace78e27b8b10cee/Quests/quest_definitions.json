@@ -216,10 +216,10 @@
                         "pve"
                     ],
                     "id": "699b47621eb73893e4784237",
-                    "isHidden": true,
+                    "isHidden": false,
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderUnlock",
-                    "unknown": false
+                    "unknown": true
                 },
                 {
                     "availableInGameEditions": [],
@@ -242,7 +242,7 @@
                     ],
                     "target": "68a9695194f6582e59140944",
                     "type": "Item",
-                    "unknown": false,
+                    "unknown": true,
                     "value": 22000
                 },
                 {
@@ -275,7 +275,7 @@
                     ],
                     "target": "68a9695194f6582e59140947",
                     "type": "Item",
-                    "unknown": false,
+                    "unknown": true,
                     "value": 2
                 },
                 {

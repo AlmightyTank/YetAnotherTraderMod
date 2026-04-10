@@ -1,8 +1,8 @@
 {
     "69d8dc6bf1921eeb784e3e74 name": "Unregistered Cargo",
-    "69d8dc6bf1921eeb784e3e74 description": "I don’t care about Tony’s money games unless those numbers turn into routes, shipments, and supply chains I can’t see. That’s what I want — something practical. Something I can use to track movement, find weak points, and locate caches. You build me a proper logistics extract from his records, and I won’t just intercept cargo… I’ll know exactly where to hit next.",
+    "69d8dc6bf1921eeb784e3e74 description": "I don't care about Tony's money games unless those numbers turn into routes, shipments, and supply chains I can't see. That's what I want - something practical. Something I can use to track movement, find weak points, and locate caches. You build me a proper logistics extract from his records, and I won't just intercept cargo. I'll know exactly where to hit next.",
     "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes, not theory. Build something I can act on.",
-    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn’t paperwork anymore. This is a target map.",
+    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn't paperwork anymore. This is a target map.",
     "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "I delivered the Logistics Manifest Drive to Prapor.",
     "69d8dc6bf1921eeb784e3e74 declinePlayerMessage": "",
     "69d8dc6bf1921eeb784e3e74 failMessageText": "",
