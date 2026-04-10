@@ -67,8 +67,8 @@
     // =========================
 
     "useFleaPricing": true,
-    "handbookWeight": 0.3,
-    "fleaWeight": 0.7,
+    "handbookWeight": 0.5,
+    "fleaWeight": 0.5,
 
     // =========================
     // 🔹 FALLBACK PRICING
@@ -121,15 +121,41 @@
 
     "useAttachmentPricing": true,
     "useAttachmentWeighting": true,
-    "minAttachmentPrice": 1000,
+
+    "weaponBasePriceMultiplier": 0.75, // Discount root weapon before adding attachments
+    "pistolBasePriceMultiplier": 0.65, // Pistols often need a smaller discount than long guns
+
+    "countOnlyWeaponRelevantAttachments": true, // Ignore junk/non-meaningful child parts
+    "minAttachmentPrice": 100,
+
+    // Parent IDs allowed when countOnlyWeaponRelevantAttachments = true
+    "weaponRelevantAttachmentParents": [
+        "5448bc234bdc2d3c308b4569", // magazines
+        "55818add4bdc2d5b648b456f", // scopes / optics
+        "55818a684bdc2ddd698b456d", // pistol grips
+        "55818a104bdc2db9688b4569", // handguards
+        "55818a304bdc2db5418b457d", // receivers
+        "555ef6e44bdc2de9068b457e", // barrels
+        "55818a594bdc2db9688b456a", // stocks
+        "550aa4cd4bdc2dd8348b456c" // silencer
+    ],
 
     // =========================
     // 🔹 ATTACHMENT CATEGORY MULTIPLIERS
     // =========================
 
     "attachmentCategoryMultipliers": {
-        "5448bc234bdc2d3c308b4569": 1.2,
+        "5448bc234bdc2d3c308b4569": 0.5,
         "55818add4bdc2d5b648b456f": 1.1,
-        "55818a684bdc2ddd698b456d": 0.85
+        "55818a684bdc2ddd698b456d": 0.4,
+        "55818a104bdc2db9688b4569": 0.4,
+        "55818a304bdc2db5418b457d": 0.3,
+        "555ef6e44bdc2de9068b457e": 0.4,
+        "550aa4bf4bdc2dd6348b456b": 0.2,
+        "56ea9461d2720b67698b456f": 0.2,
+        "55818a594bdc2db9688b456a": 0.4,
+        "55818a6f4bdc2db9688b456b": 0.2,
+        "55818ac54bdc2d5b648b456e": 0.2,
+        "550aa4cd4bdc2dd8348b456c": 0.3
     }
 }
