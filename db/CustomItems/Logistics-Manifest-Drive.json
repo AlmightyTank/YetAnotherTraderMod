@@ -1,0 +1,27 @@
+{
+    "69d8e4b0209a06298cd2c51e": {
+        "itemTplToClone": "590c621186f774138d11ea29",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "5b47574386f77428ca22b341",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": false,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "QuestItem": true,
+            "RarityPvE": "Not_exist",
+            "Weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Logistics Manifest Drive",
+                "shortName": "Manifest",
+                "description": "A reconstructed logistics extract derived from Tony's private ledger. It highlights shipment routes, cache references, and movement corridors useful for identifying where his operation moves goods."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}

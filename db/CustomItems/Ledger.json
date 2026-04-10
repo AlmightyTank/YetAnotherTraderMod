@@ -1,0 +1,27 @@
+{
+    "69d8e33515a699a08539db02": {
+        "itemTplToClone": "590c645c86f77412b01304d9",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "5b47574386f77428ca22b341",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": false,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "QuestItem": true,
+            "RarityPvE": "Not_exist",
+            "Weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Tony's Private Ledger",
+                "shortName": "Ledger",
+                "description": "A private ledger recovered from Tony's records. At a glance it's just numbers, but buried inside are payment trails, coded transfers, and references to routes and names that were never meant to be connected. In the right hands, it becomes leverage."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}

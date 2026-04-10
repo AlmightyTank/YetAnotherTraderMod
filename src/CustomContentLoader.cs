@@ -31,6 +31,10 @@ public sealed class CustomContentLoader(
                 return;
             }
 
+            await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
+
+            await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly, Path.Join("db", "CustomCrafts"));
+
             YATMLogger.LogDebug("[CustomContentLoader] Loading Custom Quest Zones...");
             await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
 

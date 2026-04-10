@@ -1,0 +1,27 @@
+{
+    "69d8ea555831968907d8997c": {
+        "itemTplToClone": "590c621186f774138d11ea29",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "5b47574386f77428ca22b341",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": false,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "QuestItem": true,
+            "RarityPvE": "Not_exist",
+            "Weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Copied Ledger Drive",
+                "shortName": "Ledger",
+                "description": "A cleaned duplicate of Tony's private ledger. It isolates key transactions, intermediaries, and pressure points without exposing the full archive."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}
