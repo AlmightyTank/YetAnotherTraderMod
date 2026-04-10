@@ -105,7 +105,7 @@
         {
             "minLevel": 8,
             "minSalesSum": 250000,
-            "minStanding": 0.10,
+            "minStanding": 0.27,
             "buy_price_coef": 0,
             "repair_price_coef": 40,
             "insurance_price_coef": 8,
@@ -115,7 +115,7 @@
         {
             "minLevel": 18,
             "minSalesSum": 1000000,
-            "minStanding": 0.25,
+            "minStanding": 0.36,
             "buy_price_coef": 0,
             "repair_price_coef": 30,
             "insurance_price_coef": 6,
@@ -125,7 +125,7 @@
         {
             "minLevel": 30,
             "minSalesSum": 2600000,
-            "minStanding": 0.50,
+            "minStanding": 0.56,
             "buy_price_coef": 0,
             "repair_price_coef": 20,
             "insurance_price_coef": 4,
