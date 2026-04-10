@@ -29,12 +29,24 @@
     <None Include="config\**" Exclude="config\**\*.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Remove="db\customcrafts\Copied-Ledger-Drive_Craft.json" />
+    <Content Remove="db\CustomCrafts\Logistics-Manifest-Drive_Craft.json" />
+    <Content Remove="db\CustomItems\Copied-Ledger-Drive.json" />
+    <Content Remove="db\CustomItems\Logistics-Manifest-Drive.json" />
+    <Content Remove="db\customquests\54cb50c76803fa8b248b4571\locales\en.json" />
+    <Content Remove="db\customquests\54cb50c76803fa8b248b4571\quests\quest_definitions.json" />
     <None Include="package.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonCore\CommonLibExtended.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="db\CustomQuests\54cb50c76803fa8b248b4571\Images\" />
+    <Folder Include="db\CustomQuests\54cb50c76803fa8b248b4571\Locales\" />
+    <Folder Include="db\CustomQuests\54cb50c76803fa8b248b4571\Quests\" />
+    <Folder Include="db\CustomQuests\54cb50c76803fa8b248b4571\QuestAssort\" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">
