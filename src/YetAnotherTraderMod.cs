@@ -53,7 +53,7 @@ public sealed class YetAnotherTraderMod(
             assortRelativePath: "db/assort.json",
             settingsRelativePath: "config/settings.json",
             firstName: "Tony",
-            description: "Ex-mafia fixer with premium black market connections.",
+            description: "An unseen sponsor of discreet logistics, moving high-value equipment through Tarkov without noise, witnesses, or mistakes.",
             traderImageRelativePath: "db/trader.png");
 
         return Task.CompletedTask;
