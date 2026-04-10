@@ -1,0 +1,27 @@
+{
+    "69d914e8e2d8d8a4ac6a3057": {
+        "itemTplToClone": "67409848d0b2f8eb9b034db9",
+        "parentId": "590c745b86f7743cc433c5f2",
+        "handbookParentId": "5b619f1a86f77450a702a6f3",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": false,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "QuestItem": true,
+            "RarityPvE": "Not_exist",
+            "Weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "Sealed Courier Package",
+                "shortName": "Courier",
+                "description": "A tightly sealed smuggling package prepared for discreet dead-drop placement. Contents are compartmentalized and shielded from casual inspection. Designed to move quietly through unseen routes."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}

@@ -161,17 +161,6 @@
             ],
             "AvailableForStart": [
                 {
-                    "compareMethod": ">=",
-                    "conditionType": "Level",
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "0c23816d20c52af6c66ba35f",
-                    "index": 0,
-                    "parentId": "",
-                    "value": 12,
-                    "visibilityConditions": []
-                },
-                {
                     "availableAfter": 0,
                     "conditionType": "Quest",
                     "dispersion": 0,
@@ -485,7 +474,7 @@
                     "id": "f4cbc1322f2d13c0fb46b099",
                     "index": 0,
                     "parentId": "",
-                    "value": 12,
+                    "value": 5,
                     "visibilityConditions": []
                 },
                 {
@@ -1488,7 +1477,7 @@
                     "id": "7b1ff24622d2ac77433c9df2",
                     "index": 0,
                     "parentId": "",
-                    "value": 14,
+                    "value": 8,
                     "visibilityConditions": []
                 },
                 {
@@ -1570,7 +1559,7 @@
                             }
                         }
                     ],
-                    "target": "9c71b283f576f652eb06a928",
+                    "target": "cfda596d6e638810c8959005",
                     "type": "Item",
                     "unknown": false,
                     "value": 90000
@@ -1656,7 +1645,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d914e8e2d8d8a4ac6a3057"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -1671,7 +1660,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d914e8e2d8d8a4ac6a3057"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -1686,7 +1675,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d914e8e2d8d8a4ac6a3057"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -1748,7 +1737,7 @@
                     "id": "3fc9260fe3280b4dd97304b5",
                     "index": 0,
                     "parentId": "",
-                    "value": 16,
+                    "value": 8,
                     "visibilityConditions": []
                 },
                 {
@@ -1787,28 +1776,27 @@
             "Started": [
                 {
                     "availableInGameEditions": [],
-                    "findInRaid": true,
                     "gameMode": [
                         "regular",
                         "pve"
                     ],
-                    "id": "0f77405eed29c207deb3c6c7",
-                    "isEncoded": false,
+                    "id": "69d917766f99ff8e17f8f66e",
                     "isHidden": false,
                     "items": [
                         {
-                            "_id": "92bc53df1be6189e348d5507",
-                            "_tpl": "5ac78a9b86f7741cca0bbd8d",
+                            "_id": "69d9177bec305bd764af95dd",
+                            "_tpl": "69d914e8e2d8d8a4ac6a3057",
                             "upd": {
-                                "StackObjectsCount": 3,
-                                "SpawnedInSession": true
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "92bc53df1be6189e348d5507",
-                    "type": "Item",
-                    "unknown": false,
-                    "value": 3
+                    "loyaltyLevel": 2,
+                    "target": "69d9177bec305bd764af95dd",
+                    "traderId": 7,
+                    "type": "ProductionScheme",
+                    "unknown": false
                 }
             ],
             "Success": [
@@ -1969,7 +1957,7 @@
                     "id": "583fe04545464b6f12d95ea3",
                     "index": 0,
                     "parentId": "",
-                    "value": 18,
+                    "value": 8,
                     "visibilityConditions": []
                 },
                 {
@@ -2213,7 +2201,7 @@
                     "id": "cbec7627e96ed4363fa7c25b",
                     "index": 0,
                     "parentId": "",
-                    "value": 20,
+                    "value": 12,
                     "visibilityConditions": []
                 },
                 {
@@ -2496,7 +2484,7 @@
                     "id": "b206ec617c0256ad20e50050",
                     "index": 0,
                     "parentId": "",
-                    "value": 22,
+                    "value": 16,
                     "visibilityConditions": []
                 },
                 {
@@ -2594,7 +2582,7 @@
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.06
+                    "value": 0.05
                 },
                 {
                     "availableInGameEditions": [],
@@ -2737,7 +2725,7 @@
                     "id": "69f000000000000000000046",
                     "index": 0,
                     "parentId": "",
-                    "value": 22,
+                    "value": 16,
                     "visibilityConditions": []
                 },
                 {
@@ -2809,7 +2797,7 @@
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": -0.05
+                    "value": 0.05
                 },
                 {
                     "availableInGameEditions": [],
@@ -2921,7 +2909,7 @@
                     "id": "e0fd08289097b021150a6c7b",
                     "index": 0,
                     "parentId": "",
-                    "value": 24,
+                    "value": 20,
                     "visibilityConditions": []
                 },
                 {
@@ -3173,7 +3161,7 @@
                     "id": "cafc4c372739c2e4a0283089",
                     "index": 0,
                     "parentId": "",
-                    "value": 26,
+                    "value": 24,
                     "visibilityConditions": []
                 },
                 {
@@ -3402,7 +3390,7 @@
                     "id": "ee323a3695197fac7797fcf8",
                     "index": 0,
                     "parentId": "",
-                    "value": 30,
+                    "value": 28,
                     "visibilityConditions": []
                 },
                 {
@@ -3622,7 +3610,7 @@
                     "id": "e0ea535934b4120f11981377",
                     "index": 0,
                     "parentId": "",
-                    "value": 24,
+                    "value": 20,
                     "visibilityConditions": []
                 },
                 {
@@ -3708,7 +3696,7 @@
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": -0.05
+                    "value": 0.08
                 },
                 {
                     "availableInGameEditions": [],
@@ -3857,7 +3845,7 @@
                     "id": "5eb231e83d51d055f195ec49",
                     "index": 0,
                     "parentId": "",
-                    "value": 26,
+                    "value": 24,
                     "visibilityConditions": []
                 },
                 {
@@ -3918,7 +3906,7 @@
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": -0.08
+                    "value": 0.08
                 },
                 {
                     "availableInGameEditions": [],
@@ -4033,7 +4021,7 @@
                     "id": "27bb56f5b5d41cdae8406770",
                     "index": 0,
                     "parentId": "",
-                    "value": 30,
+                    "value": 28,
                     "visibilityConditions": []
                 },
                 {
@@ -4090,11 +4078,11 @@
                         "pve"
                     ],
                     "id": "69d8f2ffe0970830b1958501",
-                    "isHidden": true,
+                    "isHidden": false,
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
-                    "unknown": false,
-                    "value": -0.10
+                    "unknown": true,
+                    "value": -0.28
                 },
                 {
                     "availableInGameEditions": [],
