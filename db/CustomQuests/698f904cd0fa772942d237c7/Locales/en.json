@@ -1,12 +1,11 @@
 {
-    // =========================
-    // POWER SUPPLY RUN
-    // =========================
     "699a84bf8e2052342f79b912 name": "Power Supply Run",
-    "699a84bf8e2052342f79b912 description": "I don’t waste time on introductions. Power is the only thing keeping parts of Tarkov alive — not lights, not generators, but the systems behind them. Communications, surveillance, private grids that never went offline. Someone is maintaining them. Someone is profiting from them. That should be me. Bring me working components from active zones. If it still functions, it has value. And if it has value, it belongs to someone. Now it belongs to me.",
-    "699a84bf8e2052342f79b912 startedMessageText": "Working components only. If it wasn’t recovered during an operation, it’s worthless.",
-    "699a84bf8e2052342f79b912 successMessageText": "Good. Clean hardware. That’s how I like it.",
-    "699a84bf8e2052342f79b912 completePlayerMessage": "Components delivered.",
+    "699a84bf8e2052342f79b912 description": "I don’t waste time on introductions. If you’re working with me, you earn your place by delivering something useful. Power is one of the few things in Tarkov that still matters to everyone, even the ones pretending they’re above it. Not generators. Not lights. I’m talking about the systems behind them — communications, surveillance, private networks that never truly went dark. Somebody is keeping them alive. Somebody is profiting from them. That should be me. Bring me working components recovered from active zones. If it still functions, it has value. And if it has value, it belongs in my hands, not rusting in a ruined building.",
+    "699a84bf8e2052342f79b912 startedMessageText": "Working components only. If it wasn’t recovered during an operation, it’s worthless to me.",
+    "699a84bf8e2052342f79b912 successMessageText": "Good. Clean hardware, properly sourced. That tells me you understand the difference between junk and assets.",
+    "699a84bf8e2052342f79b912 completePlayerMessage": "Everything you asked for. Recovered in raid and still functional.",
+    "699a84bf8e2052342f79b912 declinePlayerMessage": "",
+    "699a84bf8e2052342f79b912 failMessageText": "",
     "699a84bf8e2052342f79b912 note": "Recover working electronics in raid.",
 
     "22c12c8303c9175e1e48ccd5": "Find 2 Power Cords in raid",
@@ -18,15 +17,14 @@
     "13d20c8c736986e68349c5ef": "Find 2 Car Batteries in raid",
     "691bb31461aa07529d9012bb": "Hand over 2 Car Batteries",
 
-    // =========================
-    // BIG MAGS WANTED
-    // =========================
     "6848f1776be936dd22573866 name": "Big Mags Wanted",
-    "6848f1776be936dd22573866 description": "I’ve watched enough fights to know how they really end. Not with a clean shot, but with someone running empty at the wrong time. I don’t allow that. The people working with me don’t rely on timing — they remove it. Extended magazines are becoming rare, and the ones still in circulation are being held by people who understand their worth. I want them before they disappear.",
-    "6848f1776be936dd22573866 startedMessageText": "Capacity matters. Bring me magazines that don’t run dry too soon.",
-    "6848f1776be936dd22573866 successMessageText": "Good. More rounds before silence.",
-    "6848f1776be936dd22573866 completePlayerMessage": "Magazines delivered.",
-    "6848f1776be936dd22573866 note": "Acquire extended magazines.",
+    "6848f1776be936dd22573866 description": "I’ve watched enough men die in this city to know what usually gets them killed. Not bad aim. Not bad instincts. An empty magazine at the wrong moment. Prapor stocks rifles for soldiers. Skier moves gear for opportunists. I prepare people to survive sustained violence. That means capacity. I want the kind of magazines built for long engagements, not range toys and not leftovers stripped off corpses that never saw real use. Bring me the ones that keep a gun talking longer than the other man expects.",
+    "6848f1776be936dd22573866 startedMessageText": "Capacity matters. Bring me magazines that don’t run dry the second things get serious.",
+    "6848f1776be936dd22573866 successMessageText": "Good. More rounds before silence. That’s how professionals stay alive.",
+    "6848f1776be936dd22573866 completePlayerMessage": "Extended magazines delivered. All functional.",
+    "6848f1776be936dd22573866 declinePlayerMessage": "",
+    "6848f1776be936dd22573866 failMessageText": "",
+    "6848f1776be936dd22573866 note": "Acquire high-capacity magazines.",
 
     "520ba9d22db01c3f7b0c3cee": "Obtain a 60-round STANAG magazine",
     "6d3f59f5774c02bccbd9c545": "Hand over the STANAG magazine",
@@ -35,26 +33,24 @@
     "eda35066db1293a1e39cef81": "Obtain a SureFire 60-round magazine",
     "94f36d90e5f2b7ff7007683f": "Hand over the SureFire magazine",
 
-    // =========================
-    // PRESSURE RELIEF
-    // =========================
     "684edc10a8af5086d3e6557b name": "Pressure Relief",
-    "684edc10a8af5086d3e6557b description": "Distance makes people comfortable. It gives them time to think, time to hesitate, time to believe they’re in control. Factory removes that illusion. No distance, no time, no space for mistakes. Just noise, steel, and decisions that happen whether you’re ready or not. I want to see what you are when hesitation isn’t an option.",
-    "684edc10a8af5086d3e6557b startedMessageText": "Factory will show me what you really are.",
-    "684edc10a8af5086d3e6557b successMessageText": "You didn’t freeze. That’s rare.",
-    "684edc10a8af5086d3e6557b completePlayerMessage": "Targets eliminated.",
+    "684edc10a8af5086d3e6557b description": "Distance makes weak men look competent. It gives them time to think, time to hide, time to convince themselves they’re in control. Factory removes all of that. No room. No comfort. No clean retreat. Just noise, steel, and decisions made faster than fear can settle in. That’s where I measure people. Not by what they promise, but by what they do when pressure closes around their throat. Go there. Fight in tight corridors where hesitation gets punished immediately. Show me you can still think when everything around you is screaming.",
+    "684edc10a8af5086d3e6557b startedMessageText": "Factory will show me what you really are. No excuses there.",
+    "684edc10a8af5086d3e6557b successMessageText": "You didn’t freeze. That already puts you ahead of most men I’ve met.",
+    "684edc10a8af5086d3e6557b completePlayerMessage": "Targets eliminated. Pressure handled.",
+    "684edc10a8af5086d3e6557b declinePlayerMessage": "",
+    "684edc10a8af5086d3e6557b failMessageText": "",
     "684edc10a8af5086d3e6557b note": "Eliminate PMCs in Factory.",
 
     "c7e41d533917d1ec03dc460e": "Eliminate 10 PMCs on Factory",
 
-    // =========================
-    // ECHO TRAPS
-    // =========================
     "68498dcea603d454abc11356 name": "Echo Traps",
-    "68498dcea603d454abc11356 description": "I listen more than I speak. Tarkov is full of signals — military channels, private networks, scav chatter. Most people don’t realize how much is being heard, or by who. Right now, too many conversations are happening without me. That changes. You’re going to place disruptors in key locations and leave quietly. When those signals disappear, people start making mistakes.",
-    "68498dcea603d454abc11356 startedMessageText": "Place the beacons and stay quiet.",
-    "68498dcea603d454abc11356 successMessageText": "Good. Silence is useful.",
-    "68498dcea603d454abc11356 completePlayerMessage": "Beacons placed.",
+    "68498dcea603d454abc11356 description": "I listen more than I speak. That’s why I’m still here. Tarkov never stopped talking — military channels, private relays, scav chatter, fragments of old infrastructure still carrying voices they were never meant to. Most people hear noise. I hear patterns. Right now, too many conversations are happening without my involvement. That means somebody else is gaining advantage from information that should be mine. I want certain areas covered. You’ll place the beacons, extend my reach, and leave without drawing attention. Once I can hear the city more clearly, I can decide which parts of it deserve to keep breathing.",
+    "68498dcea603d454abc11356 startedMessageText": "Place the beacons and stay quiet. This is about control, not spectacle.",
+    "68498dcea603d454abc11356 successMessageText": "Good. Silence where I need it, access where I want it. Useful.",
+    "68498dcea603d454abc11356 completePlayerMessage": "Beacons placed. No interference on the way out.",
+    "68498dcea603d454abc11356 declinePlayerMessage": "",
+    "68498dcea603d454abc11356 failMessageText": "",
     "68498dcea603d454abc11356 note": "Place signal beacons and extract.",
 
     "5eca9553f3a992fe7186ffe8": "Place signal beacon at first location",
@@ -62,28 +58,26 @@
     "603e1e94b031722bf688626d": "Place signal beacon at third location",
     "500ee99122dbc04cf35d873e": "Extract from raid",
 
-    // =========================
-    // FAMILY DEBTS
-    // =========================
     "69d81cd30ffb6f16a7c38e69 name": "Family Debts",
-    "69d81cd30ffb6f16a7c38e69 description": "Before Tarkov collapsed, I had agreements. Favors, access, protection. When everything fell apart, some people decided those agreements no longer applied. They kept what they owed and disappeared. That was a mistake. I don’t forget debts. I collect them.",
-    "69d81cd30ffb6f16a7c38e69 startedMessageText": "Collect what is mine.",
-    "69d81cd30ffb6f16a7c38e69 successMessageText": "People remember quickly when pressure is applied.",
-    "69d81cd30ffb6f16a7c38e69 completePlayerMessage": "Assets recovered.",
+    "69d81cd30ffb6f16a7c38e69 description": "Before this city came apart, I had agreements. Not contracts — those are for people who need paper to remember what they owe. I had understandings. Favors. Protection. Access. Men took what I offered and promised to return value when it mattered. Then Tarkov collapsed, and they convinced themselves the ledger collapsed with it. It didn’t. Debt doesn’t vanish when the system enforcing it changes. It hardens. There are still assets out there tied to my name, sitting in the hands of people who think enough time has passed. Go remind them that time does not erase obligation. It only makes collection less polite.",
+    "69d81cd30ffb6f16a7c38e69 startedMessageText": "Collect what is mine. If they forgot, help them remember.",
+    "69d81cd30ffb6f16a7c38e69 successMessageText": "Good. People remember quickly when the pressure is personal.",
+    "69d81cd30ffb6f16a7c38e69 completePlayerMessage": "Assets recovered. Debt settled.",
+    "69d81cd30ffb6f16a7c38e69 declinePlayerMessage": "",
+    "69d81cd30ffb6f16a7c38e69 failMessageText": "",
     "69d81cd30ffb6f16a7c38e69 note": "Recover assets and eliminate resistance.",
 
     "06256be729d22045ac741370": "Eliminate 10 Scavs on Customs",
     "c2ed95c197979810dd2af094": "Find the secured case in raid",
     "e8f66e0884d4751636f4ab6f": "Hand over the secured case",
 
-    // =========================
-    // SILENT COURIERS
-    // =========================
     "69d81ce56cd2ce07a50d79d2 name": "Silent Couriers",
-    "69d81ce56cd2ce07a50d79d2 description": "Goods don’t stop moving. They just move differently. Skier watches the surface. I work underneath it. There are routes in Tarkov that don’t exist unless you already know them. I’m rebuilding those routes. Quietly.",
-    "69d81ce56cd2ce07a50d79d2 startedMessageText": "Place the packages. Leave no trace.",
-    "69d81ce56cd2ce07a50d79d2 successMessageText": "Routes are active again.",
-    "69d81ce56cd2ce07a50d79d2 completePlayerMessage": "Packages placed.",
+    "69d81ce56cd2ce07a50d79d2 description": "Goods never stop moving. Not in a city like this. They just stop moving openly. Skier watches storefront deals, trader traffic, obvious exchanges. That’s surface work. Surface work gets noticed. I’m interested in routes that exist only because the right people believe in them and the wrong people never see them. Quiet corridors. Dead drops. Movement without signatures. I’m rebuilding that network piece by piece. You’ll place what needs placing and walk away without leaving a story behind. If no one notices the route, then the route survives. That’s what I’m paying for.",
+    "69d81ce56cd2ce07a50d79d2 startedMessageText": "Place the packages. Leave no trace. Quiet work lasts longer.",
+    "69d81ce56cd2ce07a50d79d2 successMessageText": "Routes are active again. Quietly, exactly as intended.",
+    "69d81ce56cd2ce07a50d79d2 completePlayerMessage": "Packages placed. No one followed.",
+    "69d81ce56cd2ce07a50d79d2 declinePlayerMessage": "",
+    "69d81ce56cd2ce07a50d79d2 failMessageText": "",
     "69d81ce56cd2ce07a50d79d2 note": "Plant smuggling packages and extract.",
 
     "b6930a22afb94f56ab426741": "Plant first package",
@@ -91,119 +85,128 @@
     "7a458d853e490f3cb3ef42cb": "Plant third package",
     "6f538c7593e38a7f916e18f0": "Extract from raid",
 
-    // =========================
-    // OLD ACCOUNTS
-    // =========================
     "69d81cf3caf46e08a1002df2 name": "Old Accounts",
-    "69d81cf3caf46e08a1002df2 description": "Money doesn’t disappear. It leaves traces. Some of those traces lead back to me. Others lead to people who think I’ve been forgotten. They’re wrong. Bring me the data.",
-    "69d81cf3caf46e08a1002df2 startedMessageText": "Find the drives. Bring them intact.",
-    "69d81cf3caf46e08a1002df2 successMessageText": "Good. Information stays with me.",
-    "69d81cf3caf46e08a1002df2 completePlayerMessage": "Data secured.",
+    "69d81cf3caf46e08a1002df2 description": "Money doesn’t disappear. Not really. It leaves traces — ledgers, transfers, archived backups, fragments in systems nobody bothered to wipe properly when the city fell apart. Most men don’t understand that history is just another form of leverage. I do. Some of those trails lead back to me. More importantly, some lead to people who would prefer I stay buried under old rumors and dead infrastructure. That won’t happen. Bring me the drives. I want the records intact. In the wrong hands, data becomes blackmail. In mine, it becomes architecture.",
+    "69d81cf3caf46e08a1002df2 startedMessageText": "Find the drives. Bring them intact. Data is only useful when it survives.",
+    "69d81cf3caf46e08a1002df2 successMessageText": "Good. Information belongs with the man who knows how to use it.",
+    "69d81cf3caf46e08a1002df2 completePlayerMessage": "Records secured.",
+    "69d81cf3caf46e08a1002df2 declinePlayerMessage": "",
+    "69d81cf3caf46e08a1002df2 failMessageText": "",
     "69d81cf3caf46e08a1002df2 note": "Recover financial records.",
 
     "80d9fe503cbd9866053f7eb2": "Find financial drives in raid",
     "b961749deb014e3407999cbb": "Hand over financial drives",
 
-    // =========================
-    // THE SHIPMENT
-    // =========================
     "69d81cfdc17c3b97d031ff08 name": "The Shipment",
-    "69d81cfdc17c3b97d031ff08 description": "I have a shipment moving through Tarkov that isn’t supposed to exist. That makes it valuable. Prapor’s people are watching. That makes it dangerous. Stay with it. If it disappears, so do you.",
-    "69d81cfdc17c3b97d031ff08 startedMessageText": "Stay with the shipment.",
-    "69d81cfdc17c3b97d031ff08 successMessageText": "Delivered clean.",
-    "69d81cfdc17c3b97d031ff08 completePlayerMessage": "Shipment secured.",
+    "69d81cfdc17c3b97d031ff08 description": "Every operation builds toward movement. Not talk. Not planning. Movement. This shipment is more than cargo. It’s influence packaged in wood and metal. The kind of thing men intercept when they want to weaken someone without saying his name aloud. Prapor’s people are watching, which means they understand just enough to be dangerous. I don’t lose shipments. Not to soldiers, not to scavengers, not to chance. You’ll keep it moving, keep it intact, and get it where it belongs. If you survive but the cargo doesn’t, then you didn’t do the job.",
+    "69d81cfdc17c3b97d031ff08 startedMessageText": "Stay with the shipment. If it goes missing, so does my patience.",
+    "69d81cfdc17c3b97d031ff08 successMessageText": "Delivered clean. That’s how valuable things are moved.",
+    "69d81cfdc17c3b97d031ff08 completePlayerMessage": "Shipment secured and extracted.",
+    "69d81cfdc17c3b97d031ff08 declinePlayerMessage": "",
+    "69d81cfdc17c3b97d031ff08 failMessageText": "",
     "69d81cfdc17c3b97d031ff08 note": "Secure shipment and extract.",
 
     "7003c9afb0e78a6668ec37e3": "Find shipment drives in raid",
     "39e306f06c18c3a46d2036f6": "Secure the shipment",
     "09505e3d24603629cddb37ce": "Extract from Lighthouse",
 
-    // =========================
-    // CROSSED WIRES
-    // =========================
     "69d81d08b08a9cf2a881f70e name": "Crossed Wires",
-    "69d81d08b08a9cf2a881f70e description": "Everything in Tarkov is connected. Military supply, private trade, black market movement. I don’t need all of it gone. I need one piece weakened. You’re going to choose which one.",
-    "69d81d08b08a9cf2a881f70e startedMessageText": "Choose carefully.",
-    "69d81d08b08a9cf2a881f70e successMessageText": "Good. That changes things.",
-    "69d81d08b08a9cf2a881f70e completePlayerMessage": "Target disabled.",
+    "69d81d08b08a9cf2a881f70e description": "Everything in Tarkov touches something else. Military supply, private trade, black market routes, old signal traffic — all of it intersects whether the people involved understand it or not. Right now, one of those intersections is working against me. I don’t need a war. I need one line weakened so the rest realigns where I want it. That’s your job. Cut the right connection, restore the balance, and let everyone else wonder why their system suddenly stopped protecting them.",
+    "69d81d08b08a9cf2a881f70e startedMessageText": "Choose carefully. Quiet damage lasts longer than loud victories.",
+    "69d81d08b08a9cf2a881f70e successMessageText": "Good. That changes more than they realize.",
+    "69d81d08b08a9cf2a881f70e completePlayerMessage": "The target is down. The line is cut.",
+    "69d81d08b08a9cf2a881f70e declinePlayerMessage": "",
+    "69d81d08b08a9cf2a881f70e failMessageText": "",
     "69d81d08b08a9cf2a881f70e note": "Sabotage chosen network.",
 
     "603207d9f2bef8d2219dd0ca": "Sabotage the network",
     "57f8473740b35132ec9a0012": "Extract safely",
 
-    // =========================
-    // BLOOD OATH (LOYAL)
-    // =========================
+    "69d81d08b08a9cf2a881f70f name": "Crossed Wires",
+    "69d81d08b08a9cf2a881f70f description": "You’ve been busy. I can tell. Things don’t move the way they should when someone starts touching wires he doesn’t understand. I built my systems to survive pressure from outside. Betrayal is different. It changes the rhythm. It leaves fingerprints in timing, in routes, in silence where there should be noise. I won’t accuse you. Not yet. Tarkov answers questions eventually. For now, I need a line cut and I need to know which side of that cut you intend to stand on. Some betrayals begin long before anyone admits what they’ve done.",
+    "69d81d08b08a9cf2a881f70f startedMessageText": "Make your choice carefully. I’m paying closer attention now.",
+    "69d81d08b08a9cf2a881f70f successMessageText": "Good. That confirms more than you realize.",
+    "69d81d08b08a9cf2a881f70f completePlayerMessage": "The target is down. The line is cut.",
+    "69d81d08b08a9cf2a881f70f declinePlayerMessage": "",
+    "69d81d08b08a9cf2a881f70f failMessageText": "",
+    "69d81d08b08a9cf2a881f70f note": "Sabotage the selected network and accept the consequences.",
+
     "69d81d10f141ade1c2f23cbd name": "Blood Oath",
-    "69d81d10f141ade1c2f23cbd description": "You made your choice when you cut the right line. Most people in Tarkov sell loyalty by the hour, then act surprised when they die alone. I have no use for that kind of man. Up to now, you’ve been useful. Now I need to know whether you can be trusted when the pressure stops being theoretical. Use what I’ve given you. Spill blood with my weapons, for my interests, and make your position clear to anyone still uncertain.",
+    "69d81d10f141ade1c2f23cbd description": "You made your choice when you cut the right line. Most men in this city rent out their loyalty by the hour and call themselves practical. Then they die surprised when nobody bothers avenging them. I have no use for that kind of man. Up to now, you’ve been useful. That’s not the same as being trusted. I want to know if you can still stand where you claim to stand once blood is part of the price. Use what I’ve given you. Spill blood with my weapons, for my interests, and make your position unmistakable.",
     "69d81d10f141ade1c2f23cbd startedMessageText": "This is where usefulness becomes loyalty. Use my equipment and finish the work.",
     "69d81d10f141ade1c2f23cbd successMessageText": "Good. Loyalty means something only when it costs blood.",
-    "69d81d10f141ade1c2f23cbd completePlayerMessage": "Targets are down. Your weapons performed.",
+    "69d81d10f141ade1c2f23cbd completePlayerMessage": "Targets are down. Your equipment held.",
+    "69d81d10f141ade1c2f23cbd declinePlayerMessage": "",
+    "69d81d10f141ade1c2f23cbd failMessageText": "",
     "69d81d10f141ade1c2f23cbd note": "Use Tony’s equipment to eliminate his enemies.",
 
     "ed9c12d309e06158faa7f816": "Eliminate PMCs using Tony equipment",
 
-    // =========================
-    // CLEAN HOUSE (LOYAL)
-    // =========================
     "69d81d2211b64abb3f86ee12 name": "Clean House",
-    "69d81d2211b64abb3f86ee12 description": "Now that people have seen where you stand, the rest becomes simpler. There are men tied to my operations who’ve grown careless, greedy, or afraid. In my world, all three become betrayal eventually. They knew the rules when they took the money. Remove them before hesitation spreads further than rumor already has. Quietly, efficiently, and without leaving this mess for me twice.",
-    "69d81d2211b64abb3f86ee12 startedMessageText": "Loose ends don’t stay loose for long. Handle them.",
-    "69d81d2211b64abb3f86ee12 successMessageText": "Good. Stability is expensive. You’ve just paid part of the cost.",
+    "69d81d2211b64abb3f86ee12 description": "Now that people have seen where you stand, the rest becomes simpler. Men tied to my operation have grown careless, greedy, or afraid. In my world, those are not temporary conditions. They are early stages of betrayal. They knew the rules when they took money, protection, and access from me. Now they are liabilities pretending to be associates. Remove them before hesitation spreads further than rumor already has. Quietly, efficiently, and without leaving me a second mess to clean.",
+    "69d81d2211b64abb3f86ee12 startedMessageText": "Loose ends don’t stay loose for long. Handle them properly.",
+    "69d81d2211b64abb3f86ee12 successMessageText": "Good. Stability is expensive. You’ve just paid part of the bill.",
     "69d81d2211b64abb3f86ee12 completePlayerMessage": "The compromised men are gone.",
+    "69d81d2211b64abb3f86ee12 declinePlayerMessage": "",
+    "69d81d2211b64abb3f86ee12 failMessageText": "",
     "69d81d2211b64abb3f86ee12 note": "Eliminate compromised operatives and restore control.",
 
     "1e9026da7e4c46af8c992148": "Eliminate targets on Streets",
 
-    // =========================
-    // THE NEW BOSS (LOYAL)
-    // =========================
     "69d81d2e489341684c932b76 name": "The New Boss",
-    "69d81d2e489341684c932b76 description": "Control isn’t declared in Tarkov. It’s demonstrated. Quietly, repeatedly, until resistance becomes a bad habit with a short life expectancy. Everything before this was preparation — routes, records, shipments, loyalties. This is the moment those pieces become structure. Secure the location, remove resistance, and make it clear that what remains of this city’s black market answers to me. You’ve come this far. Finish it, and you won’t just be another contractor in the books. You’ll be part of what comes next.",
+    "69d81d2e489341684c932b76 description": "Control is never declared in Tarkov. It’s demonstrated. Quietly, repeatedly, until resistance becomes a bad habit with a short life expectancy. Everything before this was preparation — routes, records, shipments, loyalties, pressure points. This is where those pieces become structure. Secure the location, remove resistance, and make it clear that what remains of this city’s black market answers to me. You’ve come this far. Finish it, and you won’t just be another contractor in my books. You’ll be part of what comes next.",
     "69d81d2e489341684c932b76 startedMessageText": "No mistakes now. This is the part people remember.",
     "69d81d2e489341684c932b76 successMessageText": "It’s done. Control is established, and properly this time.",
     "69d81d2e489341684c932b76 completePlayerMessage": "The location is secured. Resistance is gone.",
+    "69d81d2e489341684c932b76 declinePlayerMessage": "",
+    "69d81d2e489341684c932b76 failMessageText": "",
     "69d81d2e489341684c932b76 note": "Secure Tony’s position and eliminate all remaining resistance.",
 
     "fd122acd465f88fd577be25f": "Eliminate all resistance",
     "05ebbaa447ffa8affb05b1f1": "Survive and extract",
 
-    // =========================
-    // LOOSE ENDS (BETRAY)
-    // =========================
     "69d81d3d82a2da467ea1fdba name": "Loose Ends",
-    "69d81d3d82a2da467ea1fdba description": "Tony believes control comes from knowing more than everyone else in the room. Men like that rarely notice when someone stops being part of the room. You’ve seen enough of his operation now to understand where it bends and where it breaks. There are buyers for that kind of knowledge, and unlike Tony, they don’t ask for loyalty — just results. Plant the tracker, walk away clean, and let the people paying for this do the rest. He doesn’t need to know when the ground started shifting beneath him.",
-    "69d81d3d82a2da467ea1fdba startedMessageText": "No heroics. Plant it, leave, and keep your name out of it.",
+    "69d81d3d82a2da467ea1fdba description": "Men like Tony survive by believing they are always the first to know. He built his strength on awareness — who owes what, who moves where, who talks to whom when nobody is supposed to be listening. Men like that rarely consider what happens when someone inside the room decides to stop being part of it. You’ve seen enough of his operation to know where it bends and where it breaks. There are buyers for that kind of weakness, and unlike Tony, they don’t ask for loyalty. They ask for results. Plant the tracker. Walk away clean. Let the rest unfold without your name attached.",
+    "69d81d3d82a2da467ea1fdba startedMessageText": "No heroics. Plant it, leave, and keep your name out of the story.",
     "69d81d3d82a2da467ea1fdba successMessageText": "Clean work. He won’t notice until it matters.",
     "69d81d3d82a2da467ea1fdba completePlayerMessage": "Tracker planted. No one saw me.",
+    "69d81d3d82a2da467ea1fdba declinePlayerMessage": "",
+    "69d81d3d82a2da467ea1fdba failMessageText": "",
     "69d81d3d82a2da467ea1fdba note": "Plant a tracking device on Tony’s operation and extract undetected.",
 
     "a5ab7af2349a3ed39a36cb66": "Place tracking device",
     "04866af5282f607ef18a9a5c": "Extract safely",
 
-    // =========================
-    // COLLAPSE THE FAMILY (BETRAY)
-    // =========================
     "69d81d46670bc1df8b8c3ed1 name": "Collapse the Family",
-    "69d81d46670bc1df8b8c3ed1 description": "Expose enough, and everything breaks.",
-    "69d81d46670bc1df8b8c3ed1 startedMessageText": "Expose everything.",
-    "69d81d46670bc1df8b8c3ed1 successMessageText": "It’s collapsing.",
-    "69d81d46670bc1df8b8c3ed1 completePlayerMessage": "Locations exposed.",
+    "69d81d46670bc1df8b8c3ed1 description": "Every operation looks solid from the outside until someone starts naming the pieces holding it together. Tony built his network on debt, fear, routine, and the assumption that nobody close enough to hurt him would ever sell the map. That assumption was expensive. Expose enough structure and the rest won’t need to be destroyed — it’ll tear itself apart trying to survive. Locations, caches, contacts, habits. Give them what they need and let the family collapse under the weight of knowing it was never as untouchable as it pretended to be.",
+    "69d81d46670bc1df8b8c3ed1 startedMessageText": "You already chose this path. Now push until it gives way.",
+    "69d81d46670bc1df8b8c3ed1 successMessageText": "That will do it. The rest will collapse without much help.",
+    "69d81d46670bc1df8b8c3ed1 completePlayerMessage": "Locations exposed. The structure is destabilizing.",
+    "69d81d46670bc1df8b8c3ed1 declinePlayerMessage": "",
+    "69d81d46670bc1df8b8c3ed1 failMessageText": "",
     "69d81d46670bc1df8b8c3ed1 note": "Expose operations.",
 
     "89129bf73f1a1cd7195d810a": "Find intel in raid",
     "5ecb271f100905c558efb754": "Handover the intel",
     "81efd48874515f97e6765765": "Eliminate resistance",
 
-    // =========================
-    // FALL OF THE FIXER (BETRAY)
-    // =========================
     "69d81d50db716124768a70a0 name": "Fall of the Fixer",
-    "69d81d50db716124768a70a0 description": "Remove control and everything falls.",
-    "69d81d50db716124768a70a0 startedMessageText": "End it.",
-    "69d81d50db716124768a70a0 successMessageText": "He has nothing left.",
-    "69d81d50db716124768a70a0 completePlayerMessage": "Operation complete.",
+    "69d81d50db716124768a70a0 description": "Tony’s strength was never the guns, the cash, or the smugglers. It was control. The belief that nothing in Tarkov moved without passing through him first. Men followed him because they believed he could still shape outcomes in a city built on collapse. Strip away the routes, the information, the loyalists, and all that remains is a man who ran out of people willing to believe in him. Finish what was started. Leave nothing intact enough for him to build around again.",
+    "69d81d50db716124768a70a0 startedMessageText": "End it completely. Half-measures are what built him in the first place.",
+    "69d81d50db716124768a70a0 successMessageText": "It’s finished. He built everything on control. Now he has none.",
+    "69d81d50db716124768a70a0 completePlayerMessage": "Operation complete. There’s nothing left for him to stand on.",
+    "69d81d50db716124768a70a0 declinePlayerMessage": "",
+    "69d81d50db716124768a70a0 failMessageText": "",
     "69d81d50db716124768a70a0 note": "Eliminate final targets.",
 
-    "96ff16c0c85a8fff88512685": "Eliminate PMCs using NATO weapons"
+    "96ff16c0c85a8fff88512685": "Eliminate PMCs using NATO weapons",
+
+    "69d8e60e01b877ced8933a84 name": "Tony Betrayal Flag",
+    "69d8e60e01b877ced8933a84 description": "",
+    "69d8e60e01b877ced8933a84 startedMessageText": "",
+    "69d8e60e01b877ced8933a84 successMessageText": "",
+    "69d8e60e01b877ced8933a84 completePlayerMessage": "",
+    "69d8e60e01b877ced8933a84 declinePlayerMessage": "",
+    "69d8e60e01b877ced8933a84 failMessageText": "",
+    "69d8e60e01b877ced8933a84 note": ""
 }
