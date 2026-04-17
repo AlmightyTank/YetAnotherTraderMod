@@ -1,0 +1,31 @@
+{
+    "69d96b77e037dc1d9a09985c": {
+        "itemTplToClone": "5910922b86f7747d96753483",
+        "parentId": "5671435f4bdc2d96058b4569",
+        "handbookParentId": "5b619f1a86f77450a702a6f3",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": false,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "QuestItem": true,
+            "RarityPvE": "Not_exist",
+            "Weight": 0.1,
+            "Prefab": {
+                "path": "staticspawns/item_quest_container_green_carbon_case.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Carbon Case",
+                "shortName": "Case",
+                "description": "A reinforced carbon-fiber case tied to one of Tony's old debt collections. Lightweight, durable, and designed for discreet transport of valuables, documents, or compact contraband. Expensive enough that nobody leaves it behind willingly."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}

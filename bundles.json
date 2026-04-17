@@ -1,0 +1,20 @@
+{
+	"manifest": [
+		{
+			"key": "staticspawns/item_quest_ledger.bundle",
+			"dependencyKeys": [
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders",
+				"cubemaps"
+			]
+		},
+		{
+			"key": "staticspawns/item_quest_container_green_carbon_case.bundle",
+			"dependencyKeys": [
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders",
+				"cubemaps"
+			]
+		}
+	]
+}

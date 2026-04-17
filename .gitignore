@@ -9,3 +9,4 @@ convert.py
 convert_to_commoncore.py
 deploy.cmd
 /Properties
+bundles/buildlogtep.json

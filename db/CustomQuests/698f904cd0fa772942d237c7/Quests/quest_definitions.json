@@ -218,7 +218,7 @@
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.03
+                    "value": 0.04
                 },
                 {
                     "availableInGameEditions": [],
@@ -235,14 +235,14 @@
                             "_id": "68a9695194f6582e59141001",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": 45000
+                                "StackObjectsCount": 70000
                             }
                         }
                     ],
                     "target": "68a9695194f6582e59141001",
                     "type": "Item",
                     "unknown": false,
-                    "value": 45000
+                    "value": 70000
                 },
                 {
                     "availableInGameEditions": [],
@@ -251,83 +251,86 @@
                         "regular",
                         "pve"
                     ],
-                    "id": "699a856699c661405fc6a752",
+                    "id": "69e1dd6de85571d67de1dac4",
                     "isEncoded": false,
                     "isHidden": false,
                     "items": [
                         {
-                            "_id": "68a9695194f6582e59141002",
-                            "_tpl": "5cadfbf7ae92152ac412eeef",
+                            "_id": "69e1dd20e043b2b94d70b6f1",
+                            "_tpl": "57347c2e24597744902c94a1",
                             "upd": {
-                                "FireMode": {
-                                    "FireMode": "single"
-                                },
+                                "SpawnedInSession": true,
                                 "StackObjectsCount": 1
                             }
                         },
                         {
-                            "_id": "68a9695194f6582e59141003",
-                            "_tpl": "5caf17c9ae92150b30006be1",
-                            "parentId": "68a9695194f6582e59141002",
-                            "slotId": "mod_muzzle"
-                        },
-                        {
-                            "_id": "68a9695194f6582e59141004",
-                            "_tpl": "5caf1041ae92157c28402e3f",
-                            "parentId": "68a9695194f6582e59141002",
-                            "slotId": "mod_magazine"
-                        },
-                        {
-                            "_id": "68a9695194f6582e59141005",
-                            "_tpl": "5caf16a2ae92152ac412efbc",
-                            "parentId": "68a9695194f6582e59141002",
-                            "slotId": "mod_sight_front"
-                        },
-                        {
-                            "_id": "68a9695194f6582e59141006",
-                            "_tpl": "5cdaa99dd7f00c002412d0b2",
-                            "parentId": "68a9695194f6582e59141002",
-                            "slotId": "mod_handguard"
-                        },
-                        {
-                            "_id": "68a9695194f6582e59141007",
-                            "_tpl": "5cda9bcfd7f00c0c0b53e900",
-                            "parentId": "68a9695194f6582e59141006",
-                            "slotId": "mod_foregrip"
-                        },
-                        {
-                            "_id": "68a9695194f6582e59141008",
-                            "_tpl": "5caf1691ae92152ac412efb9",
-                            "parentId": "68a9695194f6582e59141002",
-                            "slotId": "mod_scope"
-                        }
-                    ],
-                    "target": "68a9695194f6582e59141002",
-                    "type": "Item",
-                    "unknown": true,
-                    "value": 1
-                },
-                {
-                    "availableInGameEditions": [],
-                    "findInRaid": true,
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "699a857441f509fb0921342a",
-                    "isEncoded": false,
-                    "isHidden": false,
-                    "items": [
-                        {
-                            "_id": "68a9695194f6582e5914100a",
-                            "_tpl": "5d1b2ffd86f77425243e8d17",
+                            "_id": "69e1dd9a1fbe10aa888ecd47",
+                            "_tpl": "57347c2e24597744902c94a1",
                             "upd": {
                                 "SpawnedInSession": true,
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "68a9695194f6582e5914100a",
+                    "target": "69e1dd9a1fbe10aa888ecd47",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69e1dd75699251d952d56dff",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "68a9695194f6582e5914100a",
+                            "_tpl": "5c06782b86f77426df5407d2",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        },
+                        {
+                            "_id": "69e1de77856ef979ac66e1c1",
+                            "_tpl": "5c06782b86f77426df5407d2",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "69e1de77856ef979ac66e1c1",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69e1dd7b3b8c9e9765f87166",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "69e1dd42e350082ac70a900b",
+                            "_tpl": "5c06779c86f77426e00dd782",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "69e1dd42e350082ac70a900b",
                     "type": "Item",
                     "unknown": true,
                     "value": 1
@@ -951,7 +954,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d968b4a3c7d2de18ad2285"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -966,7 +969,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d968b4a3c7d2de18ad2285"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -981,7 +984,7 @@
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5ac78a9b86f7741cca0bbd8d"
+                        "69d968b4a3c7d2de18ad2285"
                     ],
                     "value": 1,
                     "visibilityConditions": [],
@@ -1087,7 +1090,7 @@
                     "items": [
                         {
                             "_id": "09d70729bed01c013413ca30",
-                            "_tpl": "5ac78a9b86f7741cca0bbd8d"
+                            "_tpl": "69d968b4a3c7d2de18ad2285"
                         }
                     ],
                     "loyaltyLevel": 1,
@@ -1104,15 +1107,15 @@
                     "items": [
                         {
                             "_id": "684a19ff078cd34b02222b2c",
-                            "_tpl": "5ac78a9b86f7741cca0bbd8d"
+                            "_tpl": "69d968b4a3c7d2de18ad2285"
                         },
                         {
                             "_id": "684a1a06c40aaf35d341176f",
-                            "_tpl": "5ac78a9b86f7741cca0bbd8d"
+                            "_tpl": "69d968b4a3c7d2de18ad2285"
                         },
                         {
                             "_id": "684a1a08c87b6f2bd0c9746c",
-                            "_tpl": "5ac78a9b86f7741cca0bbd8d"
+                            "_tpl": "69d968b4a3c7d2de18ad2285"
                         }
                     ],
                     "target": "684a1a08c87b6f2bd0c9746c",
@@ -1444,10 +1447,16 @@
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
-                        "590c621186f774138d11ea29"
+                        "69d96b77e037dc1d9a09985c"
                     ],
                     "value": 1,
-                    "visibilityConditions": []
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69e1b9e4614fc2c4f1fb8ddd",
+                            "target": "64bfa8d68cfc2ae1e2da5d42"
+                        }
+                    ]
                 },
                 {
                     "conditionType": "HandoverItem",
@@ -1462,10 +1471,16 @@
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
-                        "590c621186f774138d11ea29"
+                        "69d96b77e037dc1d9a09985c"
                     ],
                     "value": 1,
-                    "visibilityConditions": []
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69e1b9fa5878304d46219423",
+                            "target": "64bfa8d68cfc2ae1e2da5d42"
+                        }
+                    ]
                 }
             ],
             "AvailableForStart": [

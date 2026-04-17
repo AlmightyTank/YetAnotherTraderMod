@@ -10,9 +10,13 @@
             "CanSellOnRagfair": false,
             "DiscardLimit": -1,
             "DiscardingBlock": false,
-            "QuestItem": true,
+            "QuestItem": false,
             "RarityPvE": "Not_exist",
-            "Weight": 0.1
+            "Weight": 0.1,
+            "Prefab": {
+                "path": "staticspawns/item_quest_ledger.bundle",
+                "rcid": ""
+            }
         },
         "locales": {
             "en": {

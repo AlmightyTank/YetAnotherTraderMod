@@ -1042,9 +1042,9 @@
             }
         },
         {
-            "_name": "Jammer",
+            "_name": "Listening Device",
             "_id": "684a19e851d6b920f6e59d86",
-            "_tpl": "5ac78a9b86f7741cca0bbd8d",
+            "_tpl": "69d968b4a3c7d2de18ad2285",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {

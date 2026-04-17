@@ -1,13 +1,13 @@
 {
     "69d8dc6bf1921eeb784e3e74 name": "Unregistered Cargo",
-    "69d8dc6bf1921eeb784e3e74 description": "I don't care about Tony's money games unless those numbers turn into routes, shipments, and supply chains I can't see. That's what I want - something practical. Something I can use to track movement, find weak points, and locate caches. You build me a proper logistics extract from his records, and I won't just intercept cargo. I'll know exactly where to hit next.",
-    "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes, not theory. Build something I can act on.",
-    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn't paperwork anymore. This is a target map.",
-    "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "I delivered the Logistics Manifest Drive to Prapor.",
+    "69d8dc6bf1921eeb784e3e74 description": "I’ve seen this pattern before. When supply lines stop being visible, it means someone is controlling them.\n\nNot traders. Not scavs. Someone organized.\n\nThat data you’ve been pulling — the same material Skier is sniffing around — it’s not just numbers. It’s routes. Timing. Movement discipline. That’s logistics.\n\nI don’t care who built the system. I care where it moves and how to break it.\n\nYou build me a proper extract from those records — something I can act on — and I’ll turn it into intercepted cargo, broken routes, and dead operators.",
+    "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes, not theory. Build something usable.",
+    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn’t paperwork anymore. This is a target map.",
+    "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "Logistics extract delivered. Ready for use.",
     "69d8dc6bf1921eeb784e3e74 declinePlayerMessage": "",
     "69d8dc6bf1921eeb784e3e74 failMessageText": "",
-    "69d8dc6bf1921eeb784e3e74 note": "Craft and hand over a Logistics Manifest Drive to Prapor.",
+    "69d8dc6bf1921eeb784e3e74 note": "Compile a usable logistics extract and hand it over to Prapor.",
 
-    "69d8e498314238f2609f456b": "Craft a Logistics Manifest Drive in the hideout",
-    "69d8e4a4f0ca6fe0fdb7f259": "Hand over the Logistics Manifest Drive"
+    "69d8e498314238f2609f456b": "Compile a usable logistics extract in the hideout",
+    "69d8e4a4f0ca6fe0fdb7f259": "Hand over the Logistics Manifest Drive to Prapor"
 }

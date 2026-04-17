@@ -211,18 +211,6 @@
                 },
                 {
                     "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "699b47621eb73893e4784237",
-                    "isHidden": false,
-                    "target": "698f904cd0fa772942d237c7",
-                    "type": "TraderUnlock",
-                    "unknown": true
-                },
-                {
-                    "availableInGameEditions": [],
                     "findInRaid": false,
                     "gameMode": [
                         "regular",
@@ -247,26 +235,30 @@
                 },
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "699b47621eb73893e4784237",
+                    "isHidden": false,
+                    "target": "698f904cd0fa772942d237c7",
+                    "type": "TraderUnlock",
+                    "unknown": true
+                },
+                {
+                    "availableInGameEditions": [],
                     "findInRaid": true,
                     "gameMode": [
                         "regular",
                         "pve"
                     ],
-                    "id": "699a89759e547e1583d79240",
+                    "id": "69e1dd58ee98003aba6315be",
                     "isEncoded": false,
                     "isHidden": false,
                     "items": [
                         {
                             "_id": "68a9695194f6582e59140946",
-                            "_tpl": "5d1b313086f77425227d1678",
-                            "upd": {
-                                "SpawnedInSession": true,
-                                "StackObjectsCount": 1
-                            }
-                        },
-                        {
-                            "_id": "68a9695194f6582e59140947",
-                            "_tpl": "5d1b313086f77425227d1678",
+                            "_tpl": "57347c2e24597744902c94a1",
                             "upd": {
                                 "SpawnedInSession": true,
                                 "StackObjectsCount": 1
@@ -276,7 +268,7 @@
                     "target": "68a9695194f6582e59140947",
                     "type": "Item",
                     "unknown": true,
-                    "value": 2
+                    "value": 1
                 },
                 {
                     "availableInGameEditions": [],
@@ -285,13 +277,13 @@
                         "regular",
                         "pve"
                     ],
-                    "id": "699a89794d586297621d6782",
+                    "id": "69e1dd5e2ff64d9d4e3882c6",
                     "isEncoded": false,
                     "isHidden": false,
                     "items": [
                         {
                             "_id": "68a9695194f6582e59140949",
-                            "_tpl": "5d1b36a186f7742523398433",
+                            "_tpl": "59e36c6f86f774176c10a2a7",
                             "upd": {
                                 "SpawnedInSession": true,
                                 "StackObjectsCount": 1
@@ -299,6 +291,56 @@
                         }
                     ],
                     "target": "68a9695194f6582e59140949",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69e1dd62ca21812b19653b2a",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "69e1dbd281f73abff2326d8c",
+                            "_tpl": "5d1b304286f774253763a528",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "69e1dbd281f73abff2326d8c",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69e1dd66b319c47c8d117e92",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "69e1dbd7850dfc80efbd15b5",
+                            "_tpl": "573477e124597737dd42e191",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "69e1dbd7850dfc80efbd15b5",
                     "type": "Item",
                     "unknown": true,
                     "value": 1

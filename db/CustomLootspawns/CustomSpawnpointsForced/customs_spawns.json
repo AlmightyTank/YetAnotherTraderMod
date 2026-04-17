@@ -1,0 +1,94 @@
+{
+    "bigmap": [
+        {
+            "locationId": "(187.08, 1.76, -101.95)",
+            "probability": 1.0,
+            "template": {
+                "Id": "item_quest_container_green_carbon_case (1) [e91e135e-ef07-4ed7-a46f-4da4afdd15ed]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+
+                "Position": {
+                    "x": 187.08,
+                    "y": 1.76,
+                    "z": -101.95
+                },
+                "Rotation": {
+                    "x": 90,
+                    "y": 75.4,
+                    "z": 0
+                },
+
+                "IsGroupPosition": true,
+                "GroupPositions": [
+                    {
+                        "Name": "groupPoint[0]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 189.87,
+                            "y": 1.76,
+                            "z": -104.66
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 343.2,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[1]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 187.08,
+                            "y": 1.76,
+                            "z": -101.95
+                        },
+                        "Rotation": {
+                            "x": 90,
+                            "y": 75.4,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[2]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 192.40,
+                            "y": 1.76,
+                            "z": -104.20
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 343.2,
+                            "z": 0
+                        }
+                    }
+                ],
+
+                "IsAlwaysSpawn": false,
+                "Root": "69e1af87591075eb9605c9a9",
+
+                "Items": [
+                    {
+                        "_id": "69e1af8c70b651741f512899",
+                        "_tpl": "69d96b77e037dc1d9a09985c",
+                        "upd": {
+                            "StackObjectsCount": 1,
+                            "SpawnedInSession": true
+                        }
+                    }
+                ]
+            },
+
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69d96b77e037dc1d9a09985c"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "69d968b4a3c7d2de18ad2285": {
+        "itemTplToClone": "5ac78a9b86f7741cca0bbd8d",
+        "parentId": "5447e0e74bdc2d3c308b4567",
+        "handbookParentId": "5b47574386f77428ca22b345",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "Weight": 0.2
+        },
+        "locales": {
+            "en": {
+                "name": "Covert Listening Device",
+                "shortName": "Listener",
+                "description": "A compact surveillance unit designed to capture and relay ambient audio over short distances. Shielded casing reduces interference, allowing it to operate unnoticed in active zones. Commonly used for passive intelligence gathering and signal tracing."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}
