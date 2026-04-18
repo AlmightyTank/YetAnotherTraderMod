@@ -958,7 +958,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": "68581154b33fa5ac953a3e54"
+                    "zoneId": "69e1e0e8c5f2062e49da610e"
                 },
                 {
                     "conditionType": "PlaceBeacon",
@@ -973,7 +973,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": "6858115bf4f2e16759f47afb"
+                    "zoneId": "69e1e333a0762dbe5105ece7"
                 },
                 {
                     "conditionType": "PlaceBeacon",
@@ -988,7 +988,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": "6858115ed2aaf8849fc817a1"
+                    "zoneId": "69e1e4029c572cfc0175a8a8"
                 },
                 {
                     "completeInSeconds": 0,

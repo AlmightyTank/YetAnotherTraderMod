@@ -1,0 +1,83 @@
+[
+    {
+        "ZoneId": "69e1e0e8c5f2062e49da610e",
+        "ZoneName": "69e1e0e8c5f2062e49da610e",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-202.4981",
+            "Y": "8.099173",
+            "Z": "-102.1268",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "3.25",
+            "Y": "5.75",
+            "Z": "3.25",
+            "W": "0"
+        },
+        "GroupPosition": null,
+        "Salvage": null
+    },
+    {
+        "ZoneId": "69e1e333a0762dbe5105ece7",
+        "ZoneName": "69e1e333a0762dbe5105ece7",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "418.3578",
+            "Y": "2.036806",
+            "Z": "39.39344",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "2.25",
+            "Y": "3",
+            "Z": "2.5",
+            "W": "0"
+        },
+        "GroupPosition": null,
+        "Salvage": null
+    },
+    {
+        "ZoneId": "69e1e4029c572cfc0175a8a8",
+        "ZoneName": "69e1e4029c572cfc0175a8a8",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "80.96195",
+            "Y": "5.955487",
+            "Z": "-166.1596",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "3.25",
+            "Y": "2.25",
+            "Z": "3",
+            "W": "0"
+        },
+        "GroupPosition": null,
+        "Salvage": null
+    }
+]

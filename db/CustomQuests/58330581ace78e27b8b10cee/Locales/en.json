@@ -1,7 +1,7 @@
 {
     "699a80908991ef784965077b name": "The Silent Investor",
-    "699a80908991ef784965077b description": "You’ve been operating quietly. No noise, no unnecessary bodies, no attention. That doesn’t go unnoticed — not by the right people.\n\nThere’s a man tracking supply movement across Tarkov. Not a trader. Not exactly. He funds operations that stay invisible and rewards those who understand discretion. Lately, he’s been watching the same routes you’ve been moving through. That means you’ve stepped into something structured.\n\nHe wants proof you can move valuable equipment without disturbing the system behind it. Deliver the electronics to the old bunker on Woods. No fighting. No chaos. Just clean work. If he’s satisfied, I’ll make the introduction.",
-    "699a80908991ef784965077b successMessageText": "Efficient. Clean. That’s what he was looking for. I passed your name along. Don’t make me regret it.",
+    "699a80908991ef784965077b description": "You’ve been operating quietly. No noise, no unnecessary bodies, no attention. That doesn’t go unnoticed — not by the right people.\n\nThere’s a man tracking supply movement across Tarkov. Not a trader. Not exactly. He funds operations that stay invisible and rewards people who understand discretion. Lately, he’s been watching the same routes you’ve been moving through. That means you’ve stepped into something structured.\n\nHe wants proof you can move valuable equipment without disturbing the system around it. Deliver the electronics to the old bunker on Woods. No fighting. No chaos. Just clean work.\n\nIf he’s satisfied, I’ll make the introduction.",
+    "699a80908991ef784965077b successMessageText": "Efficient. Clean. That’s what he wanted to see. I passed your name along. Don’t make me regret it.",
     "699a80908991ef784965077b startedMessageText": "The bunker is isolated. Perfect for quiet work. Leave the equipment intact and unseen.",
     "699a80908991ef784965077b changeQuestMessageText": "",
     "699a80908991ef784965077b completePlayerMessage": "Everything is in place. No noise, no witnesses.",
@@ -9,20 +9,20 @@
     "699a80908991ef784965077b failMessageText": "You were told to keep it quiet. Attention like that gets people removed from the equation.",
     "699a80908991ef784965077b note": "",
 
-    "699a89442f81f9f2473dea69": "Stash a Power Supply Unit at the bunker on Woods",
-    "699a8947001c9856295b0162": "Stash a Power Cord at the bunker on Woods",
-    "699a894c4b7f8801448de3b4": "Stash a Working LCD at the bunker on Woods",
-    "699a895cb58f77a9cc88c5b1": "Stash a PC CPU at the bunker on Woods",
+    "699a89442f81f9f2473dea69": "Stash a Power Supply Unit at the Woods bunker without drawing attention",
+    "699a8947001c9856295b0162": "Stash a Power Cord at the Woods bunker without drawing attention",
+    "699a894c4b7f8801448de3b4": "Stash a Working LCD at the Woods bunker without drawing attention",
+    "699a895cb58f77a9cc88c5b1": "Stash a PC CPU at the Woods bunker without drawing attention",
 
     "69d8db4a3b45af4d32ab83fa name": "Loose Signals",
-    "69d8db4a3b45af4d32ab83fa description": "That investor you impressed? He’s not the only one paying attention.\n\nI’ve been seeing fragments — signals, records, movement logs. Pieces of something organized. Clean enough that it shouldn’t exist here. That kind of structure means someone built it… and someone is still maintaining it.\n\nYou’ve already been moving through parts of it. Quietly. That’s useful.\n\nI don’t need the whole system. Just something readable. Something I can trace… and use. You bring me a clean extract from those records, and we’re not dealing in scraps anymore — we’re dealing in leverage.",
+    "69d8db4a3b45af4d32ab83fa description": "That investor you impressed? He’s not the only one watching.\n\nI’ve been picking up fragments — signal bleed, movement logs, partial records. Not random. Structured. Clean enough that it shouldn’t exist anymore.\n\nSomeone rebuilt something under everyone’s nose.\n\nYou’ve been moving through it.\n\nThat makes you useful.\n\nI don’t need the whole system. Just something I can read, trace, and sell. Routes, timing, access points — anything that turns structure into opportunity.\n\nYou bring me a clean extract, and I’ll turn it into leverage. Quietly.\n\nNo one needs to know where it came from.",
     "69d8db4a3b45af4d32ab83fa startedMessageText": "I want it clean, readable, and worth my time.",
-    "69d8db4a3b45af4d32ab83fa successMessageText": "Good… this is real structure. Enough to make the right people nervous.",
+    "69d8db4a3b45af4d32ab83fa successMessageText": "Good. This is real structure. Enough to make the right people nervous.",
     "69d8db4a3b45af4d32ab83fa completePlayerMessage": "Copied Ledger Drive delivered. Data intact.",
     "69d8db4a3b45af4d32ab83fa declinePlayerMessage": "",
     "69d8db4a3b45af4d32ab83fa failMessageText": "",
-    "69d8db4a3b45af4d32ab83fa note": "Assemble a clean data extract and hand it over to Skier.",
+    "69d8db4a3b45af4d32ab83fa note": "Assemble a readable extract from Tony’s recovered network data and hand it to Skier.",
 
-    "69d8e14454603e0b69828324": "Assemble a clean data extract in the hideout",
-    "69d8e14f24900f5167a77fb4": "Hand over the Copied Ledger Drive to Skier intact"
+    "69d8e14454603e0b69828324": "Assemble a readable extract of the recovered network data in the hideout",
+    "69d8e14f24900f5167a77fb4": "Hand over the copied network extract to Skier"
 }

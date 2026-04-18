@@ -1,0 +1,25 @@
+[
+    {
+        "ZoneId": "69e1e2a158dd1a92499c47c8",
+        "ZoneName": "69e1e2a158dd1a92499c47c8",
+        "ZoneLocation": "woods",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "225.314",
+            "Y": "20.288",
+            "Z": "-706.074"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "1.5",
+            "Y": "3.25",
+            "Z": "1.75"
+        }
+    }
+]

@@ -40,6 +40,7 @@
     <Content Remove="db\CustomLootspawns\CustomSpawnpointsForced\customs_spawns.json" />
     <Content Remove="db\customquests\54cb50c76803fa8b248b4571\locales\en.json" />
     <Content Remove="db\customquests\54cb50c76803fa8b248b4571\quests\quest_definitions.json" />
+    <Content Remove="db\CustomQuestZones\echoTraps.json" />
     <None Include="package.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
