@@ -1,0 +1,20 @@
+{
+    "69e3d684b4d9cdfbda5d0366": {
+        "itemTplToClone": "5ae9a0dd86f7742e5f454a05",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "5b619f1a86f77450a702a6f3",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet"
+        },
+        "locales": {
+            "en": {
+                "Name": "Supply Chain Logs",
+                "ShortName": "Supply Logs",
+                "Description": "Structured supply records pulled from a military logistics system. Inventory cycles, delivery schedules, and distribution points are recorded with rigid consistency. At a glance it’s routine documentation — but the repetition reveals the underlying structure: fixed routes, predictable timing, and a system that relies on discipline more than adaptation."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}

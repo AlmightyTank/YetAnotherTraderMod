@@ -10,13 +10,13 @@
     "699a84bf8e2052342f79b912 failMessageText": "",
     "699a84bf8e2052342f79b912 note": "Recover working electronics",
 
-    "22c12c8303c9175e1e48ccd5": "Recover 2 working Power Cords in raid",
+    "22c12c8303c9175e1e48ccd5": "Recover 2 working Power Cords",
     "79d461113c226b89847d826e": "Place the Power Cords at the Woods weather station",
-    "79ece080f5288aecf7be9bb7": "Recover 4 working Capacitors in raid",
+    "79ece080f5288aecf7be9bb7": "Recover 4 working Capacitors",
     "52ba51088792a479f6ed8f75": "Place the Capacitors at the Woods weather station",
-    "e42d9afccf2965724c6e0979": "Recover 2 working Spark Plugs in raid",
+    "e42d9afccf2965724c6e0979": "Recover 2 working Spark Plugs",
     "6c7bb0aa4b37df4f65ff21b4": "Place the Spark Plugs at the Woods weather station",
-    "13d20c8c736986e68349c5ef": "Recover 2 intact Car Batteries in raid",
+    "13d20c8c736986e68349c5ef": "Recover 2 intact Car Batteries",
     "691bb31461aa07529d9012bb": "Place the Car Batteries at the Woods weather station",
 
     "6848f1776be936dd22573866 name": "Big Mags Wanted",
@@ -28,11 +28,11 @@
     "6848f1776be936dd22573866 failMessageText": "",
     "6848f1776be936dd22573866 note": "Acquire high-capacity magazines suited for sustained combat.",
 
-    "520ba9d22db01c3f7b0c3cee": "Recover a 60-round STANAG magazine in raid",
+    "520ba9d22db01c3f7b0c3cee": "Recover a 60-round STANAG magazine",
     "6d3f59f5774c02bccbd9c545": "Place the STANAG magazine in Customs storage building 11",
-    "ccf627e3c6cd943cc568d156": "Recover a 60-round AK magazine in raid",
+    "ccf627e3c6cd943cc568d156": "Recover a 60-round AK magazine",
     "4b29eb8074def08839e3e5c4": "Place the AK magazine in Customs storage building 11",
-    "eda35066db1293a1e39cef81": "Recover a SureFire 60-round magazine in raid",
+    "eda35066db1293a1e39cef81": "Recover a SureFire 60-round magazine",
     "94f36d90e5f2b7ff7007683f": "Place the SureFire magazine in Customs storage building 11",
 
     "684edc10a8af5086d3e6557b name": "Pressure Relief",

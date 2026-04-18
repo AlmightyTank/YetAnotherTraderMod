@@ -1,0 +1,20 @@
+{
+    "69e3d5d85f7d0bad040d664c": {
+        "itemTplToClone": "5ae9a0dd86f7742e5f454a05",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "5b619f1a86f77450a702a6f3",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet"
+        },
+        "locales": {
+            "en": {
+                "Name": "Routing Ledger Fragments",
+                "ShortName": "Routes",
+                "Description": "Torn shipping records tied to civilian freight movement. Most of it looks routine at first glance — warehouse references, delivery times, cargo notes. But the surviving entries reveal a pattern underneath the noise: repeated routes, controlled handoffs, and movement that was never meant to stand out."
+            }
+        },
+        "fleaPriceRoubles": 0,
+        "handbookPriceRoubles": 0
+    }
+}
