@@ -1,0 +1,20 @@
+{
+    "69e426d104c1abd107c88ded": {
+        "itemTplToClone": "5991b51486f77447b112d44f",
+        "parentId": "5447e0e74bdc2d3c308b4567",
+        "handbookParentId": "5b47574386f77428ca22b345",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet"
+        },
+        "locales": {
+            "en": {
+                "name": "Modified Signal Tracker",
+                "shortName": "SigTrak",
+                "description": "A repurposed tracking unit tuned for covert monitoring of network activity. Small enough to hide on active equipment, stable enough to collect movement and access data without immediate detection."
+            }
+        },
+        "fleaPriceRoubles": 13923,
+        "handbookPriceRoubles": 13923
+    }
+}
