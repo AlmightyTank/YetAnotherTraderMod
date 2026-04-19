@@ -9,9 +9,9 @@
         },
         "locales": {
             "en": {
-                "Name": "Routing Ledger Fragments",
-                "ShortName": "Routes",
-                "Description": "Torn shipping records tied to civilian freight movement. Most of it looks routine at first glance — warehouse references, delivery times, cargo notes. But the surviving entries reveal a pattern underneath the noise: repeated routes, controlled handoffs, and movement that was never meant to stand out."
+                "name": "Recovered route records",
+                "shortName": "Routes",
+                "description": "A mixed stack of route records, shipment manifests, supply notes, and distribution paperwork pulled from multiple networks. Some pages are damaged or incomplete, but enough remains to trace how goods move."
             }
         },
         "fleaPriceRoubles": 0,
