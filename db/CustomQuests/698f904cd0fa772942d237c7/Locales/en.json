@@ -1,11 +1,11 @@
 {
     "699a84bf8e2052342f79b912 name": "Power Supply Run",
-    "699a84bf8e2052342f79b912 description": "Power isn’t decided at the switch.\n\nIt’s decided long before that, by what reaches the right hands and what never does.\n\nRight now, those parts aren’t moving for me.\n\nCorrect that.\n\nFind the components, stage them at the weather station, and leave the area quiet.\n\nNo spectacle. No disruption.",
+    "699a84bf8e2052342f79b912 description": "Power is never decided at the switch. It is decided long before that, by what reaches the right hands and what never does. Right now, those parts are not moving for me. That means something upstream is blocked, redirected, or being skimmed by someone who thinks they are too small to notice. Correct that. Find the components, stage them at the weather station, and leave the area quiet. If the route keeps breathing after you are done, then it accepted the adjustment. No spectacle. No disruption.",
     "699a84bf8e2052342f79b912 startedMessageText": "Get the components in place. Keep the route clean.",
-    "699a84bf8e2052342f79b912 successMessageText": "Good. Supply reached the point it needed to.",
+    "699a84bf8e2052342f79b912 successMessageText": "Good. Supply reached the point it needed to. Small correction, no visible reaction. That is how useful routes begin.",
     "699a84bf8e2052342f79b912 completePlayerMessage": "Components staged. Route is live.",
     "699a84bf8e2052342f79b912 declinePlayerMessage": "",
-    "699a84bf8e2052342f79b912 failMessageText": "The route broke before it mattered. That can’t happen again.",
+    "699a84bf8e2052342f79b912 failMessageText": "The route broke before it mattered. That cannot happen again.",
     "699a84bf8e2052342f79b912 note": "Locate and stage electrical components to establish a functioning route.",
 
     "22c12c8303c9175e1e48ccd5": "Locate 2 Power Cords",
@@ -17,10 +17,10 @@
     "13d20c8c736986e68349c5ef": "Locate 2 Car Batteries",
     "691bb31461aa07529d9012bb": "Place the Car Batteries at the Woods weather station",
 
-    "6848f1776be936dd22573866 name": "Big Mags Wanted",
-    "6848f1776be936dd22573866 description": "People like to think fights are decided by skill.\n\nUsually they’re decided by endurance.\n\nBy who keeps shooting after the other side can’t.\n\nRight now, the group I’m watching has too much of it.\n\nTilt that balance.\n\nGet the magazines where they need to be and leave before anyone notices they were ever yours.",
+    "6848f1776be936dd22573866 name": "Extended Reach",
+    "6848f1776be936dd22573866 description": "People like to think fights are decided by skill. Usually they are decided by endurance, by who keeps shooting after the other side cannot. That advantage is set long before the first shot. Right now, the group I am watching has too much staying power. That means somebody is feeding them consistency. Tilt that balance. Get the magazines where they need to be and leave before anyone notices they were ever yours. If the next fight changes and nobody can explain why, then the placement did exactly what it was supposed to do.",
     "6848f1776be936dd22573866 startedMessageText": "Get the magazines there and leave nothing behind but the result.",
-    "6848f1776be936dd22573866 successMessageText": "Good. That changes the next engagement before it even starts.",
+    "6848f1776be936dd22573866 successMessageText": "Good. That changes the next engagement before it even starts. The best pressure is the kind people only recognize after it is already working.",
     "6848f1776be936dd22573866 completePlayerMessage": "Magazines placed. No one interfered.",
     "6848f1776be936dd22573866 declinePlayerMessage": "",
     "6848f1776be936dd22573866 failMessageText": "That placement mattered more than you think. Missing it has consequences.",
@@ -34,289 +34,289 @@
     "94f36d90e5f2b7ff7007683f": "Place the SureFire magazine in Customs storage building 11",
 
     "684edc10a8af5086d3e6557b name": "Pressure Relief",
-    "684edc10a8af5086d3e6557b description": "Anyone can function when the environment is easy.\n\nLight. Distance. Clear lines.\n\nFactory at night removes all of that.\n\nWhat’s left is timing, instinct, and control.\n\nGo there in the dark and prove you can operate without anything forgiving hesitation.",
+    "684edc10a8af5086d3e6557b description": "Anyone can function when the environment is easy. Light, distance, clear lines. Factory at night removes every one of those excuses. What remains is timing, instinct, and control. No room to rethink. No space to hide uncertainty. That is where people show what they actually are. Go there in the dark and prove you can operate without comfort or visibility carrying you. If your control holds there, then it is yours everywhere else too.",
     "684edc10a8af5086d3e6557b startedMessageText": "Night raid. Factory. No hesitation.",
-    "684edc10a8af5086d3e6557b successMessageText": "Good. You stayed effective when most people start second-guessing themselves.",
+    "684edc10a8af5086d3e6557b successMessageText": "Good. Pressure did not expose weakness. It clarified what was already there.",
     "684edc10a8af5086d3e6557b completePlayerMessage": "Targets dropped. Control never slipped.",
     "684edc10a8af5086d3e6557b declinePlayerMessage": "",
     "684edc10a8af5086d3e6557b failMessageText": "The dark only punishes uncertainty. You gave it room to.",
     "684edc10a8af5086d3e6557b note": "Eliminate PMCs during Factory night raids to demonstrate control under pressure.",
-
+    
     "8dab0b7bbea3c6716f43fdb6": "Eliminate 10 PMCs on Factory during night raids",
-
-    "69ea1001b4c7a13f5a001001 name": "Surface Contracts",
-    "69ea1001b4c7a13f5a001001 description": "Skier hides structure inside noise.\n\nSmall trades. Ordinary goods. Enough clutter to keep the pattern from standing out.\n\nThat only works on people who don’t look twice.\n\nYou will.\n\nFind the records tied to his movement, pull them cleanly, and send the data through.\n\nNo disruption.\n\nI need shape.",
-    "69ea1001b4c7a13f5a001001 startedMessageText": "Find the records. Don’t disturb the route.",
-    "69ea1001b4c7a13f5a001001 successMessageText": "There it is. Hidden in plain sight, just like I expected.",
+    
+    "69ea1001b4c7a13f5a001001 name": "Hidden Routes",
+    "69ea1001b4c7a13f5a001001 description": "Skier hides structure inside noise. Small trades. Ordinary goods. Enough clutter to keep the pattern from standing out. That only works on people who do not look twice. Most do not. They see volume and assume randomness. That is how something organized keeps passing for ordinary. You will look properly. Find the records tied to his movement, pull them cleanly, and send the data through. Do not disturb the route while you are doing it. If the flow changes, the pattern changes with it. I do not need disruption. I need shape.",
+    "69ea1001b4c7a13f5a001001 startedMessageText": "Find the records. Do not disturb the route.",
+    "69ea1001b4c7a13f5a001001 successMessageText": "There it is. Hidden in plain sight, just like I expected. Noise on the surface, structure underneath.",
     "69ea1001b4c7a13f5a001001 completePlayerMessage": "Routing records secured and sent.",
     "69ea1001b4c7a13f5a001001 declinePlayerMessage": "",
     "69ea1001b4c7a13f5a001001 failMessageText": "You came back with fragments, not clarity. That leaves too much unresolved.",
     "69ea1001b4c7a13f5a001001 note": "Locate and extract routing records to reveal underlying trade structure.",
-
+    
     "69ea1001b4c7a13f5a101001": "Locate Skier’s routing records at the Customs train depot office",
     "69ea1001b4c7a13f5a101002": "Secure the routing records",
     "69ea1001b4c7a13f5a101003": "Transfer the routing data",
-
-    "69ea1002b4c7a13f5a001002 name": "Supply Discipline",
-    "69ea1002b4c7a13f5a001002 description": "Prapor doesn’t improvise.\n\nHe repeats what works until repetition becomes structure.\n\nThat makes him dependable.\n\nIt also makes him readable.\n\nGet the records showing how his supplies cycle through Reserve.\n\nOnce the pattern is clear, I won’t need him to explain anything.",
+    
+    "69ea1002b4c7a13f5a001002 name": "Fixed Cycle",
+    "69ea1002b4c7a13f5a001002 description": "Prapor does not improvise. He repeats what works until repetition becomes structure. That makes him dependable. It also makes him readable. People trust routine because it looks stable. Usually they stop asking what that routine is protecting. Get the records showing how his supplies cycle through Reserve. Pull them cleanly and leave the system intact while you do it. I need the pattern as it exists, not after somebody realizes it has been touched. Once the cycle is clear, he will already have explained himself.",
     "69ea1002b4c7a13f5a001002 startedMessageText": "Pull the records and look for the routine inside them.",
-    "69ea1002b4c7a13f5a001002 successMessageText": "Predictable. He’s more rigid than he realizes.",
+    "69ea1002b4c7a13f5a001002 successMessageText": "Predictable. He is more rigid than he realizes. Discipline like that always leaves a readable edge.",
     "69ea1002b4c7a13f5a001002 completePlayerMessage": "Supply records secured and transferred.",
     "69ea1002b4c7a13f5a001002 declinePlayerMessage": "",
-    "69ea1002b4c7a13f5a001002 failMessageText": "If the cycle isn’t clear, the whole read loses value.",
+    "69ea1002b4c7a13f5a001002 failMessageText": "If the cycle is not clear, the whole read loses value.",
     "69ea1002b4c7a13f5a001002 note": "Locate and extract supply records to identify repeated movement cycles.",
-
+    
     "69ea1002b4c7a13f5a102001": "Locate Prapor’s supply records in the Reserve bunker command room",
     "69ea1002b4c7a13f5a102002": "Secure the supply records",
     "69ea1002b4c7a13f5a102003": "Transfer the supply data",
-
-    "69ea1003b4c7a13f5a001003 name": "Soft Channels",
-    "69ea1003b4c7a13f5a001003 description": "Not everything important moves as weapons or money.\n\nSome networks survive because people depend on them.\n\nThat dependence keeps them quiet, and quiet systems get ignored.\n\nThat’s useful.\n\nGet me the records that show where her support runs actually go.\n\nOnce the flow is visible, the weak points are too.",
+    
+    "69ea1003b4c7a13f5a001003 name": "Quiet Flow",
+    "69ea1003b4c7a13f5a001003 description": "Not everything important moves as weapons or money. Some networks survive because people depend on them. That dependence keeps them quiet, and quiet systems get ignored. That is useful. Anything people rely on long enough starts to look natural, even when it is carrying influence underneath. Get me the records that show where her support runs actually go. Not where they are supposed to go. Where they end up. Once the flow is visible, the weak points are too.",
     "69ea1003b4c7a13f5a001003 startedMessageText": "Track the records and leave the network untouched.",
-    "69ea1003b4c7a13f5a001003 successMessageText": "Good. Quiet systems still leave pressure behind.",
+    "69ea1003b4c7a13f5a001003 successMessageText": "Good. Quiet systems still leave pressure behind. Most people miss that because they only look where things get loud.",
     "69ea1003b4c7a13f5a001003 completePlayerMessage": "Distribution records secured and transferred.",
     "69ea1003b4c7a13f5a001003 declinePlayerMessage": "",
     "69ea1003b4c7a13f5a001003 failMessageText": "Without the full flow, all you have is guesswork.",
     "69ea1003b4c7a13f5a001003 note": "Locate and extract support records to map hidden distribution flow.",
-
+   
     "69ea1003b4c7a13f5a103001": "Locate Therapist’s distribution records in the Pharm 2 back office on Streets",
     "69ea1003b4c7a13f5a103002": "Secure the distribution records",
     "69ea1003b4c7a13f5a103003": "Transfer the support data",
-
-    "69ea1004b4c7a13f5a001004 name": "Closed Circuits",
-    "69ea1004b4c7a13f5a001004 description": "Mechanic doesn’t tolerate drift.\n\nHis people move parts because they know exactly where those parts are expected to be.\n\nThat kind of precision makes the whole system narrow.\n\nNarrow systems are harder to hide inside.\n\nBring me the records that define how his work travels.\n\nI want the architecture, not the rumor.",
+    
+    "69ea1004b4c7a13f5a001004 name": "Defined Paths",
+    "69ea1004b4c7a13f5a001004 description": "Mechanic does not tolerate drift. His people move parts because they know exactly where those parts are expected to be. That kind of precision makes the whole system narrow. Narrow systems do not adapt well. They hold until they do not, and while they hold, they leave clean lines behind for anyone patient enough to read them. Bring me the records that define how his work travels. I am not interested in rumor. I want the architecture.",
     "69ea1004b4c7a13f5a001004 startedMessageText": "Get the records. Precision always leaves a line to follow.",
-    "69ea1004b4c7a13f5a001004 successMessageText": "Tight. Deliberate. Exactly the kind of structure I was looking for.",
+    "69ea1004b4c7a13f5a001004 successMessageText": "Tight. Deliberate. Exactly the kind of structure I was looking for. Precision always reveals more than the people using it intend.",
     "69ea1004b4c7a13f5a001004 completePlayerMessage": "Technical records secured and transferred.",
     "69ea1004b4c7a13f5a001004 declinePlayerMessage": "",
     "69ea1004b4c7a13f5a001004 failMessageText": "An incomplete map of control is worse than none at all.",
     "69ea1004b4c7a13f5a001004 note": "Locate and extract technical records to define controlled movement channels.",
-
+    
     "69ea1004b4c7a13f5a104001": "Locate Mechanic’s technical records in the Factory lower office",
     "69ea1004b4c7a13f5a104002": "Secure the technical records",
     "69ea1004b4c7a13f5a104003": "Transfer the technical data",
-
-    "69ea1005b4c7a13f5a001005 name": "Clean Channels",
-    "69ea1005b4c7a13f5a001005 description": "Anything that comes from outside gets treated like it arrived with legitimacy.\n\nThat assumption is useful to the people making money from it.\n\nIt’s also careless.\n\nFind where his imports first touch the network and bring me proof of it.\n\nThe route tells me more than the goods ever will.",
+    
+    "69ea1005b4c7a13f5a001005 name": "Entry Point",
+    "69ea1005b4c7a13f5a001005 description": "Anything that comes from outside gets treated like it arrived with legitimacy. That assumption is useful to the people making money from it. It is also careless. The moment a system trusts its own intake too much, it stops noticing where control actually begins. Find where his imports first touch the network and bring me proof of it. Leave the rest of the route undisturbed. The route tells me more than the goods ever will. Once I know where something starts, the rest usually follows on its own.",
     "69ea1005b4c7a13f5a001005 startedMessageText": "Find the entry point and keep the rest of the route undisturbed.",
-    "69ea1005b4c7a13f5a001005 successMessageText": "Good. Once you know where it starts, the rest follows on its own.",
+    "69ea1005b4c7a13f5a001005 successMessageText": "Good. Once you know where it starts, the rest follows on its own. People trust clean entry points more than they should.",
     "69ea1005b4c7a13f5a001005 completePlayerMessage": "Import records secured and transferred.",
     "69ea1005b4c7a13f5a001005 declinePlayerMessage": "",
     "69ea1005b4c7a13f5a001005 failMessageText": "No clean entry point means no reliable chain behind it.",
     "69ea1005b4c7a13f5a001005 note": "Locate and extract import records to identify external entry routes.",
-
+    
     "69ea1005b4c7a13f5a105001": "Locate Peacekeeper’s import records at the Shoreline pier",
     "69ea1005b4c7a13f5a105002": "Secure the import records",
     "69ea1005b4c7a13f5a105003": "Transfer the import data",
-
-    "69ea1006b4c7a13f5a001006 name": "Worn Paths",
-    "69ea1006b4c7a13f5a001006 description": "Movement doesn’t need to look valuable to matter.\n\nSometimes the widest network is built from things nobody respects enough to watch.\n\nThat’s why it works.\n\nBring me the records showing how those goods spread through the city.\n\nCoverage matters more than glamour.",
+    
+    "69ea1006b4c7a13f5a001006 name": "Wide Distribution",
+    "69ea1006b4c7a13f5a001006 description": "Movement does not need to look valuable to matter. Sometimes the widest network is built from things nobody respects enough to watch. That is why it lasts. It spreads under the threshold people usually reserve for attention. Bring me the records showing how those goods move through the city. Not isolated handoffs. Full distribution. Coverage matters more than glamour. Once something reaches everywhere, it becomes harder to remove than anything expensive.",
     "69ea1006b4c7a13f5a001006 startedMessageText": "Follow the records where the movement broadens out.",
-    "69ea1006b4c7a13f5a001006 successMessageText": "Wide reach. Quiet traffic. More influence than he probably intended.",
+    "69ea1006b4c7a13f5a001006 successMessageText": "Wide reach. Quiet traffic. More influence than he probably intended. The things nobody values are usually the hardest to contain.",
     "69ea1006b4c7a13f5a001006 completePlayerMessage": "Distribution records secured and transferred.",
     "69ea1006b4c7a13f5a001006 declinePlayerMessage": "",
-    "69ea1006b4c7a13f5a001006 failMessageText": "If the spread isn’t clear, the network still has places to hide.",
+    "69ea1006b4c7a13f5a001006 failMessageText": "If the spread is not clear, the network still has places to hide.",
     "69ea1006b4c7a13f5a001006 note": "Locate and extract distribution records to map broad civilian movement.",
-
+    
     "69ea1006b4c7a13f5a106001": "Locate Ragman’s distribution records in the Goshan shipping area on Interchange",
     "69ea1006b4c7a13f5a106002": "Secure the distribution records",
     "69ea1006b4c7a13f5a106003": "Transfer the distribution data",
-
-    "69ea1007b4c7a13f5a001007 name": "Unmarked Trails",
-    "69ea1007b4c7a13f5a001007 description": "Jaeger doesn’t rely on formal systems.\n\nThat doesn’t mean he moves without leaving shape behind.\n\nSupplies still travel. Paths still form. Habits still appear.\n\nFind whatever he left that shows how those off-grid routes develop.\n\nIf it exists, I can read it.",
-    "69ea1007b4c7a13f5a001007 startedMessageText": "Track the notes down. Irregular doesn’t mean invisible.",
-    "69ea1007b4c7a13f5a001007 successMessageText": "There it is. Even disorder settles into pattern eventually.",
+    
+    "69ea1007b4c7a13f5a001007 name": "Off-Grid Routes",
+    "69ea1007b4c7a13f5a001007 description": "Jaeger does not rely on formal systems. That does not mean he moves without leaving shape behind. Supplies still travel. Paths still form. Habits still appear. Informal movement only looks invisible until it repeats enough times. Find whatever he left that shows how those off-grid routes develop. It will not be clean, and it will not be organized for anyone but him. That does not matter. If it exists, I can read it.",
+    "69ea1007b4c7a13f5a001007 startedMessageText": "Track the notes down. Irregular does not mean invisible.",
+    "69ea1007b4c7a13f5a001007 successMessageText": "There it is. Even disorder settles into pattern eventually. Off-grid only means unclaimed, not unreadable.",
     "69ea1007b4c7a13f5a001007 completePlayerMessage": "Field notes secured and transferred.",
     "69ea1007b4c7a13f5a001007 declinePlayerMessage": "",
-    "69ea1007b4c7a13f5a001007 failMessageText": "Too many blind spots remain. That’s not useful to me.",
+    "69ea1007b4c7a13f5a001007 failMessageText": "Too many blind spots remain. That is not useful to me.",
     "69ea1007b4c7a13f5a001007 note": "Locate and extract field notes to identify off-grid supply movement.",
-
+    
     "69ea1007b4c7a13f5a107001": "Locate Jaeger’s supply notes at the Woods hunting camp",
     "69ea1007b4c7a13f5a107002": "Secure the supply notes",
     "69ea1007b4c7a13f5a107003": "Transfer the field data",
-
+    
     "68498dcea603d454abc11356 name": "Echo Traps",
-    "68498dcea603d454abc11356 description": "The city still talks.\n\nMost people stopped listening.\n\nOld systems. Dead infrastructure. Forgotten channels.\n\nThey still carry useful traffic.\n\nThat changes now.\n\nPlace the devices where information actually passes and leave without being noticed.\n\nOnce they’re active, I won’t need permission to hear what matters.",
-    "68498dcea603d454abc11356 startedMessageText": "Place the devices carefully. No one should know they’re there.",
-    "68498dcea603d454abc11356 successMessageText": "Good. I’m hearing more than I was before.",
+    "68498dcea603d454abc11356 description": "The city still talks. Most people stopped listening. Old systems. Dead infrastructure. Forgotten channels. They still carry useful traffic, just not the kind people notice unless they already know what they are hearing. That changes now. Place the devices where information actually passes and leave without being noticed. If anyone sees the placement, the value drops immediately. Once they are active, I will not need permission to hear what matters.",
+    "68498dcea603d454abc11356 startedMessageText": "Place the devices carefully. No one should know they are there.",
+    "68498dcea603d454abc11356 successMessageText": "Good. I am hearing more than I was before. Most systems reveal themselves once you stop asking them to speak clearly.",
     "68498dcea603d454abc11356 completePlayerMessage": "Devices planted. No exposure.",
     "68498dcea603d454abc11356 declinePlayerMessage": "",
     "68498dcea603d454abc11356 failMessageText": "That placement carried too much risk. Attention ruins the whole point.",
     "68498dcea603d454abc11356 note": "Place listening devices to intercept live communication traffic unnoticed.",
-
+   
     "5eca9553f3a992fe7186ffe8": "Place a listening device inside the Customs office at Big Red",
     "15981ab8ec8aa954a205a4fc": "Place a listening device inside the new gas station office",
     "603e1e94b031722bf688626d": "Place a listening device inside the crackhouse office",
     "500ee99122dbc04cf35d873e": "Extract without exposing the placements",
-
-    "69d81cd30ffb6f16a7c38e69 name": "Family Debts",
-    "69d81cd30ffb6f16a7c38e69 description": "Before contracts, there was placement.\n\nSomething left where it should be. Someone else arrives later and collects it.\n\nNo chatter. No correction.\n\nThat method never disappeared.\n\nIt just changed hands.\n\nThere’s a package waiting inside the fortress.\n\nTake it cleanly and leave everything around it untouched.\n\nIf nothing reacts, then expectation held even after we interfered.",
-    "69d81cd30ffb6f16a7c38e69 startedMessageText": "Secure the package and leave the handoff looking untouched.",
-    "69d81cd30ffb6f16a7c38e69 successMessageText": "Good. No visible reaction. That means the system absorbed it.",
-    "69d81cd30ffb6f16a7c38e69 completePlayerMessage": "Package taken. No response followed.",
+    
+    "69d81cd30ffb6f16a7c38e69 name": "What Was Owed",
+    "69d81cd30ffb6f16a7c38e69 description": "Before contracts, there was placement. Something left where it should be. Someone else arrives later and collects it. No chatter. No correction. That method never disappeared. It just changed hands. There is a package waiting inside the fortress. It is already accounted for. Already expected to move. The only question is who it ends up with. Take it cleanly and leave everything around it untouched. If nothing reacts, then the system did not lose anything. It just settled differently.",
+    "69d81cd30ffb6f16a7c38e69 startedMessageText": "Take what is waiting there and leave the handoff looking untouched.",
+    "69d81cd30ffb6f16a7c38e69 successMessageText": "Good. No visible reaction. That means the system absorbed the change without contest. What was expected still moved. It just moved to you.",
+    "69d81cd30ffb6f16a7c38e69 completePlayerMessage": "Package secured. No response followed.",
     "69d81cd30ffb6f16a7c38e69 declinePlayerMessage": "",
     "69d81cd30ffb6f16a7c38e69 failMessageText": "If they noticed the absence, then we learned less than we should have.",
-    "69d81cd30ffb6f16a7c38e69 note": "Intercept a dead-drop package without disturbing the surrounding system.",
-
+    "69d81cd30ffb6f16a7c38e69 note": "Recover what was owed without disturbing the system that expected it.",
+    
     "64bfa8d68cfc2ae1e2da5d42": "Secure the staged package from the fortress",
     "c2ed95c197979810dd2af094": "Extract without drawing attention",
-
+    
     "69d81ce56cd2ce07a50d79d2 name": "Silent Couriers",
-    "69d81ce56cd2ce07a50d79d2 description": "Routes don’t move objects.\n\nThey move assumptions.\n\nSomething gets staged. Someone expects it to be there.\n\nThat’s why the handoff works.\n\nTake the sealed packages from active points without disturbing the route.\n\nIf the system keeps breathing normally, then we’re already further inside than they know.",
+    "69d81ce56cd2ce07a50d79d2 description": "Routes do not move objects. They move assumptions. Something gets staged. Someone expects it to be there. That expectation is what keeps the handoff stable. Take the sealed packages from active points without disturbing the route. Do not announce the interference. Do not force a correction. If the system keeps breathing normally after that, then we are already further inside than they know.",
     "69d81ce56cd2ce07a50d79d2 startedMessageText": "Take the packages cleanly. Let the routes keep breathing.",
-    "69d81ce56cd2ce07a50d79d2 successMessageText": "Good. No visible correction. That tells me plenty.",
+    "69d81ce56cd2ce07a50d79d2 successMessageText": "Good. No visible correction. That tells me plenty. A route that survives interference without reacting is already half claimed.",
     "69d81ce56cd2ce07a50d79d2 completePlayerMessage": "Packages intercepted. The routes stayed quiet.",
     "69d81ce56cd2ce07a50d79d2 declinePlayerMessage": "",
     "69d81ce56cd2ce07a50d79d2 failMessageText": "The route shifted around you. That means the system felt the interruption.",
     "69d81ce56cd2ce07a50d79d2 note": "Intercept active route packages without forcing route correction.",
-
+    
     "b6930a22afb94f56ab426741": "Secure the sealed package at the Woods sawmill",
     "68dc5482cd37d4f04dd75455": "Secure the sealed package in Customs warehouse 6",
     "7a458d853e490f3cb3ef42cb": "Secure the sealed package at the Interchange village stage",
     "6f538c7593e38a7f916e18f0": "Extract without exposing the interceptions",
-
+    
     "69d81cf3caf46e08a1002df2 name": "Old Accounts",
-    "69d81cf3caf46e08a1002df2 description": "Every network writes itself down eventually.\n\nNot by choice.\n\nBy necessity.\n\nNumbers. Timing. Placement. Payment.\n\nAll of it ends up somewhere physical.\n\nGet the ledger intact.\n\nNo damage.\n\nIf the record holds, so does the structure behind it.",
+    "69d81cf3caf46e08a1002df2 description": "Every network writes itself down eventually. Not by choice. By necessity. Numbers. Timing. Placement. Payment. All of it ends up somewhere physical if the people behind it trust permanence more than secrecy. Get the ledger intact. No missing pages. No damage. If the record holds, so does the structure behind it. And if I have the structure, I do not need the people pretending they control it.",
     "69d81cf3caf46e08a1002df2 startedMessageText": "Take the ledger whole. Damage makes it worthless to me.",
-    "69d81cf3caf46e08a1002df2 successMessageText": "Good. This is the spine they built around.",
+    "69d81cf3caf46e08a1002df2 successMessageText": "Good. This is the spine they built around. Numbers hold a structure together longer than loyalty ever does.",
     "69d81cf3caf46e08a1002df2 completePlayerMessage": "Ledger secured intact.",
     "69d81cf3caf46e08a1002df2 declinePlayerMessage": "",
     "69d81cf3caf46e08a1002df2 failMessageText": "Compromised records mean compromised leverage.",
     "69d81cf3caf46e08a1002df2 note": "Secure intact financial records to make the larger system readable.",
-
+    
     "80d9fe503cbd9866053f7eb2": "Locate the financial ledger behind KIBA on Interchange",
     "b961749deb014e3407999cbb": "Secure the financial ledger intact",
     "b961749deb014e3407999cbc": "Transfer the ledger without damage",
-
-    "69d81cfdc17c3b97d031ff08 name": "The Shipment",
-    "69d81cfdc17c3b97d031ff08 description": "Cargo is just weight.\n\nControl comes from knowing where that weight should be and when.\n\nThere’s a transfer on Lighthouse still moving because everyone trusts the record behind it.\n\nTake the manifest.\n\nLeave the shipment untouched.\n\nIf movement continues, then the information mattered more than the cargo.",
+    
+    "69d81cfdc17c3b97d031ff08 name": "Manifest Authority",
+    "69d81cfdc17c3b97d031ff08 description": "Cargo is just weight. Control comes from knowing where that weight should be and when. There is a transfer on Lighthouse still moving because everyone involved trusts the record behind it. Take the manifest. Leave the shipment itself alone. If the route keeps moving afterward, then the cargo was never the valuable part. The information was. And if the information can be taken without stopping the route, then control was already thinner than it looked.",
     "69d81cfdc17c3b97d031ff08 startedMessageText": "Take the manifest. Leave the transfer untouched.",
-    "69d81cfdc17c3b97d031ff08 successMessageText": "Good. The cargo kept moving, but the control behind it didn’t.",
+    "69d81cfdc17c3b97d031ff08 successMessageText": "Good. The cargo kept moving, but the control behind it did not. That matters more than the transfer itself.",
     "69d81cfdc17c3b97d031ff08 completePlayerMessage": "Manifest secured. Route stayed intact.",
     "69d81cfdc17c3b97d031ff08 declinePlayerMessage": "",
     "69d81cfdc17c3b97d031ff08 failMessageText": "If movement changed, then we gave away the advantage.",
     "69d81cfdc17c3b97d031ff08 note": "Secure the shipment manifest to take control without stopping the route.",
-
+    
     "7003c9afb0e78a6668ec37e3": "Locate the shipment manifest in the Lighthouse trainyard warehouse",
     "39e306f06c18c3a46d2036f6": "Secure the manifest without disrupting the transfer",
     "09505e3d24603629cddb37ce": "Extract with the manifest without exposure",
-
+    
     "69ea1999c0nverg3nc300001 name": "Convergence",
-    "69ea1999c0nverg3nc300001 description": "I’ve gone back through everything you brought me.\n\nNot one piece at a time.\n\nAs a whole.\n\nSkier’s routes. Prapor’s cycles. Therapist’s flow. Mechanic’s precision. Peacekeeper’s entry points. Ragman’s spread. Jaeger’s field movement.\n\nSeparate on the surface.\n\nConnected underneath.\n\nThat was deliberate.\n\nThe devices confirmed the network listens and adjusts. The dead-drops proved expectation can survive interference. The sealed packages showed those routes can be touched without immediate correction. The ledger explained the structure beneath it. The manifest proved control belongs to whoever owns the record.\n\nThat should have been enough.\n\nIt wasn’t.\n\nNow I want to know whether this thing can absorb us completely or whether it’s already pushing back.\n\nMark the train cars moving cargo through the active network.\n\nNot to track them.\n\nTo test whether being touched changes anything at all.\n\nIf nothing shifts, we’re inside it.\n\nIf it does, then we triggered something bigger than control.",
+    "69ea1999c0nverg3nc300001 description": "I have gone back through everything you brought me. Not one piece at a time. As a whole. Skier’s routes. Prapor’s cycles. Therapist’s flow. Mechanic’s precision. Peacekeeper’s entry points. Ragman’s spread. Jaeger’s field movement. Separate on the surface. Connected underneath. That was deliberate. The devices confirmed the network listens and adjusts. The dead-drops proved expectation can survive interference. The sealed packages showed those routes can be touched without immediate correction. The ledger explained the structure beneath it. The manifest proved control belongs to whoever owns the record. That should have been enough. It was not. Now I want to know whether this thing can absorb us completely or whether it is already pushing back. Mark the train cars moving cargo through the active network. Not to track them. To test whether being touched changes anything at all. If nothing shifts, we are inside it. If it does, then we triggered something bigger than control.",
     "69ea1999c0nverg3nc300001 startedMessageText": "Mark the routes and keep your footprint light.",
-    "69ea1999c0nverg3nc300001 successMessageText": "…Interesting. Either the system accepted it, or it hid the reaction well enough to matter.\n\nWe’ll know which soon enough.",
+    "69ea1999c0nverg3nc300001 successMessageText": "Interesting. Either the system accepted it, or it hid the reaction well enough to matter. We will know which soon enough. If this thing is already adapting to us, the next step will show it.",
     "69ea1999c0nverg3nc300001 completePlayerMessage": "Routes marked. No obvious disruption followed.",
     "69ea1999c0nverg3nc300001 declinePlayerMessage": "",
-    "69ea1999c0nverg3nc300001 failMessageText": "Something moved when it shouldn’t have. That changes what this means.",
+    "69ea1999c0nverg3nc300001 failMessageText": "Something moved when it should not have. That changes what this means.",
     "69ea1999c0nverg3nc300001 note": "Mark active transport routes to test how the network responds to interference.",
-
+    
     "69ea1999c0nverg3nc310001": "Mark the cargo train car at the Customs train depot",
     "69ea1999c0nverg3nc310002": "Mark the military supply train car on Reserve",
     "69ea1999c0nverg3nc310003": "Mark the shipping train car at the Lighthouse trainyard",
     "69ea1999c0nverg3nc310004": "Avoid unnecessary combat while marking the routes",
     "69ea1999c0nverg3nc310005": "Extract after confirming no disruption to the network",
-
-    "69d81d08b08a9cf2a881f70e name": "Crossed Wires",
-    "69d81d08b08a9cf2a881f70e description": "I watched the marked routes.\n\nNothing meaningful changed.\n\nNo rerouting. No delays. No compensation.\n\nThe cargo moved as if the network had already decided we belonged there.\n\nThat matters.\n\nIt means the structure accepted the pressure without rejecting it.\n\nBut acceptance adds weight.\n\nTwo points are carrying more than they were built for now.\n\nFactory and Reserve.\n\nReinforce them quietly.\n\nIf they hold, then what we built becomes permanent instead of temporary.",
+    
+    "69d81d08b08a9cf2a881f70e name": "Stabilization",
+    "69d81d08b08a9cf2a881f70e description": "I watched the marked routes. Nothing meaningful changed. No rerouting. No delays. No compensation. The cargo moved as if the network had already decided we belonged there. That matters. It means the structure accepted the pressure without rejecting it. But acceptance adds weight. Two points are carrying more than they were built for now. Factory and Reserve. Reinforce them quietly. If they hold, then what we built becomes permanent instead of temporary.",
     "69d81d08b08a9cf2a881f70e startedMessageText": "Reinforce the weak points and keep the system calm.",
-    "69d81d08b08a9cf2a881f70e successMessageText": "Good. No buckling. No correction. It held.",
+    "69d81d08b08a9cf2a881f70e successMessageText": "Good. No buckling. No correction. It held. That means the pressure was absorbed cleanly.",
     "69d81d08b08a9cf2a881f70e completePlayerMessage": "Nodes stabilized. The system held steady.",
     "69d81d08b08a9cf2a881f70e declinePlayerMessage": "",
-    "69d81d08b08a9cf2a881f70e failMessageText": "If the load slipped there, then control isn’t settled yet.",
+    "69d81d08b08a9cf2a881f70e failMessageText": "If the load slipped there, then control is not settled yet.",
     "69d81d08b08a9cf2a881f70e note": "Stabilize critical network nodes to lock in system control.",
-
+    
     "603207d9f2bef8d2219dd0ca": "Stabilize the Factory control node using a toolkit",
     "69e35ba684eda35b8d279376": "Stabilize the Reserve command node using a toolkit",
     "57f8473740b35132ec9a0012": "Extract without triggering a system response",
-
-    "69d81d08b08a9cf2a881f70f name": "Crossed Wires",
-    "69d81d08b08a9cf2a881f70f description": "I watched the marked routes.\n\nThey changed.\n\nNot enough for most people to notice, but enough to matter.\n\nTiming drifted. Cargo stalled where it shouldn’t have. Small corrections appeared across lines that should have ignored each other.\n\nThat isn’t random.\n\nThat’s reaction.\n\nNow I need to know whether the network is unstable by nature or whether it’s unstable because of you.\n\nIntroduce controlled faults into the same structure.\n\nKeep them precise.\n\nIf the response repeats, then the pattern tells me where the real problem is.",
+   
+    "69d81d08b08a9cf2a881f70f name": "Controlled Fault",
+    "69d81d08b08a9cf2a881f70f description": "I watched the marked routes. They changed. Not enough for most people to notice, but enough to matter. Timing drifted. Cargo stalled where it should not have. Small corrections appeared across lines that should have ignored each other. That is not random. That is reaction. Now I need to know whether the network is unstable by nature or whether it is unstable because of you. Introduce controlled faults into the same structure. Keep them precise. If the response repeats, then the pattern tells me where the real problem is.",
     "69d81d08b08a9cf2a881f70f startedMessageText": "Introduce the fault and let the system show its hand.",
-    "69d81d08b08a9cf2a881f70f successMessageText": "There. Same behavior, same correction. That narrows things considerably.",
+    "69d81d08b08a9cf2a881f70f successMessageText": "There. Same behavior, same correction. That narrows things considerably. If the reaction repeats, the weakness is real.",
     "69d81d08b08a9cf2a881f70f completePlayerMessage": "Fault introduced. Response confirmed.",
     "69d81d08b08a9cf2a881f70f declinePlayerMessage": "",
     "69d81d08b08a9cf2a881f70f failMessageText": "No matching reaction means the read is still incomplete.",
     "69d81d08b08a9cf2a881f70f note": "Corrupt key nodes to measure and confirm system instability.",
-
+    
     "69e35e5e06b9d69fd0ec0ed4": "Corrupt the Factory control node using a toolkit",
     "69e35e6154de368f5a3d5206": "Corrupt the Reserve command node using a toolkit",
     "57f8473740b35132ec9a0013": "Extract after confirming the system reacts",
-
+    
     "69d81d10f141ade1c2f23cbd name": "Blood Oath",
-    "69d81d10f141ade1c2f23cbd description": "You’ve gone too far inside this structure to stay undefined.\n\nNow you choose direction.\n\nNot quietly.\n\nNot indirectly.\n\nUse what I gave you and make it visible.\n\nNot to win.\n\nTo make your position undeniable.",
+    "69d81d10f141ade1c2f23cbd description": "You have gone too far inside this structure to stay undefined. Now you choose direction. Not quietly. Not indirectly. Use what I gave you and make it visible. Not to win. To make your position undeniable. After this, there will not be any distance left between you and the choice you made.",
     "69d81d10f141ade1c2f23cbd startedMessageText": "Use what I gave you. Make the alignment obvious.",
-    "69d81d10f141ade1c2f23cbd successMessageText": "Good. Clear action. No ambiguity left in it.",
+    "69d81d10f141ade1c2f23cbd successMessageText": "Good. Clear action. No ambiguity left in it. Anyone paying attention will understand what changed.",
     "69d81d10f141ade1c2f23cbd completePlayerMessage": "Targets eliminated. Position made clear.",
     "69d81d10f141ade1c2f23cbd declinePlayerMessage": "",
     "69d81d10f141ade1c2f23cbd failMessageText": "Hesitation weakens loyalty before anyone even tests it.",
     "69d81d10f141ade1c2f23cbd note": "Eliminate targets with Tony’s equipment to demonstrate open loyalty.",
-
+    
     "ed9c12d309e06158faa7f816": "Eliminate 8 PMCs using the provided equipment",
-
+    
     "69d81d2211b64abb3f86ee12 name": "Clean House",
-    "69d81d2211b64abb3f86ee12 description": "Once control settles, resistance changes form.\n\nIt stops looking external.\n\nIt starts showing up as hesitation inside the structure itself.\n\nThat’s more dangerous.\n\nRemove it without disturbing the wider network.\n\nIf nothing ripples outward, then authority is real.",
+    "69d81d2211b64abb3f86ee12 description": "Once control settles, resistance changes form. It stops looking external. It starts showing up as hesitation inside the structure itself. That is more dangerous. These people are not enemies because they are strong. They are enemies because they create drag where there should not be any. Remove them without disturbing the wider network. If nothing ripples outward, then authority is real.",
     "69d81d2211b64abb3f86ee12 startedMessageText": "Remove the liabilities and keep the system steady.",
-    "69d81d2211b64abb3f86ee12 successMessageText": "Good. The instability ended where it started.",
+    "69d81d2211b64abb3f86ee12 successMessageText": "Good. The instability ended where it started. No ripple, no correction, no visible strain. That is what settled authority looks like.",
     "69d81d2211b64abb3f86ee12 completePlayerMessage": "Liabilities removed. Network remained stable.",
     "69d81d2211b64abb3f86ee12 declinePlayerMessage": "",
     "69d81d2211b64abb3f86ee12 failMessageText": "Leave instability in place and it starts teaching the system bad habits.",
     "69d81d2211b64abb3f86ee12 note": "Eliminate compromised operatives on Streets with approved suppressed rifles. Keep the wider network untouched and avoid local collateral.",
     "69d81d2211b64abb3f86ee12 acceptPlayerMessage": "",
     "69d81d2211b64abb3f86ee12 changeQuestMessageText": "",
-
+    
     "1e9026da7e4c46af8c992148": "Eliminate 3 PMCs on Streets using an approved suppressed rifle",
     "69e4b6a11fcb9376929cead0": "Do not exceed 4 total PMC kills on Streets",
     "69e4b4d7edb4b8c06f3c1e72": "Do not kill any Scavs on Streets",
-
+    
     "69d81d2e489341684c932b76 name": "The New Boss",
-    "69d81d2e489341684c932b76 description": "At this point, influence isn’t enough.\n\nThe routes answer correctly. The timing holds. The weak parts have been removed.\n\nNow the system needs a center.\n\nNot a name.\n\nNot a title.\n\nSomething physical.\n\nSomething the structure can answer to.\n\nTake the control device into Labs and install it at the central node.\n\nThat point already carries more weight than anything above it. Traffic, access, timing, correction — all of it passes through there before it becomes movement anywhere else.\n\nIf the device anchors cleanly, then this stops being pressure from the outside.\n\nIt becomes authority from within.\n\n...\n\nI’ve been reviewing everything you’ve done.\n\nFactory. Reserve. The routes we marked.\n\nThe pressure we applied.\n\nAt first I thought the system was tolerating it.\n\nThen I thought it was adapting.\n\n...\n\nBut it’s neither.\n\nIt isn’t resisting you.\n\nIt isn’t adjusting around you.\n\nIt’s aligning.\n\nEvery route we touched held.\n\nEvery node we reinforced stayed stable.\n\nEvery movement corrected itself without conflict.\n\n...\n\nYou’re not inside the structure anymore.\n\nYou fit into it.\n\nFinish this.\n\nInstall the device.\n\nLet the system decide whether it accepts you.\n\nIf it holds after that, then nothing local moves without passing through your authority first.",
+    "69d81d2e489341684c932b76 description": "At this point, influence is not enough. The routes answer correctly. The timing holds. The weak parts have already been removed. Now the system needs a center. Not a name. Not a title. Something physical. Something the structure can answer to. Take the control device into Labs and install it at the central node. That point already carries more weight than anything above it. Traffic. Access. Timing. Correction. Everything passes through there before it becomes movement anywhere else. If the device anchors cleanly, then this stops being pressure from the outside. It becomes authority from within. I have reviewed everything you have done. Factory. Reserve. The routes we marked. The pressure we applied. At first I thought the system was tolerating it. Then I thought it was adapting. It is neither. It is aligning. Every route we touched held. Every node we reinforced stayed stable. Every movement corrected itself without conflict. You are not inside the structure anymore. You fit into it. Finish this. Install the device. Let the system decide whether it accepts you. If it holds after that, then nothing local moves without passing through your authority first.",
     "69d81d2e489341684c932b76 startedMessageText": "Install the device at the node. Hold the ground long enough to prove it belongs there.",
-    "69d81d2e489341684c932b76 successMessageText": "...\n\nNo delay.\n\nNo reroute.\n\nNo correction.\n\nYou set the device in place and nothing in the structure rejected it.\n\n...\n\nI was watching for resistance.\n\nThere wasn’t any.\n\nNot because it failed.\n\nBecause there was nothing left to correct.\n\n...\n\nThe routes are still clean.\n\nThe timing still holds.\n\nThe structure didn’t shift when you touched it.\n\nIt anchored around you exactly where you placed it.\n\n...\n\nThat’s not influence.\n\nThat’s not leverage.\n\n...\n\nThat’s acceptance.\n\nYou’re not working inside the system anymore.\n\nYou’re part of what it stabilizes around.\n\nIf anything in this city still moves without you in it...\n\nI haven’t seen it yet.",
+    "69d81d2e489341684c932b76 successMessageText": "No delay. No reroute. No correction. You set the device in place and nothing in the structure rejected it. I was watching for resistance. There was none. Not because it failed, but because there was nothing left to correct. The routes are still clean. The timing still holds. The structure did not shift when you touched it. It anchored around you exactly where you placed it. That is not influence. That is not leverage. That is acceptance. You are not working inside the system anymore. You are part of what it stabilizes around. If anything in this city still moves without you in it, I have not seen it yet.",
     "69d81d2e489341684c932b76 completePlayerMessage": "Control device installed. Authority established.",
     "69d81d2e489341684c932b76 declinePlayerMessage": "",
-    "69d81d2e489341684c932b76 failMessageText": "If the anchor doesn’t hold, then the structure still sees you as external.",
+    "69d81d2e489341684c932b76 failMessageText": "If the anchor does not hold, then the structure still sees you as external.",
     "69d81d2e489341684c932b76 note": "Install the control device at the Labs central node, eliminate limited resistance, and extract after the system accepts the new center.",
-
+    
     "fd122acd465f88fd577be25f": "Install the control device at the Labs central node",
     "b8f54f1a6c0241e6b4a13a77": "Eliminate 5 targets on Labs to confirm control",
     "05ebbaa447ffa8affb05b1f1": "Extract from Labs with authority intact",
-
+    
     "69d81d11f141ade1c2f23cbe name": "Broken Oath",
-    "69d81d11f141ade1c2f23cbe description": "You were given access, tools, and a place inside the structure.\n\nThat was the offer.\n\nThis is the answer.\n\nYou don’t just walk away from something like this.\n\nYou make it weaker.\n\nTake what he trusted you with and put it in the hands of people he’s trying to erase.\n\nLet him feel the shift when his own reach starts working against him.\n\nAfter this, there’s no confusion about where you stand.\n\nYou won’t be outside his system.\n\nYou’ll be the reason it starts to fail.",
+    "69d81d11f141ade1c2f23cbe description": "You were given access, tools, and a place inside the structure. That was the offer. This is the answer. You do not just walk away from something like this. You make it weaker. Take what he trusted you with and put it in the hands of the people he is trying to erase. Let him feel the shift when his own reach starts working against him. After this, there will be no confusion about where you stand. You will not be outside his system. You will be the reason it starts to fail.",
     "69d81d11f141ade1c2f23cbe startedMessageText": "Take his tools. Give them to the wrong side.",
-    "69d81d11f141ade1c2f23cbe successMessageText": "Good. That changes things. He’ll feel that sooner than you think.",
-    "69d81d11f141ade1c2f23cbe completePlayerMessage": "Supplies delivered. They won’t be used for him.",
+    "69d81d11f141ade1c2f23cbe successMessageText": "Good. That changes things. He will feel that sooner than you think. A clean betrayal always lands harder than a loud one.",
+    "69d81d11f141ade1c2f23cbe completePlayerMessage": "Supplies delivered. They will not be used for him.",
     "69d81d11f141ade1c2f23cbe declinePlayerMessage": "",
-    "69d81d11f141ade1c2f23cbe failMessageText": "If you’re going to turn, then turn. Half measures don’t break anything.",
+    "69d81d11f141ade1c2f23cbe failMessageText": "If you are going to turn, then turn. Half measures do not break anything.",
     "69d81d11f141ade1c2f23cbe note": "Deliver Tony’s equipment to opposing forces to disrupt his operations.",
-
+    
     "ed9c12d309e06158faa7f817": "Stash the provided equipment for opposing forces",
-
+    
     "69d81d2311b64abb3f86ee13 name": "Open Fracture",
-    "69d81d2311b64abb3f86ee13 description": "Control doesn’t fail all at once.\n\nIt starts with noise where there shouldn’t be any.\n\nWith doubt.\n\nWith bodies that don’t resolve cleanly.\n\nDon’t contain it.\n\nWiden it.\n\nMake the damage visible enough that no one inside can pretend control still exists.",
+    "69d81d2311b64abb3f86ee13 description": "Control does not fail all at once. It starts with noise where there should not be any. With doubt. With bodies that do not resolve cleanly. Do not contain it. Widen it. Make the damage visible enough that no one inside can pretend control still exists. If it spreads, then it was never stable in the first place.",
     "69d81d2311b64abb3f86ee13 startedMessageText": "Make it spread. Let them feel the break.",
-    "69d81d2311b64abb3f86ee13 successMessageText": "Good. That won’t stay local. They’ll start feeling it everywhere now.",
+    "69d81d2311b64abb3f86ee13 successMessageText": "Good. That will not stay local. They will start feeling it everywhere now. Once instability gets permission to move, it rarely stays contained.",
     "69d81d2311b64abb3f86ee13 completePlayerMessage": "Instability created. The fracture is open now.",
     "69d81d2311b64abb3f86ee13 declinePlayerMessage": "",
-    "69d81d2311b64abb3f86ee13 failMessageText": "If you keep it quiet, then you’re still protecting what he built.",
+    "69d81d2311b64abb3f86ee13 failMessageText": "If you keep it quiet, then you are still protecting what he built.",
     "69d81d2311b64abb3f86ee13 note": "Create visible instability on Streets. Do not contain the damage.",
-
+    
     "7f9026da7e4c46af8c992149": "Destabilize Streets by eliminating 8 targets",
     "69e4b72e084760eca8636887": "Do not use suppressed weapons on Streets",
-
+    
     "69d81d50db716124768a70a0 name": "Fall of the Fixer",
-    "69d81d50db716124768a70a0 description": "At this point, influence isn’t enough.\n\nThe routes are slipping. Timing is failing. The structure is already under pressure.\n\nBut it still has a center.\n\nThat’s the problem.\n\nEverything unstable about this network is still being pulled back into shape by one point that keeps correcting the damage.\n\nRemove that, and the rest won’t recover.\n\nTake the disruption device into Labs and install it at the central node.\n\nThat point doesn’t just carry traffic.\n\nIt carries correction.\n\nTiming. Access. Priority. The logic that keeps the rest of the structure from tearing itself apart.\n\nIf the device takes hold there, then nothing downstream will answer the same way again.\n\n...\n\nI’ve been reviewing the earlier placements.\n\nFactory. Reserve. The routes we marked.\n\nThe faults you introduced.\n\nAt first I thought it was resistance.\n\nThen I thought it was adjustment.\n\n...\n\nBut it isn’t either.\n\nThe responses aren’t correcting the system.\n\nThey’re following you.\n\nEvery shift lines up with where you’ve been.\n\nEvery delay, every break, every correction — it doesn’t stabilize.\n\nIt propagates.\n\n...\n\nYou’re not inside the structure anymore.\n\nYou’re changing it.\n\nFinish this.\n\nInstall the device.\n\nBreak the center.\n\nI want to see what’s left when there’s nothing holding the rest together.\n\nAnd I want to see if it keeps moving anyway.",
+    "69d81d50db716124768a70a0 description": "At this point, influence is not enough. The routes are slipping. Timing is failing. The structure is already under pressure. But it still has a center. That is the problem. Everything unstable about this network is still being pulled back into shape by one point that keeps correcting the damage. Remove that, and the rest will not recover. Take the disruption device into Labs and install it at the central node. That point does not just carry traffic. It carries correction. Timing. Access. Priority. The logic that keeps the rest of the structure from tearing itself apart. If the device takes hold there, then nothing downstream will answer the same way again. I have been reviewing the earlier placements. Factory. Reserve. The routes we marked. The faults you introduced. At first I thought it was resistance. Then I thought it was adjustment. It is neither. The responses are not correcting the system. They are following you. Every shift lines up with where you have been. Every delay, every break, every correction, it does not stabilize. It propagates. You are not inside the structure anymore. You are changing it. Finish this. Install the device. Break the center. I want to see what is left when there is nothing holding the rest together. And I want to see if it keeps moving anyway.",
     "69d81d50db716124768a70a0 startedMessageText": "Install the device at the node and let the collapse carry outward.",
-    "69d81d50db716124768a70a0 successMessageText": "...\n\nThat wasn’t resistance.\n\nThat was collapse.\n\nI was watching for correction.\n\nReinforcement. Containment. Anything that suggested the structure could hold its shape.\n\n...\n\nIt didn’t.\n\nThe device went in, the pressure spread, and nothing in the system knew how to answer it cleanly.\n\n...\n\nEvery point you touched failed the same way.\n\nNot immediately.\n\nNot loudly.\n\nBut consistently.\n\nNo stabilization.\n\nNo recovery.\n\nJust propagation.\n\n...\n\nI thought you were forcing it.\n\nThen I thought you were breaking it.\n\n...\n\nBut this is worse than either.\n\nIt’s following you.\n\nWhere you apply pressure, it gives.\n\nWhere it gives, the rest weakens.\n\nWhere it weakens, it doesn’t come back.\n\n...\n\nThat’s not control.\n\nThat’s something worse.\n\nIf this keeps spreading the way it just did...\n\nThere won’t be a system left to take.",
+    "69d81d50db716124768a70a0 successMessageText": "That was not resistance. That was collapse. I was watching for correction. Reinforcement. Containment. Anything that suggested the structure could hold its shape. It did not. The device went in, the pressure spread, and nothing in the system knew how to answer it cleanly. Every point you touched failed the same way. Not immediately. Not loudly. But consistently. No stabilization. No recovery. Just propagation. I thought you were forcing it. Then I thought you were breaking it. This is worse than either. It is following you. Where you apply pressure, it gives. Where it gives, the rest weakens. Where it weakens, it does not come back. That is not control. That is something worse. If this keeps spreading the way it just did, there will not be a system left to take.",
     "69d81d50db716124768a70a0 completePlayerMessage": "Disruption device installed. System collapse confirmed.",
     "69d81d50db716124768a70a0 declinePlayerMessage": "",
-    "69d81d50db716124768a70a0 failMessageText": "If the center still corrects itself, then the structure isn’t broken yet.",
+    "69d81d50db716124768a70a0 failMessageText": "If the center still corrects itself, then the structure is not broken yet.",
     "69d81d50db716124768a70a0 note": "Install the disruption device at the Labs central node, force a violent system response, and extract after confirming collapse.",
-
+    
     "96ff16c0c85a8fff88512685": "Install the disruption device at the Labs central node",
     "f6ab12c4dcb8a4e5b8f01a11": "Eliminate 10 targets on Labs to force system collapse",
     "05ebbaa447ffa8affb05b1f2": "Extract after confirming system failure",
-
+    
     "69d8e60e01b877ced8933a84 name": "Tony Betrayal Flag",
     "69d8e60e01b877ced8933a84 description": "",
     "69d8e60e01b877ced8933a84 startedMessageText": "",

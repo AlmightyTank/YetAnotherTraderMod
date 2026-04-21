@@ -354,7 +354,7 @@
         "type": "PickUp"
     },
     "6848f1776be936dd22573866": {
-        "QuestName": "Big Mags Wanted",
+        "QuestName": "Extended Reach",
         "_id": "6848f1776be936dd22573866",
         "acceptPlayerMessage": "6848f1776be936dd22573866 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -948,7 +948,7 @@
         "type": "Elimination"
     },
     "69ea1001b4c7a13f5a001001": {
-        "QuestName": "Surface Contracts",
+        "QuestName": "Hidden Routes",
         "_id": "69ea1001b4c7a13f5a001001",
         "acceptPlayerMessage": "69ea1001b4c7a13f5a001001 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -1235,7 +1235,7 @@
         "type": "Exploration"
     },
     "69ea1002b4c7a13f5a001002": {
-        "QuestName": "Supply Discipline",
+        "QuestName": "Fixed Cycle",
         "_id": "69ea1002b4c7a13f5a001002",
         "acceptPlayerMessage": "69ea1002b4c7a13f5a001002 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -1522,7 +1522,7 @@
         "type": "Exploration"
     },
     "69ea1003b4c7a13f5a001003": {
-        "QuestName": "Soft Channels",
+        "QuestName": "Quiet Flow",
         "_id": "69ea1003b4c7a13f5a001003",
         "acceptPlayerMessage": "69ea1003b4c7a13f5a001003 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -1809,7 +1809,7 @@
         "type": "Exploration"
     },
     "69ea1004b4c7a13f5a001004": {
-        "QuestName": "Closed Circuits",
+        "QuestName": "Defined Paths",
         "_id": "69ea1004b4c7a13f5a001004",
         "acceptPlayerMessage": "69ea1004b4c7a13f5a001004 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -2096,7 +2096,7 @@
         "type": "Exploration"
     },
     "69ea1005b4c7a13f5a001005": {
-        "QuestName": "Clean Channels",
+        "QuestName": "Entry Point",
         "_id": "69ea1005b4c7a13f5a001005",
         "acceptPlayerMessage": "69ea1005b4c7a13f5a001005 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -2383,7 +2383,7 @@
         "type": "Exploration"
     },
     "69ea1006b4c7a13f5a001006": {
-        "QuestName": "Worn Paths",
+        "QuestName": "Wide Distribution",
         "_id": "69ea1006b4c7a13f5a001006",
         "acceptPlayerMessage": "69ea1006b4c7a13f5a001006 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -2670,7 +2670,7 @@
         "type": "Exploration"
     },
     "69ea1007b4c7a13f5a001007": {
-        "QuestName": "Unmarked Trails",
+        "QuestName": "Off-Grid Routes",
         "_id": "69ea1007b4c7a13f5a001007",
         "acceptPlayerMessage": "69ea1007b4c7a13f5a001007 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -2957,7 +2957,7 @@
         "type": "Exploration"
     },
     "68498dcea603d454abc11356": {
-        "QuestName": "Echo Traps",
+        "QuestName": "Signal Intercepts",
         "_id": "68498dcea603d454abc11356",
         "acceptPlayerMessage": "68498dcea603d454abc11356 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -3480,7 +3480,7 @@
         "type": "Completion"
     },
     "69d81cd30ffb6f16a7c38e69": {
-        "QuestName": "Family Debts",
+        "QuestName": "What Was Owed",
         "_id": "69d81cd30ffb6f16a7c38e69",
         "acceptPlayerMessage": "69d81cd30ffb6f16a7c38e69 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -3698,7 +3698,7 @@
         "type": "Elimination"
     },
     "69d81ce56cd2ce07a50d79d2": {
-        "QuestName": "Silent Couriers",
+        "QuestName": "Route Interception",
         "_id": "69d81ce56cd2ce07a50d79d2",
         "acceptPlayerMessage": "69d81ce56cd2ce07a50d79d2 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -3947,7 +3947,7 @@
         "type": "Completion"
     },
     "69d81cf3caf46e08a1002df2": {
-        "QuestName": "Old Accounts",
+        "QuestName": "Ledger Control",
         "_id": "69d81cf3caf46e08a1002df2",
         "acceptPlayerMessage": "69d81cf3caf46e08a1002df2 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -4153,7 +4153,7 @@
         "type": "PickUp"
     },
     "69d81cfdc17c3b97d031ff08": {
-        "QuestName": "The Shipment",
+        "QuestName": "Manifest Authority",
         "_id": "69d81cfdc17c3b97d031ff08",
         "acceptPlayerMessage": "69d81cfdc17c3b97d031ff08 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -4389,7 +4389,7 @@
         "type": "Completion"
     },
     "69d81d08b08a9cf2a881f70e": {
-        "QuestName": "Crossed Wires Goodside",
+        "QuestName": "Stabilization",
         "_id": "69d81d08b08a9cf2a881f70e",
         "acceptPlayerMessage": "69d81d08b08a9cf2a881f70e acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -4654,7 +4654,7 @@
         "type": "Completion"
     },
     "69d81d08b08a9cf2a881f70f": {
-        "QuestName": "Crossed Wires Betrayal",
+        "QuestName": "Controlled Fault",
         "_id": "69d81d08b08a9cf2a881f70f",
         "acceptPlayerMessage": "69d81d08b08a9cf2a881f70f acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -4842,7 +4842,7 @@
         "type": "Completion"
     },
     "69d81d10f141ade1c2f23cbd": {
-        "QuestName": "Blood Oath",
+        "QuestName": "Open Alignment",
         "_id": "69d81d10f141ade1c2f23cbd",
         "acceptPlayerMessage": "69d81d10f141ade1c2f23cbd acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5039,7 +5039,7 @@
         "type": "Elimination"
     },
     "69d81d2211b64abb3f86ee12": {
-        "QuestName": "Clean House",
+        "QuestName": "Internal Correction",
         "_id": "69d81d2211b64abb3f86ee12",
         "acceptPlayerMessage": "69d81d2211b64abb3f86ee12 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5573,7 +5573,7 @@
         "type": "Completion"
     },
     "69d81d3d82a2da467ea1fdba": {
-        "QuestName": "Broken Oath",
+        "QuestName": "Asset Transfer",
         "_id": "69d81d3d82a2da467ea1fdba",
         "acceptPlayerMessage": "69d81d3d82a2da467ea1fdba acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5767,7 +5767,7 @@
         "type": "Completion"
     },
     "69d81d46670bc1df8b8c3ed1": {
-        "QuestName": "Collapse the Family",
+        "QuestName": "System Destabilization",
         "_id": "69d81d46670bc1df8b8c3ed1",
         "acceptPlayerMessage": "69d81d46670bc1df8b8c3ed1 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5985,7 +5985,7 @@
         "type": "PickUp"
     },
     "69d81d50db716124768a70a0": {
-        "QuestName": "Fall of the Fixer",
+        "QuestName": "System Collapse",
         "_id": "69d81d50db716124768a70a0",
         "acceptPlayerMessage": "69d81d50db716124768a70a0 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
