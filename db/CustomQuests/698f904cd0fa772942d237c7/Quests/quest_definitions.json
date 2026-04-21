@@ -2957,7 +2957,7 @@
         "type": "Exploration"
     },
     "68498dcea603d454abc11356": {
-        "QuestName": "Signal Intercepts",
+        "QuestName": "Echo Traps",
         "_id": "68498dcea603d454abc11356",
         "acceptPlayerMessage": "68498dcea603d454abc11356 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -3698,7 +3698,7 @@
         "type": "Elimination"
     },
     "69d81ce56cd2ce07a50d79d2": {
-        "QuestName": "Route Interception",
+        "QuestName": "Silent Couriers",
         "_id": "69d81ce56cd2ce07a50d79d2",
         "acceptPlayerMessage": "69d81ce56cd2ce07a50d79d2 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -3947,7 +3947,7 @@
         "type": "Completion"
     },
     "69d81cf3caf46e08a1002df2": {
-        "QuestName": "Ledger Control",
+        "QuestName": "Old Accounts",
         "_id": "69d81cf3caf46e08a1002df2",
         "acceptPlayerMessage": "69d81cf3caf46e08a1002df2 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -4842,7 +4842,7 @@
         "type": "Completion"
     },
     "69d81d10f141ade1c2f23cbd": {
-        "QuestName": "Open Alignment",
+        "QuestName": "Blood Oath",
         "_id": "69d81d10f141ade1c2f23cbd",
         "acceptPlayerMessage": "69d81d10f141ade1c2f23cbd acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5039,7 +5039,7 @@
         "type": "Elimination"
     },
     "69d81d2211b64abb3f86ee12": {
-        "QuestName": "Internal Correction",
+        "QuestName": "Clean House",
         "_id": "69d81d2211b64abb3f86ee12",
         "acceptPlayerMessage": "69d81d2211b64abb3f86ee12 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5573,7 +5573,7 @@
         "type": "Completion"
     },
     "69d81d3d82a2da467ea1fdba": {
-        "QuestName": "Asset Transfer",
+        "QuestName": "Broken Oath",
         "_id": "69d81d3d82a2da467ea1fdba",
         "acceptPlayerMessage": "69d81d3d82a2da467ea1fdba acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5767,7 +5767,7 @@
         "type": "Completion"
     },
     "69d81d46670bc1df8b8c3ed1": {
-        "QuestName": "System Destabilization",
+        "QuestName": "Open Fracture",
         "_id": "69d81d46670bc1df8b8c3ed1",
         "acceptPlayerMessage": "69d81d46670bc1df8b8c3ed1 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5985,7 +5985,7 @@
         "type": "PickUp"
     },
     "69d81d50db716124768a70a0": {
-        "QuestName": "System Collapse",
+        "QuestName": "Fall of the Fixer",
         "_id": "69d81d50db716124768a70a0",
         "acceptPlayerMessage": "69d81d50db716124768a70a0 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
