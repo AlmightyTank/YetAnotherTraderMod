@@ -190,7 +190,7 @@
         "description": "699a84bf8e2052342f79b912 description",
         "failMessageText": "699a84bf8e2052342f79b912 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+        "image": "/files/quest/icon/699a84bf8e2052342f79b912.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e3c2d2720bac5b8b4567",
@@ -516,7 +516,7 @@
         "description": "6848f1776be936dd22573866 description",
         "failMessageText": "6848f1776be936dd22573866 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/6848f1776be936dd22573866.png",
         "instantComplete": false,
         "isKey": false,
         "location": "56f40101d2720b2a4d8b45d6",
@@ -843,7 +843,7 @@
         "description": "684edc10a8af5086d3e6557b description",
         "failMessageText": "684edc10a8af5086d3e6557b failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/684edc10a8af5086d3e6557b.png",
         "instantComplete": false,
         "isKey": false,
         "location": "55f2d3fd4bdc2d5f408b4567",
@@ -1059,7 +1059,7 @@
         "description": "69ea1001b4c7a13f5a001001 description",
         "failMessageText": "69ea1001b4c7a13f5a001001 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1001b4c7a13f5a001001.png",
         "instantComplete": false,
         "isKey": false,
         "location": "56f40101d2720b2a4d8b45d6",
@@ -1346,7 +1346,7 @@
         "description": "69ea1002b4c7a13f5a001002 description",
         "failMessageText": "69ea1002b4c7a13f5a001002 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1002b4c7a13f5a001002.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e5fad2720bc05b8b4567",
@@ -1633,7 +1633,7 @@
         "description": "69ea1003b4c7a13f5a001003 description",
         "failMessageText": "69ea1003b4c7a13f5a001003 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1003b4c7a13f5a001003.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5714dc692459777137212e12",
@@ -1920,7 +1920,7 @@
         "description": "69ea1004b4c7a13f5a001004 description",
         "failMessageText": "69ea1004b4c7a13f5a001004 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1004b4c7a13f5a001004.png",
         "instantComplete": false,
         "isKey": false,
         "location": "55f2d3fd4bdc2d5f408b4567",
@@ -2207,7 +2207,7 @@
         "description": "69ea1005b4c7a13f5a001005 description",
         "failMessageText": "69ea1005b4c7a13f5a001005 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1005b4c7a13f5a001005.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e554d2720bac5b8b456e",
@@ -2494,7 +2494,7 @@
         "description": "69ea1006b4c7a13f5a001006 description",
         "failMessageText": "69ea1006b4c7a13f5a001006 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1006b4c7a13f5a001006.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5714dbc024597771384a510d",
@@ -2781,7 +2781,7 @@
         "description": "69ea1007b4c7a13f5a001007 description",
         "failMessageText": "69ea1007b4c7a13f5a001007 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69ea1007b4c7a13f5a001007.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e3c2d2720bac5b8b4567",
@@ -3183,7 +3183,7 @@
         "description": "68498dcea603d454abc11356 description",
         "failMessageText": "68498dcea603d454abc11356 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/68498dcea603d454abc11356.png",
         "instantComplete": false,
         "isKey": false,
         "location": "56f40101d2720b2a4d8b45d6",
@@ -3491,67 +3491,12 @@
         "conditions": {
             "AvailableForFinish": [
                 {
-                    "completeInSeconds": 0,
-                    "conditionType": "CounterCreator",
-                    "counter": {
-                        "conditions": [
-                            {
-                                "bodyPart": [],
-                                "compareMethod": ">=",
-                                "conditionType": "Kills",
-                                "daytime": {
-                                    "from": 0,
-                                    "to": 0
-                                },
-                                "distance": {
-                                    "compareMethod": ">=",
-                                    "value": 0
-                                },
-                                "dynamicLocale": false,
-                                "enemyEquipmentExclusive": [],
-                                "enemyEquipmentInclusive": [],
-                                "enemyHealthEffects": [],
-                                "id": "71e4ac18044dd4d7717a68c4",
-                                "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "Savage",
-                                "value": 1,
-                                "weapon": [],
-                                "weaponCaliber": [],
-                                "weaponModsExclusive": [],
-                                "weaponModsInclusive": []
-                            },
-                            {
-                                "conditionType": "Location",
-                                "dynamicLocale": false,
-                                "id": "06256be729d22045ac741370",
-                                "target": [
-                                    "bigmap"
-                                ]
-                            }
-                        ],
-                        "id": "25ab3da1f1cf7d2eb8fb5d63"
-                    },
-                    "doNotResetIfCounterCompleted": false,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "64bfa8d68cfc2ae1e2da5d42",
-                    "index": 0,
-                    "isNecessary": false,
-                    "isResetOnConditionFailed": false,
-                    "oneSessionOnly": false,
-                    "parentId": "",
-                    "type": "Elimination",
-                    "value": 10,
-                    "visibilityConditions": []
-                },
-                {
                     "conditionType": "FindItem",
                     "countInRaid": false,
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "c2ed95c197979810dd2af094",
+                    "id": "64bfa8d68cfc2ae1e2da5d42",
                     "index": 1,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -3575,7 +3520,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "e8f66e0884d4751636f4ab6f",
+                    "id": "c2ed95c197979810dd2af094",
                     "index": 2,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -3629,7 +3574,7 @@
         "description": "69d81cd30ffb6f16a7c38e69 description",
         "failMessageText": "69d81cd30ffb6f16a7c38e69 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81cd30ffb6f16a7c38e69.png",
         "instantComplete": false,
         "isKey": false,
         "location": "56f40101d2720b2a4d8b45d6",
@@ -3889,7 +3834,7 @@
         "description": "69d81ce56cd2ce07a50d79d2 description",
         "failMessageText": "69d81ce56cd2ce07a50d79d2 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81ce56cd2ce07a50d79d2.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -3900,32 +3845,7 @@
         "restartable": false,
         "rewards": {
             "Fail": [],
-            "Started": [
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "69d917766f99ff8e17f8f66e",
-                    "isHidden": false,
-                    "items": [
-                        {
-                            "_id": "69d9177bec305bd764af95dd",
-                            "_tpl": "69d914e8e2d8d8a4ac6a3057",
-                            "upd": {
-                                "SpawnedInSession": true,
-                                "StackObjectsCount": 1
-                            }
-                        }
-                    ],
-                    "loyaltyLevel": 2,
-                    "target": "69d9177bec305bd764af95dd",
-                    "traderId": 7,
-                    "type": "ProductionScheme",
-                    "unknown": false
-                }
-            ],
+            "Started": [],
             "Success": [
                 {
                     "availableInGameEditions": [],
@@ -4109,7 +4029,7 @@
         "description": "69d81cf3caf46e08a1002df2 description",
         "failMessageText": "69d81cf3caf46e08a1002df2 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81cf3caf46e08a1002df2.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5714dbc024597771384a510d",
@@ -4353,7 +4273,7 @@
         "description": "69d81cfdc17c3b97d031ff08 description",
         "failMessageText": "69d81cfdc17c3b97d031ff08 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81cfdc17c3b97d031ff08.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e4dad2720bb55b8b4567",
@@ -4468,77 +4388,6 @@
         "traderId": "698f904cd0fa772942d237c7",
         "type": "Completion"
     },
-    "69d8e60e01b877ced8933a84": {
-        "QuestName": "Tony Betrayal Flag",
-        "_id": "69d8e60e01b877ced8933a84",
-        "acceptPlayerMessage": "69d8e60e01b877ced8933a84 acceptPlayerMessage",
-        "acceptanceAndFinishingSource": "eft",
-        "arenaLocations": [],
-        "canShowNotificationsInGame": false,
-        "changeQuestMessageText": "69d8e60e01b877ced8933a84 changeQuestMessageText",
-        "completePlayerMessage": "69d8e60e01b877ced8933a84 completePlayerMessage",
-        "conditions": {
-            "AvailableForFinish": [],
-            "AvailableForStart": [
-                {
-                    "availableAfter": 0,
-                    "conditionType": "Quest",
-                    "dispersion": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "69d8d8589e3d3d21c9e8de47",
-                    "index": 1,
-                    "parentId": "",
-                    "status": [
-                        4
-                    ],
-                    "target": "69d8dc6bf1921eeb784e3e74",
-                    "visibilityConditions": []
-                },
-                {
-                    "availableAfter": 0,
-                    "conditionType": "Quest",
-                    "dispersion": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "69d8d8589e3d3d21c9e8de47",
-                    "index": 1,
-                    "parentId": "",
-                    "status": [
-                        4
-                    ],
-                    "target": "69d8db4a3b45af4d32ab83fa",
-                    "visibilityConditions": []
-                }
-            ],
-            "Fail": []
-        },
-        "declinePlayerMessage": "69d8e60e01b877ced8933a84 declinePlayerMessage",
-        "description": "69d8e60e01b877ced8933a84 description",
-        "failMessageText": "69d8e60e01b877ced8933a84 failMessageText",
-        "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
-        "instantComplete": true,
-        "isKey": false,
-        "location": "any",
-        "name": "69d8e60e01b877ced8933a84 name",
-        "note": "69d8e60e01b877ced8933a84 note",
-        "progressSource": "eft",
-        "rankingModes": [],
-        "restartable": false,
-        "rewards": {
-            "Fail": [],
-            "Started": [],
-            "Success": []
-        },
-        "secretQuest": true,
-        "side": "Pmc",
-        "startedMessageText": "69d8e60e01b877ced8933a84 startedMessageText",
-        "status": 0,
-        "successMessageText": "69d8e60e01b877ced8933a84 successMessageText",
-        "traderId": "698f904cd0fa772942d237c7",
-        "type": "Exploration"
-    },
     "69d81d08b08a9cf2a881f70e": {
         "QuestName": "Crossed Wires Goodside",
         "_id": "69d81d08b08a9cf2a881f70e",
@@ -4628,27 +4477,46 @@
                     ],
                     "target": "69d81cfdc17c3b97d031ff08",
                     "visibilityConditions": []
-                },
+                }
+            ],
+            "Fail": [
                 {
+                    "availableAfter": 0,
                     "conditionType": "Quest",
+                    "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "69d8f0e43d66d3ca96d48608",
-                    "index": 2,
+                    "index": 0,
                     "parentId": "",
-                    "status": [ 2 ],
-                    "target": "69d8e60e01b877ced8933a84",
-                    "compareMethod": "!=",
+                    "status": [
+                        4
+                    ],
+                    "target": "69d8db4a3b45af4d32ab83fa",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69e6ec35cb0f38c4e57fd2d8",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69d8dc6bf1921eeb784e3e74",
                     "visibilityConditions": []
                 }
-            ],
-            "Fail": []
+            ]
         },
         "declinePlayerMessage": "69d81d08b08a9cf2a881f70e declinePlayerMessage",
         "description": "69d81d08b08a9cf2a881f70e description",
         "failMessageText": "69d81d08b08a9cf2a881f70e failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d08b08a9cf2a881f70e.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -4861,7 +4729,7 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69f000000000000000000047",
+                    "id": "69e6eca01db13dd462ae1ae6",
                     "index": 1,
                     "parentId": "",
                     "status": [ 4 ],
@@ -4874,11 +4742,24 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69f000000000000000000048",
+                    "id": "69e6ec9bdc01dfcec2bd5a6c",
                     "index": 2,
                     "parentId": "",
                     "status": [ 2, 3, 4, 5 ],
-                    "target": "69d8e60e01b877ced8933a84",
+                    "target": "69d8db4a3b45af4d32ab83fa",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69e6ec9bdc01dfcec2bd5a6c",
+                    "index": 2,
+                    "parentId": "",
+                    "status": [ 2, 3, 4, 5 ],
+                    "target": "69d8dc6bf1921eeb784e3e74",
                     "visibilityConditions": []
                 }
             ],
@@ -4888,7 +4769,7 @@
         "description": "69d81d08b08a9cf2a881f70f description",
         "failMessageText": "69d81d08b08a9cf2a881f70f failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d08b08a9cf2a881f70f.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -5016,7 +4897,7 @@
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "0066d98abfde6494948994cf",
+                    "id": "ed9c12d309e06158faa7f816",
                     "index": 0,
                     "isNecessary": false,
                     "isResetOnConditionFailed": false,
@@ -5061,7 +4942,7 @@
         "description": "69d81d10f141ade1c2f23cbd description",
         "failMessageText": "69d81d10f141ade1c2f23cbd failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d10f141ade1c2f23cbd.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -5189,93 +5070,64 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "f453e4495801daa7d9051084",
+                                "id": "69e4b68c99dd6fb5f11085e1",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": "Savage",
+                                "target": "AnyPmc",
                                 "value": 1,
-                                "weapon": [],
+                                "weapon": [
+                                    "5c07c60e0db834002330051f",
+                                    "5447a9cd4bdc2dbd208b4567",
+                                    "5d43021ca4b9362eab4b5e25",
+                                    "5ac66d9b5acfc4001633997a",
+                                    "5bb2475ed4351e00853264e3"
+                                ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
-                                "weaponModsInclusive": []
+                                "weaponModsInclusive": [
+                                    [ "55d614004bdc2d86028b4568" ],
+                                    [ "59bffbb386f77435b379b9c2" ],
+                                    [ "55d6190f4bdc2d87028b4567" ],
+                                    [ "5c7955c22e221644f31bfd5e" ],
+                                    [ "57da93632459771cb65bf83f" ],
+                                    [ "57dbb57e2459774673234890" ],
+                                    [ "5a9fbb84a2750c00137fa685" ],
+                                    [ "5a34fe59c4a282000b1521a2" ],
+                                    [ "5cff9e5ed7ad1a09407397d4" ],
+                                    [ "5ea172e498dacb342978818e" ],
+                                    [ "5ea17bbc09aa976f2e7a51cd" ],
+                                    [ "5d44064fa4b9361e4f6eb8b5" ],
+                                    [ "60926df0132d4d12c81fd9df" ],
+                                    [ "626673016f1edc06f30cf6d5" ],
+                                    [ "638612b607dfed1ccb7206ba" ],
+                                    [ "63877c99e785640d436458ea" ],
+                                    [ "673f0b36536d64240f01acd6" ],
+                                    [ "673f0a9370a3ddcf0d0ee0b8" ],
+                                    [ "673f0a38259f5945d70e43a6" ]
+                                ]
                             },
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "0af6021c63b3b31fa31c254f",
+                                "id": "69e4b68932a8ebc4f69e9fe0",
                                 "target": [
                                     "tarkovstreets"
                                 ]
                             }
                         ],
-                        "id": "203b84d74b42fba214d9a703"
+                        "id": "69e4b67c812e0d5e3998f0cd"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "1e9026da7e4c46af8c992148",
                     "index": 0,
-                    "isNecessary": false,
+                    "isNecessary": true,
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 12,
-                    "visibilityConditions": []
-                },
-                {
-                    "completeInSeconds": 0,
-                    "conditionType": "CounterCreator",
-                    "counter": {
-                        "conditions": [
-                            {
-                                "bodyPart": [],
-                                "compareMethod": ">=",
-                                "conditionType": "Kills",
-                                "daytime": {
-                                    "from": 0,
-                                    "to": 0
-                                },
-                                "distance": {
-                                    "compareMethod": ">=",
-                                    "value": 0
-                                },
-                                "dynamicLocale": false,
-                                "enemyEquipmentExclusive": [],
-                                "enemyEquipmentInclusive": [],
-                                "enemyHealthEffects": [],
-                                "id": "2f8f711570fc7ca946841efc",
-                                "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "AnyPmc",
-                                "value": 1,
-                                "weapon": [],
-                                "weaponCaliber": [],
-                                "weaponModsExclusive": [],
-                                "weaponModsInclusive": []
-                            },
-                            {
-                                "conditionType": "Location",
-                                "dynamicLocale": false,
-                                "id": "5b9d4cff1754d5d819ac4bab",
-                                "target": [
-                                    "tarkovstreets"
-                                ]
-                            }
-                        ],
-                        "id": "22fedce5c2bcbf88c8d5a071"
-                    },
-                    "doNotResetIfCounterCompleted": false,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "fef5d2769b3701f7e858dc55",
-                    "index": 1,
-                    "isNecessary": false,
-                    "isResetOnConditionFailed": false,
-                    "oneSessionOnly": false,
-                    "parentId": "",
-                    "type": "Elimination",
-                    "value": 4,
+                    "value": 3,
                     "visibilityConditions": []
                 }
             ],
@@ -5307,13 +5159,68 @@
                     "visibilityConditions": []
                 }
             ],
-            "Fail": []
+            "Fail": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "dynamicLocale": false,
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "Kills",
+                                "compareMethod": ">=",
+                                "target": "AnyPmc",
+                                "value": 1,
+                                "id": "69e4b6c13ba7cf319677db38"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "id": "69e4b6bd610d251872a6b33f",
+                                "target": [
+                                    "tarkovstreets"
+                                ]
+                            }
+                        ],
+                        "id": "69e4b6b9d6f9dddab39947a5"
+                    },
+                    "id": "69e4b6a11fcb9376929cead0",
+                    "type": "Elimination",
+                    "value": 5
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "dynamicLocale": false,
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "Kills",
+                                "compareMethod": ">=",
+                                "target": "Savage",
+                                "value": 1,
+                                "id": "69e4b4f54944e5e282cce5f0"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "id": "69e4b4f156759ad3edd5bd4c",
+                                "target": [
+                                    "tarkovstreets"
+                                ]
+                            }
+                        ],
+                        "id": "69e4b4ec238553b4677d96be"
+                    },
+                    "id": "69e4b4d7edb4b8c06f3c1e72",
+                    "type": "Elimination",
+                    "value": 1
+                }
+            ]
         },
         "declinePlayerMessage": "69d81d2211b64abb3f86ee12 declinePlayerMessage",
         "description": "69d81d2211b64abb3f86ee12 description",
         "failMessageText": "69d81d2211b64abb3f86ee12 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d2211b64abb3f86ee12.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5714dc692459777137212e12",
@@ -5438,7 +5345,7 @@
                                 "savageRole": [
                                     "pmcBot"
                                 ],
-                                "target": "Savage",
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -5542,7 +5449,7 @@
         "description": "69d81d2e489341684c932b76 description",
         "failMessageText": "69d81d2e489341684c932b76 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d2e489341684c932b76.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -5666,7 +5573,7 @@
         "type": "Completion"
     },
     "69d81d3d82a2da467ea1fdba": {
-        "QuestName": "Loose Ends",
+        "QuestName": "Broken Oath",
         "_id": "69d81d3d82a2da467ea1fdba",
         "acceptPlayerMessage": "69d81d3d82a2da467ea1fdba acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5762,7 +5669,7 @@
         "description": "69d81d3d82a2da467ea1fdba description",
         "failMessageText": "69d81d3d82a2da467ea1fdba failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d3d82a2da467ea1fdba.png",
         "instantComplete": false,
         "isKey": false,
         "location": "55f2d3fd4bdc2d5f408b4567",
@@ -5871,43 +5778,6 @@
         "conditions": {
             "AvailableForFinish": [
                 {
-                    "conditionType": "FindItem",
-                    "countInRaid": false,
-                    "dogtagLevel": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "89129bf73f1a1cd7195d810a",
-                    "index": 0,
-                    "isEncoded": false,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "onlyFoundInRaid": true,
-                    "parentId": "",
-                    "target": [
-                        "590c621186f774138d11ea29"
-                    ],
-                    "value": 3,
-                    "visibilityConditions": []
-                },
-                {
-                    "conditionType": "HandoverItem",
-                    "dogtagLevel": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "5ecb271f100905c558efb754",
-                    "index": 1,
-                    "isEncoded": false,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "onlyFoundInRaid": true,
-                    "parentId": "",
-                    "target": [
-                        "590c621186f774138d11ea29"
-                    ],
-                    "value": 3,
-                    "visibilityConditions": []
-                },
-                {
                     "completeInSeconds": 0,
                     "conditionType": "CounterCreator",
                     "counter": {
@@ -5928,10 +5798,10 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "8c5873e7d868f6767f115b35",
+                                "id": "69e4b7a58aa1825d6f81edf3",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": "Savage",
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -5941,25 +5811,23 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "23f1fb6ea3e770ef103826e5",
-                                "target": [
-                                    "shoreline"
-                                ]
+                                "id": "69e4b7a162d6ff69673d294e",
+                                "target": [ "tarkovstreets" ]
                             }
                         ],
-                        "id": "4a86165580818cbb4deaddd9"
+                        "id": "69e4b79dff499b5631e6c6e6"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "81efd48874515f97e6765765",
+                    "id": "7f9026da7e4c46af8c992149",
                     "index": 2,
-                    "isNecessary": false,
+                    "isNecessary": true,
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 10,
+                    "value": 8,
                     "visibilityConditions": []
                 }
             ],
@@ -5991,13 +5859,60 @@
                     "visibilityConditions": []
                 }
             ],
-            "Fail": []
+            "Fail": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "dynamicLocale": false,
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "Kills",
+                                "compareMethod": ">=",
+                                "target": "Any",
+                                "value": 1,
+                                "weaponModsInclusive": [
+                                    [ "55d614004bdc2d86028b4568" ],
+                                    [ "59bffbb386f77435b379b9c2" ],
+                                    [ "55d6190f4bdc2d87028b4567" ],
+                                    [ "5c7955c22e221644f31bfd5e" ],
+                                    [ "57da93632459771cb65bf83f" ],
+                                    [ "57dbb57e2459774673234890" ],
+                                    [ "5a9fbb84a2750c00137fa685" ],
+                                    [ "5a34fe59c4a282000b1521a2" ],
+                                    [ "5cff9e5ed7ad1a09407397d4" ],
+                                    [ "5ea172e498dacb342978818e" ],
+                                    [ "5ea17bbc09aa976f2e7a51cd" ],
+                                    [ "5d44064fa4b9361e4f6eb8b5" ],
+                                    [ "60926df0132d4d12c81fd9df" ],
+                                    [ "626673016f1edc06f30cf6d5" ],
+                                    [ "638612b607dfed1ccb7206ba" ],
+                                    [ "63877c99e785640d436458ea" ],
+                                    [ "673f0b36536d64240f01acd6" ],
+                                    [ "673f0a9370a3ddcf0d0ee0b8" ],
+                                    [ "673f0a38259f5945d70e43a6" ]
+                                ],
+                                "id": "69e4b73de9178f9f26ada880"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "id": "69e4b73a7aafb2f2770cfaad",
+                                "target": [ "tarkovstreets" ]
+                            }
+                        ],
+                        "id": "69e4b7344631a934df16e382"
+                    },
+                    "id": "69e4b72e084760eca8636887",
+                    "type": "Elimination",
+                    "value": 1
+                }
+            ]
         },
         "declinePlayerMessage": "69d81d46670bc1df8b8c3ed1 declinePlayerMessage",
         "description": "69d81d46670bc1df8b8c3ed1 description",
         "failMessageText": "69d81d46670bc1df8b8c3ed1 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d46670bc1df8b8c3ed1.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -6173,7 +6088,7 @@
         "description": "69d81d50db716124768a70a0 description",
         "failMessageText": "69d81d50db716124768a70a0 failMessageText",
         "gameModes": [],
-        "image": "/files/quest/icon/friend_1.png",
+        "image": "/files/quest/icon/69d81d50db716124768a70a0.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
