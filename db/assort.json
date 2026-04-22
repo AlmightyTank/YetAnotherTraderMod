@@ -2614,6 +2614,344 @@
                 "BuyRestrictionMax": 4,
                 "BuyRestrictionCurrent": 4
             }
+        },
+        {
+            "_name": "Azimut SS Khamelion chest harness (Olive)",
+            "_id": "684c33642adb990618225bb6",
+            "_tpl": "63611865ba5b90db0c0399d1",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 8,
+                "BuyRestrictionCurrent": 8
+            }
+        },
+        {
+            "_name": "SLAPP Plate",
+            "_id": "684daa3d32162d12d64c2952",
+            "_tpl": "5c0e66e2d174af02a96252f4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_name": "Bastion Plate",
+            "_id": "684daa608e84176103ad15fd",
+            "_tpl": "5ea18c84ecf1982c7712d9a2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_name": "OBEY",
+            "_id": "684daa8c63c47af96ef3ac44",
+            "_tpl": "60a7ad2a2198820d95707a2e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_name": "GORILLA",
+            "_id": "684daac112530fdea64f460b",
+            "_tpl": "60a7ad3a0c5cb24b0134664a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_name": "Granit Br5 ballistic plate",
+            "_id": "684daf3a3688ff158c676dc1",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "ESAPI level IV ballistic plate",
+            "_id": "684daf6c42ed791e337a77dd",
+            "_tpl": "64afdcb83efdfea28601d041",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Granit 4RS ballistic plates (Back)",
+            "_id": "684daf83ba8d4debfc7d945c",
+            "_tpl": "654a4a964b446df1ad03f192",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "SAPI level III+ ballistic plate",
+            "_id": "684daf86f35c768e7959a685",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Granit 4RS ballistic plate (Front)",
+            "_id": "684db0a2aacb5aaa85b7cc37",
+            "_tpl": "656f63c027aed95beb08f62c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Korund-VM ballistic plates (Front)",
+            "_id": "684db0aeb58509809211e744",
+            "_tpl": "656f664200d62bcd2e024077",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Korund-VM-K ballistic plates (Front)",
+            "_id": "684db0bdc88581534c194e39",
+            "_tpl": "656f66b5c6baea13cd07e108",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "TallCom Guardian ballistic plate",
+            "_id": "684db0efdba2a9077eafac37",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "NESCO 4400-SA-MC ballistic plate",
+            "_id": "684db100afdb7549ab43b2af",
+            "_tpl": "656fa61e94b480b8a500c0e8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Kiba Arms Steel ballistic plate",
+            "_id": "684db13e4cd34ae3fe597280",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Cult Locust ballistic plate",
+            "_id": "684db14a35957ddd19e6e624",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Cult Termite ballistic plate",
+            "_id": "684db160cd9a82661a3d9d03",
+            "_tpl": "656fa99800d62bcd2e024088",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "GAC 3s15m ballistic plate",
+            "_id": "684db16a7b29abf56fe324f1",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "GAC 4sss2 ballistic plate",
+            "_id": "684db174e4e297aad221cd94",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "KITECO SC-IV SA ballistic plate",
+            "_id": "684db17e03e9231b81217642",
+            "_tpl": "656fafe3498d1b7e3e071da4",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Korund-VM ballistic plate (Back)",
+            "_id": "684db19f4e753bb982cc78e6",
+            "_tpl": "657b2797c3dbcb01d60c35ea",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "Korund-VM-K ballistic plate (Back)",
+            "_id": "684db1a460f7c0fdbfef1471",
+            "_tpl": "657b28d25f444d6dff0c6c77",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 5,
+                "BuyRestrictionCurrent": 5
+            }
+        },
+        {
+            "_name": "AKM/AK-74 Hexagon Kocherga stock (Anodized Red)",
+            "_id": "684ed223b959d50d92582217",
+            "_tpl": "5e217ba4c1434648c13568cd",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
+            }
+        },
+        {
+            "_name": "AK Hexagon tubular handguard (Anodized Red)",
+            "_id": "684ed23333332d94c917c538",
+            "_tpl": "5b80242286f77429445e0b47",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
+            }
+        },
+        {
+            "_name": "AK TDI AKM-L handguard (Anodized Red)",
+            "_id": "684ed23d8226a919cf9b9bef",
+            "_tpl": "5d4aaa54a4b9365392071170",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
+            }
+        },
+        {
+            "_name": "AK KGB MG-47 pistol grip (Anodized Red)",
+            "_id": "684ed25286deeb1ef63be582",
+            "_tpl": "5e2192a498a36665e8337386",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
+            }
         }
     ],
     "barter_scheme": {
@@ -3672,6 +4010,214 @@
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
+        ],
+        "684c33642adb990618225bb6": [
+            [
+                {
+                    "count": 62000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daa3d32162d12d64c2952": [
+            [
+                {
+                    "count": 48000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daa608e84176103ad15fd": [
+            [
+                {
+                    "count": 52000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daa8c63c47af96ef3ac44": [
+            [
+                {
+                    "count": 68000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daac112530fdea64f460b": [
+            [
+                {
+                    "count": 98000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daf3a3688ff158c676dc1": [
+            [
+                {
+                    "count": 95000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daf6c42ed791e337a77dd": [
+            [
+                {
+                    "count": 145000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daf83ba8d4debfc7d945c": [
+            [
+                {
+                    "count": 88000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684daf86f35c768e7959a685": [
+            [
+                {
+                    "count": 58000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db0a2aacb5aaa85b7cc37": [
+            [
+                {
+                    "count": 92000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db0aeb58509809211e744": [
+            [
+                {
+                    "count": 102000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db0bdc88581534c194e39": [
+            [
+                {
+                    "count": 138000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db0efdba2a9077eafac37": [
+            [
+                {
+                    "count": 132000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db100afdb7549ab43b2af": [
+            [
+                {
+                    "count": 148000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db13e4cd34ae3fe597280": [
+            [
+                {
+                    "count": 54000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db14a35957ddd19e6e624": [
+            [
+                {
+                    "count": 86000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db160cd9a82661a3d9d03": [
+            [
+                {
+                    "count": 152000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db16a7b29abf56fe324f1": [
+            [
+                {
+                    "count": 52000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db174e4e297aad221cd94": [
+            [
+                {
+                    "count": 94000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db17e03e9231b81217642": [
+            [
+                {
+                    "count": 98000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db19f4e753bb982cc78e6": [
+            [
+                {
+                    "count": 98000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684db1a460f7c0fdbfef1471": [
+            [
+                {
+                    "count": 136000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684ed223b959d50d92582217": [
+            [
+                {
+                    "count": 32000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684ed23333332d94c917c538": [
+            [
+                {
+                    "count": 36000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684ed23d8226a919cf9b9bef": [
+            [
+                {
+                    "count": 34000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684ed25286deeb1ef63be582": [
+            [
+                {
+                    "count": 28000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
         ]
     },
     "loyal_level_items": {
@@ -3806,6 +4352,32 @@
         "69e93a00b60c2e80e4537809": 4,
         "69e93a2bd23715d5bbfe01a8": 4,
         "69e93bf38d32e9c15d5acadb": 3,
-        "69e93cbcf29f27d448d6486d": 3
+        "69e93cbcf29f27d448d6486d": 3,
+        "684c33642adb990618225bb6": 2,
+        "684daa3d32162d12d64c2952": 3,
+        "684daa608e84176103ad15fd": 3,
+        "684daa8c63c47af96ef3ac44": 3,
+        "684daac112530fdea64f460b": 4,
+        "684daf3a3688ff158c676dc1": 3,
+        "684daf6c42ed791e337a77dd": 4,
+        "684daf83ba8d4debfc7d945c": 3,
+        "684daf86f35c768e7959a685": 2,
+        "684db0a2aacb5aaa85b7cc37": 3,
+        "684db0aeb58509809211e744": 3,
+        "684db0bdc88581534c194e39": 4,
+        "684db0efdba2a9077eafac37": 4,
+        "684db100afdb7549ab43b2af": 4,
+        "684db13e4cd34ae3fe597280": 2,
+        "684db14a35957ddd19e6e624": 3,
+        "684db160cd9a82661a3d9d03": 4,
+        "684db16a7b29abf56fe324f1": 2,
+        "684db174e4e297aad221cd94": 3,
+        "684db17e03e9231b81217642": 3,
+        "684db19f4e753bb982cc78e6": 3,
+        "684db1a460f7c0fdbfef1471": 4,
+        "684ed223b959d50d92582217": 2,
+        "684ed23333332d94c917c538": 2,
+        "684ed23d8226a919cf9b9bef": 2,
+        "684ed25286deeb1ef63be582": 2
     }
 }
