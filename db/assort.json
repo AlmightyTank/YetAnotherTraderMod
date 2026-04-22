@@ -2201,19 +2201,6 @@
             }
         },
         {
-            "_name": "Plate Class 5 (Basic)",
-            "_id": "8506d630c9f44340a0137362",
-            "_tpl": "654a4dea7c17dec2f50cc86a",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": false,
-                "StackObjectsCount": 60,
-                "BuyRestrictionMax": 6,
-                "BuyRestrictionCurrent": 6
-            }
-        },
-        {
             "_name": "Plate Class 5 (Rear)",
             "_id": "18751a48cfff4b5599b164c0",
             "_tpl": "657b22485f444d6dff0c6c2f",
@@ -2952,6 +2939,102 @@
                 "BuyRestrictionMax": 6,
                 "BuyRestrictionCurrent": 6
             }
+        },
+        {
+            "_id": "684cbe5d5adf341b70034a5e",
+            "_tpl": "657bc06daab96fccee08be9b",
+            "parentId": "684cbf55a6a580f4270c29e0",
+            "slotId": "Helmet_top"
+        },
+        {
+            "_id": "684cbe5d5adf341b70034a5f",
+            "_tpl": "657bc0d8a1c61ee0c303632f",
+            "parentId": "684cbf55a6a580f4270c29e0",
+            "slotId": "Helmet_back"
+        },
+        {
+            "_id": "684cbe5d5adf341b70034a60",
+            "_tpl": "657bc107aab96fccee08be9f",
+            "parentId": "684cbf55a6a580f4270c29e0",
+            "slotId": "Helmet_ears"
+        },
+        {
+            "_name": "Altyn bulletproof helmet (Olive Drab)",
+            "_id": "684cbf55a6a580f4270c29e0",
+            "_tpl": "5aa7e276e5b5b000171d0647",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
+            }
+        },
+
+        {
+            "_id": "684cbe605adf341b70034a64",
+            "_tpl": "5aa7e373e5b5b000137b76f0",
+            "upd": {
+                "Togglable": {
+                    "On": true
+                }
+            },
+            "parentId": "684cbf55a6a580f4270c29e0",
+            "slotId": "mod_equipment"
+        },
+        {
+            "_name": "Death Shadow lightweight armored mask",
+            "_id": "69e942b578f4eac7e14459c8",
+            "_tpl": "6570aead4d84f81fd002a033",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 20,
+                "BuyRestrictionCurrent": 20
+            }
+        },
+        {
+            "_id": "684cc3308bcaaf24040342ef",
+            "_tpl": "657bc285aab96fccee08bea3",
+            "parentId": "684cc630f024ab181646310f",
+            "slotId": "Helmet_top"
+        },
+        {
+            "_id": "684cc3308bcaaf24040342f0",
+            "_tpl": "657bc2c5a1c61ee0c3036333",
+            "parentId": "684cc630f024ab181646310f",
+            "slotId": "Helmet_back"
+        },
+        {
+            "_name": "Rys-T bulletproof helmet (Black)",
+            "_id": "684cc3308bcaaf24040342f1",
+            "_tpl": "657bc2e7b30eca976305118d",
+            "parentId": "684cc630f024ab181646310f",
+            "slotId": "Helmet_ears"
+        },
+        {
+            "_id": "684cc630f024ab181646310f",
+            "_tpl": "5f60c74e3b85f6263c145586",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999
+            }
+        },
+        {
+            "_id": "684cc3328bcaaf24040342f5",
+            "_tpl": "5f60c85b58eff926626a60f7",
+            "upd": {
+                "Togglable": {
+                    "On": true
+                }
+            },
+            "parentId": "684cc630f024ab181646310f",
+            "slotId": "mod_equipment"
         }
     ],
     "barter_scheme": {
@@ -3907,14 +3990,6 @@
                 }
             ]
         ],
-        "8506d630c9f44340a0137362": [
-            [
-                {
-                    "count": 98000,
-                    "_tpl": "5449016a4bdc2d6f028b456f"
-                }
-            ]
-        ],
         "18751a48cfff4b5599b164c0": [
             [
                 {
@@ -4218,6 +4293,38 @@
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
+        ],
+        "684cbf55a6a580f4270c29e0": [
+            [
+                {
+                    "count": 235000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e942b578f4eac7e14459c8": [
+            [
+                {
+                    "count": 118000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "684cc630f024ab181646310f": [
+            [
+                {
+                    "count": 255000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93cbcf29f27d448d6486d": [
+            [
+                {
+                    "count": 118000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
         ]
     },
     "loyal_level_items": {
@@ -4340,7 +4447,6 @@
         "23ecdea0ea5343f7afcbe040": 1,
         "02e596f34bf445e08f28b8af": 1,
         "b3884d5dba3c4bf7a97a7118": 2,
-        "8506d630c9f44340a0137362": 3,
         "18751a48cfff4b5599b164c0": 3,
         "69e938a8f0dabe7b5e5fa0de": 2,
         "69e93909df3c64d1e7a657a9": 2,
@@ -4378,6 +4484,9 @@
         "684ed223b959d50d92582217": 2,
         "684ed23333332d94c917c538": 2,
         "684ed23d8226a919cf9b9bef": 2,
-        "684ed25286deeb1ef63be582": 2
+        "684ed25286deeb1ef63be582": 2,
+        "684cbf55a6a580f4270c29e0": 4,
+        "69e942b578f4eac7e14459c8": 3,
+        "684cc630f024ab181646310f": 4
     }
 }
