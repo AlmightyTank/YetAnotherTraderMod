@@ -2225,8 +2225,396 @@
                 "BuyRestrictionMax": 6,
                 "BuyRestrictionCurrent": 6
             }
+        },
+        {
+            "_name": "6B13 Assault Armor",
+            "_id": "69e938a8f0dabe7b5e5fa0de",
+            "_tpl": "5c0e53c886f7747fa54205c7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_id": "69e938b9a833db56f79a30a2",
+            "_tpl": "654a8b0b0337d53f9102c2ae",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "soft_armor_front"
+        },
+        {
+            "_id": "69e938bcf78bf1ce7bc3711e",
+            "_tpl": "654a8976f414fcea4004d78b",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "soft_armor_back"
+        },
+        {
+            "_id": "69e938be159ce01adeaba4de",
+            "_tpl": "654a8b3df414fcea4004d78f",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "soft_armor_left"
+        },
+        {
+            "_id": "69e938c196c9a3d67a7e629f",
+            "_tpl": "654a8b80f414fcea4004d797",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "soft_armor_right"
+        },
+        {
+            "_id": "69e938c49af688f956d11ff7",
+            "_tpl": "654a8ae00337d53f9102c2aa",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "Collar"
+        },
+        {
+            "_id": "69e938c7f395ac1779103184",
+            "_tpl": "654a8bc5f414fcea4004d79b",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "Groin"
+        },
+        {
+            "_id": "69e938ca8fbed062c6238e83",
+            "_tpl": "656f603f94b480b8a500c0d6",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "front_plate"
+        },
+        {
+            "_id": "69e938cd138c67a577a16af4",
+            "_tpl": "656efd66034e8e01c407f35c",
+            "parentId": "69e938a8f0dabe7b5e5fa0de",
+            "slotId": "back_plate"
+        },
+        {
+            "_name": "6B3TM Armored Rig",
+            "_id": "69e93909df3c64d1e7a657a9",
+            "_tpl": "5d5d646386f7742797261fd9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_id": "69e93917ea52322e791bd01b",
+            "_tpl": "65764e1e2bc38ef78e076489",
+            "parentId": "69e93909df3c64d1e7a657a9",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "69e93919066dd939a76cd7bb",
+            "_tpl": "65764fae2bc38ef78e07648d",
+            "parentId": "69e93909df3c64d1e7a657a9",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "69e9391c9e03e2411f4ef6f0",
+            "_tpl": "6576504b526e320fbe035783",
+            "parentId": "69e93909df3c64d1e7a657a9",
+            "slotId": "Groin"
+        },
+        {
+            "_id": "69e9391edb6a3444ce0e30f7",
+            "_tpl": "6576500f526e320fbe03577f",
+            "parentId": "69e93909df3c64d1e7a657a9",
+            "slotId": "Groin_back"
+        },
+        {
+            "_name": "MMAC Plate Carrier",
+            "_id": "69e9393b19d0ac6a8f98b95a",
+            "_tpl": "61bc85697113f767765c7fe7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 30,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 3
+            }
+        },
+        {
+            "_id": "69e9395841c93ce65be44a4f",
+            "_tpl": "6572fc809a866b80ab07eb59",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "69e9395c8bcc489950a1d86b",
+            "_tpl": "6572fc8c9a866b80ab07eb5d",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "69e9395e57765de62e474cbb",
+            "_tpl": "6572fc989a866b80ab07eb61",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "Soft_armor_left"
+        },
+        {
+            "_id": "69e93960d20cc5e2830649cd",
+            "_tpl": "6572fca39a866b80ab07eb65",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "soft_armor_right"
+        },
+        {
+            "_id": "69e93963251abe44933f23bb",
+            "_tpl": "656fad8c498d1b7e3e071da0",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "Front_plate"
+        },
+        {
+            "_id": "69e9396511b638b95d233cee",
+            "_tpl": "656fad8c498d1b7e3e071da0",
+            "parentId": "69e9393b19d0ac6a8f98b95a",
+            "slotId": "Back_plate"
+        },
+        {
+            "_name": "AVS Plate Carrier",
+            "_id": "69e9398e09091061e9117580",
+            "_tpl": "544a5caa4bdc2d1a388b4568",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 25,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 3
+            }
+        },
+        {
+            "_id": "69e939a5d1279087e5a98044",
+            "_tpl": "6570e83223c1f638ef0b0ede",
+            "parentId": "69e9398e09091061e9117580",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "69e939a8317e3c8334d70640",
+            "_tpl": "6570e87c23c1f638ef0b0ee2",
+            "parentId": "69e9398e09091061e9117580",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "69e939aa3e13a98217d0bd75",
+            "_tpl": "6570e90b3a5689d85f08db97",
+            "parentId": "69e9398e09091061e9117580",
+            "slotId": "Groin"
+        },
+        {
+            "_id": "69e939acd8af6a8abd9c724b",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "69e9398e09091061e9117580",
+            "slotId": "Front_plate"
+        },
+        {
+            "_id": "69e939af257305fb83fe97bf",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "69e9398e09091061e9117580",
+            "slotId": "Back_plate"
+        },
+        {
+            "_name": "TV-110 Plate Carrier",
+            "_id": "69e939c4fbb2cd1a45695e06",
+            "_tpl": "5c0e746986f7741453628fe5",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 25,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 3
+            }
+        },
+        {
+            "_id": "69e939e16a83d3954dec2990",
+            "_tpl": "6570df294cc0d2ab1e05ed74",
+            "parentId": "69e939c4fbb2cd1a45695e06",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "69e939e31654e7a95a88832c",
+            "_tpl": "6570df9c615f54368b04fca9",
+            "parentId": "69e939c4fbb2cd1a45695e06",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "69e939e66b3c442b3b072cd5",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "69e939c4fbb2cd1a45695e06",
+            "slotId": "Front_plate"
+        },
+        {
+            "_id": "69e939e8c4c891b0a5506f3f",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "69e939c4fbb2cd1a45695e06",
+            "slotId": "Back_plate"
+        },
+        {
+            "_name": "Slick Plate Carrier",
+            "_id": "69e93a00b60c2e80e4537809",
+            "_tpl": "5e4abb5086f77406975c9342",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 10,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
+            }
+        },
+        {
+            "_id": "69e93a0ea8666928bb9cb3c3",
+            "_tpl": "6575e71760703324250610c3",
+            "parentId": "69e93a00b60c2e80e4537809",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "69e93a11d3d4a6e0395e8518",
+            "_tpl": "6575e72660703324250610c7",
+            "parentId": "69e93a00b60c2e80e4537809",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "69e93a132c30e2788cda9026",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "69e93a00b60c2e80e4537809",
+            "slotId": "Front_plate"
+        },
+        {
+            "_id": "69e93a16c0482de76ad2553b",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "69e93a00b60c2e80e4537809",
+            "slotId": "Back_plate"
+        },
+        {
+            "_name": "Hexgrid Plate Carrier",
+            "_id": "69e93a2bd23715d5bbfe01a8",
+            "_tpl": "5fd4c474dd870108a754b241",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 10,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
+            }
+        },
+        {
+            "_id": "69e93a615c880fcd74f053e2",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "69e93a2bd23715d5bbfe01a8",
+            "slotId": "front_plate"
+        },
+        {
+            "_id": "69e93a65c751aa2038e9efb4",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "69e93a2bd23715d5bbfe01a8",
+            "slotId": "back_plate"
+        },
+        {
+            "_name": "Plate Class 4 (Standard)",
+            "_id": "69e93a462a60ad60e5757f65",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 60,
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
+            }
+        },
+        {
+            "_name": "Plate Class 5 (Standard)",
+            "_id": "69e93aadfd742f8bc080edd6",
+            "_tpl": "654a4dea7c17dec2f50cc86a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_name": "Body armor 6B13 M Killa Standard",
+            "_id": "69e93bf38d32e9c15d5acadb",
+            "_tpl": "5c0e541586f7747fa54205c9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
+            "_id": "6576e928ab23f2038109a9ee",
+            "_tpl": "6575ea3060703324250610da",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Soft_armor_front"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9ef",
+            "_tpl": "6575ea4cf6a13a7b7100adc4",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Soft_armor_back"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f0",
+            "_tpl": "6575ea5cf6a13a7b7100adc8",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Soft_armor_left"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f1",
+            "_tpl": "6575ea6760703324250610de",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "soft_armor_right"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f2",
+            "_tpl": "6575ea719c7cad336508e418",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Collar"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f3",
+            "_tpl": "6575ea7c60703324250610e2",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Groin"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f4",
+            "_tpl": "656f611f94b480b8a500c0db",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Front_plate"
+        },
+        {
+            "_id": "6576e928ab23f2038109a9f5",
+            "_tpl": "656efaf54772930db4031ff5",
+            "parentId": "69e93bf38d32e9c15d5acadb",
+            "slotId": "Back_plate"
+        },
+        {
+            "_name": "Tasmanian Tiger Trooper 35 backpack (Khaki)",
+            "_id": "69e93cbcf29f27d448d6486d",
+            "_tpl": "639346cc1c8f182ad90c8972",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
         }
-
     ],
     "barter_scheme": {
         "6848be6f0119076cdee9995a": [
@@ -3176,7 +3564,7 @@
         "b3884d5dba3c4bf7a97a7118": [
             [
                 {
-                    "count": 48000,
+                    "count": 58000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3184,7 +3572,7 @@
         "8506d630c9f44340a0137362": [
             [
                 {
-                    "count": 92000,
+                    "count": 98000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3193,6 +3581,94 @@
             [
                 {
                     "count": 86000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e938a8f0dabe7b5e5fa0de": [
+            [
+                {
+                    "count": 118000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93909df3c64d1e7a657a9": [
+            [
+                {
+                    "count": 105000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e9393b19d0ac6a8f98b95a": [
+            [
+                {
+                    "count": 128000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e9398e09091061e9117580": [
+            [
+                {
+                    "count": 165000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e939c4fbb2cd1a45695e06": [
+            [
+                {
+                    "count": 178000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93a00b60c2e80e4537809": [
+            [
+                {
+                    "count": 320000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93a2bd23715d5bbfe01a8": [
+            [
+                {
+                    "count": 295000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93a462a60ad60e5757f65": [
+            [
+                {
+                    "count": 60000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93aadfd742f8bc080edd6": [
+            [
+                {
+                    "count": 105000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93bf38d32e9c15d5acadb": [
+            [
+                {
+                    "count": 120000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e93c0b9a1c4d8a9f2e5b3c": [
+            [
+                {
+                    "count": 115000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3261,7 +3737,7 @@
         "09ccc3034d854c679d80fb9d": 2,
         "9be8e96717c2486183ababa1": 1,
         "37757f119f614459b166dc13": 2,
-        "02277f41bd6c483db8cb590c": 3,
+        "02277f41bd6c483db8cb590c": 2,
         "bcbaac11707e483881e2ee73": 1,
         "a04e4f5b60c04791bf0a8135": 2,
         "670b96e6e6054d118e129f12": 2,
@@ -3319,6 +3795,17 @@
         "02e596f34bf445e08f28b8af": 1,
         "b3884d5dba3c4bf7a97a7118": 2,
         "8506d630c9f44340a0137362": 3,
-        "18751a48cfff4b5599b164c0": 3
+        "18751a48cfff4b5599b164c0": 3,
+        "69e938a8f0dabe7b5e5fa0de": 2,
+        "69e93909df3c64d1e7a657a9": 2,
+        "69e9393b19d0ac6a8f98b95a": 2,
+        "69e93a462a60ad60e5757f65": 2,
+        "69e9398e09091061e9117580": 3,
+        "69e939c4fbb2cd1a45695e06": 3,
+        "69e93aadfd742f8bc080edd6": 3,
+        "69e93a00b60c2e80e4537809": 4,
+        "69e93a2bd23715d5bbfe01a8": 4,
+        "69e93bf38d32e9c15d5acadb": 3,
+        "69e93cbcf29f27d448d6486d": 3
     }
 }
