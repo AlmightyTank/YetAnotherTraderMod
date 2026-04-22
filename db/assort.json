@@ -3035,6 +3035,71 @@
             },
             "parentId": "684cc630f024ab181646310f",
             "slotId": "mod_equipment"
+        },
+        {
+            "_name": "Dogtag case",
+            "_id": "69e947ba965277c5ebbc5918",
+            "_tpl": "5c093e3486f77430cb02e593",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 40,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
+            }
+        },
+        {
+            "_name": "Keytool",
+            "_id": "69e947c6ac2df49b450b23fa",
+            "_tpl": "59fafd4b86f7745ca07e1232",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 60,
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 3
+            }
+        },
+        {
+            "_name": "Documents case",
+            "_id": "69e947d27eee7b71aecb975f",
+            "_tpl": "590c60fc86f77412b13fddcf",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 30,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
+            }
+        },
+        {
+            "_name": "Money case",
+            "_id": "69e947db065ddb5eb6a8fd7b",
+            "_tpl": "59fb016586f7746d0d4b423a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 10,
+                "BuyRestrictionMax": 1,
+                "BuyRestrictionCurrent": 1
+            }
+        },
+        {
+            "_name": "Injector case",
+            "_id": "69e947e51329ce9d85e80d25",
+            "_tpl": "619cbf7d23893217ec30b689",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 6,
+                "BuyRestrictionMax": 1,
+                "BuyRestrictionCurrent": 1
+            }
         }
     ],
     "barter_scheme": {
@@ -4325,6 +4390,46 @@
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
+        ],
+        "69e947ba965277c5ebbc5918": [
+            [
+                {
+                    "count": 160000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e947c6ac2df49b450b23fa": [
+            [
+                {
+                    "count": 135000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e947d27eee7b71aecb975f": [
+            [
+                {
+                    "count": 200000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e947db065ddb5eb6a8fd7b": [
+            [
+                {
+                    "count": 700000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e947e51329ce9d85e80d25": [
+            [
+                {
+                    "count": 1000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
         ]
     },
     "loyal_level_items": {
@@ -4487,6 +4592,11 @@
         "684ed25286deeb1ef63be582": 2,
         "684cbf55a6a580f4270c29e0": 4,
         "69e942b578f4eac7e14459c8": 3,
-        "684cc630f024ab181646310f": 4
+        "684cc630f024ab181646310f": 4,
+        "69e947ba965277c5ebbc5918": 2,
+        "69e947c6ac2df49b450b23fa": 2,
+        "69e947d27eee7b71aecb975f": 3,
+        "69e947db065ddb5eb6a8fd7b": 3,
+        "69e947e51329ce9d85e80d25": 4
     }
 }
