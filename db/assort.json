@@ -23,6 +23,18 @@
             }
         },
         {
+            "_name": "5.45x39mm BT Ammo BOX",
+            "_id": "69e8e8a8bd16df5a8a098eb5",
+            "_tpl": "57372c21245977670937c6c2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 180,
+                "BuyRestrictionMax": 2
+            }
+        },
+        {
             "_name": "6B23-1 Armor Vest",
             "_id": "6848be8205400eb71cc0061a",
             "_tpl": "5c0e5bab86f77461f55ed1f3",
@@ -30,7 +42,7 @@
             "slotId": "hideout",
             "upd": {
                 "UnlimitedCount": false,
-                "StackObjectsCount": 3
+                "StackObjectsCount": 20
             }
         },
         {
@@ -95,7 +107,7 @@
             "slotId": "hideout",
             "upd": {
                 "UnlimitedCount": false,
-                "StackObjectsCount": 3
+                "StackObjectsCount": 20
             }
         },
         {
@@ -130,7 +142,7 @@
             "slotId": "hideout",
             "upd": {
                 "UnlimitedCount": false,
-                "StackObjectsCount": 10
+                "StackObjectsCount": 15
             }
         },
         {
@@ -167,6 +179,18 @@
             }
         },
         {
+            "_name": "7.62x39mm PP Ammo BOX",
+            "_id": "69e8e9135b2a4f5f4ccbf2f7",
+            "_tpl": "64ace9f9c4eda9354b0226aa",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 180,
+                "BuyRestrictionMax": 4
+            }
+        },
+        {
             "_name": "M855A1",
             "_id": "6848e86b660e5a40590e550c",
             "_tpl": "54527ac44bdc2d36668b4567",
@@ -177,6 +201,19 @@
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
+            }
+        },
+        {
+            "_name": "M855A1 Ammo Box",
+            "_id": "69e8e9545f0cbac00c0bc0dd",
+            "_tpl": "65702652cfc010a0f5006a53",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 120,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
             }
         },
         {
@@ -193,6 +230,19 @@
             }
         },
         {
+            "_name": "PS12B Ammo Box",
+            "_id": "69e8e980a6bbdbdf85df3d68",
+            "_tpl": "648983d6b5a2df1c815a04ec",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 120,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
             "_name": "SS190",
             "_id": "6848e92a869e658cb5ba5929",
             "_tpl": "5cc80f38e4a949001152b560",
@@ -201,6 +251,19 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 180
+            }
+        },
+        {
+            "_name": "SS190 Ammo Box",
+            "_id": "69e8e9b0de99c686d15d6217",
+            "_tpl": "648986bbc827d4637f01791e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 180,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
             }
         },
         {
@@ -215,6 +278,19 @@
             }
         },
         {
+            "_name": "45 AP ACP Ammo Box",
+            "_id": "69e8e9cbc43b7bf776f56fc7",
+            "_tpl": "6489879db5a2df1c815a04ef",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 180,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
+            }
+        },
+        {
             "_name": "300 AP",
             "_id": "6848ea45aa626070961bdd1f",
             "_tpl": "5fd20ff893a8961fc660a954",
@@ -225,6 +301,19 @@
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
+            }
+        },
+        {
+            "_name": "300 AP Ammo Box",
+            "_id": "69e8ea15250113782da51c60",
+            "_tpl": "648985c074a806211e4fb682",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 120,
+                "BuyRestrictionMax": 4,
+                "BuyRestrictionCurrent": 4
             }
         },
         {
@@ -381,6 +470,19 @@
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
+            }
+        },
+        {
+            "_name": "M61 Box",
+            "_id": "69e8e7ebbb940800383a11d0",
+            "_tpl": "6570254fcfc010a0f5006a22",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 120,
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
             }
         },
         {
@@ -687,7 +789,7 @@
         "6848eaf97a03931879bb7de3": [
             [
                 {
-                    "count": 280000,
+                    "count": 28000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -695,7 +797,7 @@
         "6848ed743bf9b8a2b5bcbb9b": [
             [
                 {
-                    "count": 140000,
+                    "count": 14000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -703,7 +805,7 @@
         "6848ed7d677c7e856102fc28": [
             [
                 {
-                    "count": 160000,
+                    "count": 45000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -891,6 +993,70 @@
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
+        ],
+        "69e8e7ebbb940800383a11d0": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e9135b2a4f5f4ccbf2f7": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e9545f0cbac00c0bc0dd": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e980a6bbdbdf85df3d68": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e8a8bd16df5a8a098eb5": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e9b0de99c686d15d6217": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8e9cbc43b7bf776f56fc7": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8ea15250113782da51c60": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
         ]
     },
     "loyal_level_items": {
@@ -935,6 +1101,14 @@
         "684b9bbc7f6b336e04a9d98a": 1,
         "684b9bbeab252bc7f2685392": 1,
         "69e818a7b5672a0e066e4603": 2,
-        "69e8188d024a93379e718c78": 1
+        "69e8188d024a93379e718c78": 1,
+        "69e8e7ebbb940800383a11d0": 2,
+        "69e8e9135b2a4f5f4ccbf2f7": 2,
+        "69e8e9545f0cbac00c0bc0dd": 2,
+        "69e8e980a6bbdbdf85df3d68": 2,
+        "69e8e8a8bd16df5a8a098eb5": 2,
+        "69e8e9b0de99c686d15d6217": 2,
+        "69e8e9cbc43b7bf776f56fc7": 2,
+        "69e8ea15250113782da51c60": 2
     }
 }
