@@ -194,7 +194,7 @@
                     "isHidden": false,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 4700
+                    "value": 7200
                 },
                 {
                     "availableInGameEditions": [],
@@ -207,7 +207,7 @@
                     "target": "58330581ace78e27b8b10cee",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.02
+                    "value": 0.04
                 },
                 {
                     "availableInGameEditions": [],
@@ -224,14 +224,14 @@
                             "_id": "68a9695194f6582e59140944",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": 22000
+                                "StackObjectsCount": 60000
                             }
                         }
                     ],
                     "target": "68a9695194f6582e59140944",
                     "type": "Item",
                     "unknown": true,
-                    "value": 22000
+                    "value": 60000
                 },
                 {
                     "availableInGameEditions": [],
@@ -265,7 +265,7 @@
                             }
                         }
                     ],
-                    "target": "68a9695194f6582e59140947",
+                    "target": "68a9695194f6582e59140946",
                     "type": "Item",
                     "unknown": true,
                     "value": 1
@@ -499,16 +499,22 @@
             "Success": [
                 {
                     "availableInGameEditions": [],
-                    "gameMode": [ "regular", "pve" ],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
                     "id": "69f100000000000000000018",
                     "isHidden": false,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 6500
+                    "value": 6000
                 },
                 {
                     "availableInGameEditions": [],
-                    "gameMode": [ "regular", "pve" ],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
                     "id": "69f100000000000000000019",
                     "isHidden": false,
                     "target": "58330581ace78e27b8b10cee",
@@ -518,8 +524,11 @@
                 },
                 {
                     "availableInGameEditions": [],
-                    "gameMode": [ "regular", "pve" ],
-                    "id": "69f100000000000000000019",
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69f10000000000000000001A",
                     "isHidden": false,
                     "target": "54cb50c76803fa8b248b4571",
                     "type": "TraderStanding",
@@ -528,8 +537,11 @@
                 },
                 {
                     "availableInGameEditions": [],
-                    "gameMode": [ "regular", "pve" ],
-                    "id": "69f100000000000000000019",
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "69f10000000000000000001B",
                     "isHidden": false,
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
@@ -539,7 +551,10 @@
                 {
                     "availableInGameEditions": [],
                     "findInRaid": false,
-                    "gameMode": [ "regular", "pve" ],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
                     "id": "69f100000000000000000020",
                     "isEncoded": false,
                     "isHidden": false,
@@ -548,14 +563,14 @@
                             "_id": "69f100000000000000000021",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": 85000
+                                "StackObjectsCount": 70000
                             }
                         }
                     ],
                     "target": "69f100000000000000000021",
                     "type": "Item",
                     "unknown": false,
-                    "value": 85000
+                    "value": 70000
                 }
             ]
         },

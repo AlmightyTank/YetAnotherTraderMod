@@ -148,22 +148,22 @@
                     "isHidden": false,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 7000
+                    "value": 5000
                 },
                 {
                     "availableInGameEditions": [],
                     "gameMode": [ "regular", "pve" ],
-                    "id": "69f100000000000000000019",
+                    "id": "69f100000000000000000030",
                     "isHidden": false,
                     "target": "54cb50c76803fa8b248b4571",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.05
+                    "value": 0.04
                 },
                 {
                     "availableInGameEditions": [],
                     "gameMode": [ "regular", "pve" ],
-                    "id": "69f100000000000000000019",
+                    "id": "69f100000000000000000031",
                     "isHidden": false,
                     "target": "58330581ace78e27b8b10cee",
                     "type": "TraderStanding",
@@ -173,7 +173,7 @@
                 {
                     "availableInGameEditions": [],
                     "gameMode": [ "regular", "pve" ],
-                    "id": "69f100000000000000000019",
+                    "id": "69f100000000000000000032",
                     "isHidden": false,
                     "target": "698f904cd0fa772942d237c7",
                     "type": "TraderStanding",
@@ -192,14 +192,14 @@
                             "_id": "69d8e5147931e64d4e714d65",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": 95000
+                                "StackObjectsCount": 55000
                             }
                         }
                     ],
                     "target": "69d8e5147931e64d4e714d65",
                     "type": "Item",
                     "unknown": false,
-                    "value": 95000
+                    "value": 55000
                 }
             ]
         },

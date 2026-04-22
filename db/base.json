@@ -82,12 +82,12 @@
     },
     "insurance": {
         "availability": true,
-        "min_payment": 0,
-        "min_return_hour": 3,
-        "max_return_hour": 8,
-        "max_storage_time": 200,
+        "min_payment": 1,
+        "min_return_hour": 1,
+        "max_return_hour": 1,
+        "max_storage_time": 500,
         "excluded_category": [],
-        "insurance_price_coef": 25
+        "insurance_price_coef": 1
     },
     "gridHeight": 400,
     "loyaltyLevels": [

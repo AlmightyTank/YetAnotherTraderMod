@@ -7,7 +7,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 15
             }
         },
@@ -18,7 +18,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 180
             }
         },
@@ -29,7 +29,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 3
             }
         },
@@ -94,7 +94,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 3
             }
         },
@@ -129,7 +129,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 10
             }
         },
@@ -140,7 +140,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 10
             }
         },
@@ -151,7 +151,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 10
             }
         },
@@ -162,7 +162,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 180
             }
         },
@@ -173,7 +173,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
@@ -186,7 +186,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
@@ -199,7 +199,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 180
             }
         },
@@ -210,7 +210,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 180
             }
         },
@@ -221,54 +221,10 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
-            }
-        },
-        {
-            "_name": "5.56x45 SureFire MAG5-60 STANAG 60-round magazine",
-            "_id": "6848ea96f46d723dbb3c19b7",
-            "_tpl": "544a37c44bdc2d25388b4567",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 25
-            }
-        },
-        {
-            "_name": "5.56x45 Magpul PMAG D-60 STANAG 60-round magazine",
-            "_id": "6848eab13b2484b8a9a0eae3",
-            "_tpl": "59c1383d86f774290a37e0ca",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 25
-            }
-        },
-        {
-            "_name": "6L31",
-            "_id": "6848eaccc30ba46a007c4a8f",
-            "_tpl": "55d482194bdc2d1d4e8b456b",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 25
-            }
-        },
-        {
-            "_name": "X-FAL",
-            "_id": "6848eaf97a03931879bb7de3",
-            "_tpl": "5b7bef9c5acfc43d102852ec",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 3
             }
         },
         {
@@ -278,19 +234,8 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
-            }
-        },
-        {
-            "_name": "X-47 7.62",
-            "_id": "6848ed7d677c7e856102fc28",
-            "_tpl": "5cfe8010d7ad1a59283b14c6",
-            "parentId": "hideout",
-            "slotId": "hideout",
-            "upd": {
-                "UnlimitedCount": true,
-                "StackObjectsCount": 4
             }
         },
         {
@@ -300,7 +245,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 15
             }
         },
@@ -311,7 +256,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 15
             }
         },
@@ -322,7 +267,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 10
             }
         },
@@ -333,7 +278,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 10
             }
         },
@@ -344,7 +289,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -355,7 +300,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -366,7 +311,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -377,7 +322,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -388,7 +333,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -399,7 +344,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -410,7 +355,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -421,7 +366,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 5
             }
         },
@@ -432,7 +377,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 120,
                 "BuyRestrictionMax": 120,
                 "BuyRestrictionCurrent": 120
@@ -445,7 +390,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 1,
                 "BuyRestrictionMax": 1,
                 "BuyRestrictionCurrent": 1
@@ -458,7 +403,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 1,
                 "BuyRestrictionMax": 1,
                 "BuyRestrictionCurrent": 1
@@ -471,7 +416,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 1,
                 "BuyRestrictionMax": 1,
                 "BuyRestrictionCurrent": 1
@@ -484,7 +429,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 40
             }
         },
@@ -495,7 +440,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 60
             }
         },
@@ -506,7 +451,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 40
             }
         },
@@ -517,7 +462,7 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 50
             }
         },
@@ -528,8 +473,85 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "UnlimitedCount": true,
+                "UnlimitedCount": false,
                 "StackObjectsCount": 50
+            }
+        },
+        {
+            "_name": "6L31",
+            "_id": "6848eaccc30ba46a007c4a8f",
+            "_tpl": "55d482194bdc2d1d4e8b456b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 8
+            }
+        },
+        {
+            "_name": "5.56x45 Magpul PMAG D-60 STANAG 60-round magazine",
+            "_id": "6848eab13b2484b8a9a0eae3",
+            "_tpl": "59c1383d86f774290a37e0ca",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 6
+            }
+        },
+        {
+            "_name": "5.56x45 SureFire MAG5-60 STANAG 60-round magazine",
+            "_id": "6848ea96f46d723dbb3c19b7",
+            "_tpl": "544a37c44bdc2d25388b4567",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 8
+            }
+        },
+        {
+            "_name": "X-FAL",
+            "_id": "6848eaf97a03931879bb7de3",
+            "_tpl": "5b7bef9c5acfc43d102852ec",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 7
+            }
+        },
+        {
+            "_name": "X-47 7.62",
+            "_id": "6848ed7d677c7e856102fc28",
+            "_tpl": "5cfe8010d7ad1a59283b14c6",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 8
+            }
+        },
+        {
+            "_name": "Metal fuel tank",
+            "_id": "69e818a7b5672a0e066e4603",
+            "_tpl": "5d1b36a186f7742523398433",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 5
+            }
+        },
+        {
+            "_name": "Expeditionary fuel tank",
+            "_id": "69e8188d024a93379e718c78",
+            "_tpl": "5d1b371186f774253763a656",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 5
             }
         }
     ],
@@ -603,16 +625,6 @@
                 {
                     "count": 1400,
                     "_tpl": "5449016a4bdc2d6f028b456f"
-                }
-            ],
-            [
-                {
-                    "count": 1,
-                    "_tpl": "5d03775b86f774203e7e0c4b"
-                },
-                {
-                    "count": 1,
-                    "_tpl": "5d6fc78386f77449d825f9dc"
                 }
             ]
         ],
@@ -798,16 +810,6 @@
                     "count": 2200,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
-            ],
-            [
-                {
-                    "count": 1,
-                    "_tpl": "5d0376a486f7747d8050965c"
-                },
-                {
-                    "count": 1,
-                    "_tpl": "5d6fc87386f77449db3db94e"
-                }
             ]
         ],
         "6848c24f06bf6f72927a1d27": [
@@ -815,20 +817,6 @@
                 {
                     "count": 900000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
-                }
-            ],
-            [
-                {
-                    "count": 2,
-                    "_tpl": "5d1b313086f77425227d1678"
-                },
-                {
-                    "count": 2,
-                    "_tpl": "64afd81707e2cf40e903a316"
-                },
-                {
-                    "count": 1,
-                    "_tpl": "5d03775b86f774203e7e0c4b"
                 }
             ]
         ],
@@ -838,20 +826,6 @@
                     "count": 1800000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
-            ],
-            [
-                {
-                    "count": 1,
-                    "_tpl": "5c05308086f7746b2101e90b"
-                },
-                {
-                    "count": 1,
-                    "_tpl": "5d03775b86f774203e7e0c4b"
-                },
-                {
-                    "count": 3,
-                    "_tpl": "5d1b313086f77425227d1678"
-                }
             ]
         ],
         "6848c26a179f80dd13536cb5": [
@@ -859,24 +833,6 @@
                 {
                     "count": 1200000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
-                }
-            ],
-            [
-                {
-                    "count": 1,
-                    "_tpl": "6389c7750ef44505c87f5996"
-                },
-                {
-                    "count": 2,
-                    "_tpl": "5c0530ee86f774697952d952"
-                },
-                {
-                    "count": 2,
-                    "_tpl": "5d1b31ce86f7742523398394"
-                },
-                {
-                    "count": 1,
-                    "_tpl": "590c621186f774138d11ea29"
                 }
             ]
         ],
@@ -916,6 +872,22 @@
             [
                 {
                     "count": 12000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e818a7b5672a0e066e4603": [
+            [
+                {
+                    "count": 5000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e8188d024a93379e718c78": [
+            [
+                {
+                    "count": 5000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -961,6 +933,8 @@
         "684b9b74684f0bd7822be385": 1,
         "684b9b892786851f0293131c": 1,
         "684b9bbc7f6b336e04a9d98a": 1,
-        "684b9bbeab252bc7f2685392": 1
+        "684b9bbeab252bc7f2685392": 1,
+        "69e818a7b5672a0e066e4603": 2,
+        "69e8188d024a93379e718c78": 1
     }
 }
