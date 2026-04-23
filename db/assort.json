@@ -425,8 +425,8 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 25,
-                "BuyRestrictionMax": 5,
-                "BuyRestrictionCurrent": 5
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
             }
         },
         {
@@ -711,8 +711,8 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 40,
-                "BuyRestrictionMax": 5,
-                "BuyRestrictionCurrent": 5
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
             }
         },
         {
@@ -724,8 +724,8 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 40,
-                "BuyRestrictionMax": 5,
-                "BuyRestrictionCurrent": 5
+                "BuyRestrictionMax": 2,
+                "BuyRestrictionCurrent": 2
             }
         },
         {
@@ -911,8 +911,8 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 25,
-                "BuyRestrictionMax": 3,
-                "BuyRestrictionCurrent": 3
+                "BuyRestrictionMax": 6,
+                "BuyRestrictionCurrent": 6
             }
         },
         {
@@ -1816,9 +1816,22 @@
             }
         },
         {
-            "_name": "7.62x51mm BCP FMJ",
+            "_name": "7.62x51mm M80",
             "_id": "ea76d761cd9b4ed3b97992d0",
-            "_tpl": "5e023e53d4353e3302577c4c",
+            "_tpl": "58dd3ad986f77403051cba8f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 6000,
+                "BuyRestrictionMax": 240,
+                "BuyRestrictionCurrent": 240
+            }
+        },
+        {
+            "_name": "7.62x51mm M80 Ammo Box",
+            "_id": "69ea3f743ab778063cbffcc1",
+            "_tpl": "65702558cfc010a0f5006a25",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -2449,8 +2462,8 @@
             "upd": {
                 "UnlimitedCount": false,
                 "StackObjectsCount": 10,
-                "BuyRestrictionMax": 2,
-                "BuyRestrictionCurrent": 2
+                "BuyRestrictionMax": 3,
+                "BuyRestrictionCurrent": 3
             }
         },
         {
@@ -3507,9 +3520,90 @@
             "_tpl": "5b057b4f5acfc4771e1bd3e9",
             "parentId": "69e94a7d93ab9146b4798c87",
             "slotId": "mod_foregrip"
+        },
+        {
+            "_name": "Dollars",
+            "_id": "69e966c01b3e241b910451cf",
+            "_tpl": "5696686a4bdc2da3298b456a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 30000,
+                "BuyRestrictionMax": 5000,
+                "BuyRestrictionCurrent": 5000
+            }
+        },
+        {
+            "_name": "Euros",
+            "_id": "69e966bce8d0230b2e255e2c",
+            "_tpl": "569668774bdc2da2298b4568",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 30000,
+                "BuyRestrictionMax": 3000,
+                "BuyRestrictionCurrent": 3000
+            }
+        },
+        {
+            "_name": "EOTech 553 holographic sight",
+            "_id": "69ea3cb370cc441f20303495",
+            "_tpl": "570fd6c2d2720bc6458b457f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 300,
+                "BuyRestrictionMax": 10,
+                "BuyRestrictionCurrent": 10
+            }
+        },
+        {
+            "_name": "EOTech XPS3-0 holographic sight",
+            "_id": "69ea3cafc2ac703e52815fa1",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 300,
+                "BuyRestrictionMax": 10,
+                "BuyRestrictionCurrent": 10
+            }
+        },
+        {
+            "_name": "300 Blackout CBJ",
+            "_id": "69ea3e03b1ff8d53ba42b70d",
+            "_tpl": "64b8725c4b75259c590fa899",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 5400,
+                "BuyRestrictionMax": 180,
+                "BuyRestrictionCurrent": 180
+            }
         }
     ],
     "barter_scheme": {
+        "69e966c01b3e241b910451cf": [
+            [
+                {
+                    "count": 120,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69e966bce8d0230b2e255e2c": [
+            [
+                {
+                    "count": 175,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
         "6848be6f0119076cdee9995a": [
             [
                 {
@@ -3537,7 +3631,7 @@
         "6848be8205400eb71cc0061a": [
             [
                 {
-                    "count": 118000,
+                    "count": 95000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3761,7 +3855,7 @@
         "684b95190c8dd7758a491913": [
             [
                 {
-                    "count": 90000,
+                    "count": 72000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3809,7 +3903,7 @@
         "684ba0da2ab7af8f52c1d69c": [
             [
                 {
-                    "count": 175000,
+                    "count": 75000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3961,7 +4055,7 @@
         "52004858facc4c928ffb8759": [
             [
                 {
-                    "count": 132000,
+                    "count": 93000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3969,7 +4063,7 @@
         "dd47a54d3a3e407996c007ac": [
             [
                 {
-                    "count": 170000,
+                    "count": 90000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -3985,7 +4079,7 @@
         "09ccc3034d854c679d80fb9d": [
             [
                 {
-                    "count": 48000,
+                    "count": 22000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4009,7 +4103,7 @@
         "02277f41bd6c483db8cb590c": [
             [
                 {
-                    "count": 135000,
+                    "count": 18251,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4113,7 +4207,7 @@
         "b03667f0e86e424092b7cc0f": [
             [
                 {
-                    "count": 38000,
+                    "count": 43700,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4121,7 +4215,7 @@
         "3ea54640b21348aabb28aecf": [
             [
                 {
-                    "count": 50000,
+                    "count": 57500,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4145,7 +4239,7 @@
         "7a6e71a8826f4f9f856e1beb": [
             [
                 {
-                    "count": 165000,
+                    "count": 125000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4153,7 +4247,7 @@
         "9840b775e4fe4aa691697e5d": [
             [
                 {
-                    "count": 198000,
+                    "count": 148000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4161,7 +4255,7 @@
         "9296f4b39e92435bb69017b8": [
             [
                 {
-                    "count": 220000,
+                    "count": 180000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4337,7 +4431,7 @@
         "7c26cc283d1144c4b2b33d82": [
             [
                 {
-                    "count": 145000,
+                    "count": 119140,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4345,7 +4439,7 @@
         "0e5d6dce6ddf4f95bbba03e8": [
             [
                 {
-                    "count": 195000,
+                    "count": 109620,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4513,7 +4607,7 @@
         "69e93a00b60c2e80e4537809": [
             [
                 {
-                    "count": 320000,
+                    "count": 180000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4521,7 +4615,7 @@
         "69e93a2bd23715d5bbfe01a8": [
             [
                 {
-                    "count": 295000,
+                    "count": 185000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4609,7 +4703,7 @@
         "684daf6c42ed791e337a77dd": [
             [
                 {
-                    "count": 145000,
+                    "count": 95000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4649,7 +4743,7 @@
         "684db0bdc88581534c194e39": [
             [
                 {
-                    "count": 138000,
+                    "count": 98000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4657,7 +4751,7 @@
         "684db0efdba2a9077eafac37": [
             [
                 {
-                    "count": 132000,
+                    "count": 82000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4681,7 +4775,7 @@
         "684db14a35957ddd19e6e624": [
             [
                 {
-                    "count": 86000,
+                    "count": 96000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4689,7 +4783,7 @@
         "684db160cd9a82661a3d9d03": [
             [
                 {
-                    "count": 152000,
+                    "count": 92000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4729,7 +4823,7 @@
         "684db1a460f7c0fdbfef1471": [
             [
                 {
-                    "count": 136000,
+                    "count": 96000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4777,7 +4871,7 @@
         "69e942b578f4eac7e14459c8": [
             [
                 {
-                    "count": 118000,
+                    "count": 59498,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4833,7 +4927,7 @@
         "69e947e51329ce9d85e80d25": [
             [
                 {
-                    "count": 1000000,
+                    "count": 807778,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4841,7 +4935,7 @@
         "69e9492d93ab9146b479531b": [
             [
                 {
-                    "count": 75000,
+                    "count": 42203,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4849,7 +4943,7 @@
         "69e9496593ab9146b47960d3": [
             [
                 {
-                    "count": 34000,
+                    "count": 49100,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4865,15 +4959,47 @@
         "69e94a3c93ab9146b4797e45": [
             [
                 {
-                    "count": 182000,
+                    "count": 132000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
         ],
-        "69e94a7d93ab9146b4798c77" : [
+        "69e94a7d93ab9146b4798c77": [
             [
                 {
-                    "count": 260000,
+                    "count": 180000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69ea3cb370cc441f20303495": [
+            [
+                {
+                    "count": 400000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69ea3cafc2ac703e52815fa1": [
+            [
+                {
+                    "count": 500000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69ea3e03b1ff8d53ba42b70d": [
+            [
+                {
+                    "count": 700,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "69ea3f743ab778063cbffcc1": [
+            [
+                {
+                    "count": 150000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4889,13 +5015,13 @@
         "6848c1dad371558bc65a8920": 1,
         "6848c1e1526513e20c754db9": 1,
         "6848de83a2923c4103c20659": 2,
-        "69e8e9135b2a4f5f4ccbf2f7": 2,
+        "69e8e9135b2a4f5f4ccbf2f7": 1,
         "6848e86b660e5a40590e550c": 3,
         "69e8e9545f0cbac00c0bc0dd": 2,
         "6848ee1c2f8bf225e5611603": 3,
         "69e8e980a6bbdbdf85df3d68": 2,
         "6848e92a869e658cb5ba5929": 2,
-        "69e8e9b0de99c686d15d6217": 2,
+        "69e8e9b0de99c686d15d6217": 1,
         "6848e976c4087836af758655": 3,
         "69e8e9cbc43b7bf776f56fc7": 2,
         "6848ea45aa626070961bdd1f": 3,
@@ -4915,7 +5041,7 @@
         "684b9a3e4b195c87372b3447": 2,
         "684b9a70903e5ac7660ed25e": 2,
         "684b9acedefa218837c51e8d": 3,
-        "684b9a9db551026a85452a43": 3,
+        "684b9a9db551026a85452a43": 2,
         "684b9ad487b49f28cab630dd": 3,
         "684ba0da2ab7af8f52c1d69c": 4,
         "684ba3076645a87e59831446": 4,
@@ -4928,7 +5054,7 @@
         "684b9b892786851f0293131c": 2,
         "684b9bbc7f6b336e04a9d98a": 1,
         "684b9bbeab252bc7f2685392": 1,
-        "69e818a7b5672a0e066e4603": 1,
+        "69e818a7b5672a0e066e4603": 2,
         "69e8188d024a93379e718c78": 1,
         "fe23421e44404bd7a892dc65": 1,
         "e702f56478d345678d53cfa1": 2,
@@ -4939,10 +5065,10 @@
         "52004858facc4c928ffb8759": 3,
         "dd47a54d3a3e407996c007ac": 4,
         "70e5c8149d324895a88ee286": 2,
-        "09ccc3034d854c679d80fb9d": 2,
+        "09ccc3034d854c679d80fb9d": 1,
         "9be8e96717c2486183ababa1": 1,
         "37757f119f614459b166dc13": 2,
-        "02277f41bd6c483db8cb590c": 2,
+        "02277f41bd6c483db8cb590c": 1,
         "bcbaac11707e483881e2ee73": 1,
         "a04e4f5b60c04791bf0a8135": 2,
         "670b96e6e6054d118e129f12": 2,
@@ -5049,6 +5175,12 @@
         "69e9496593ab9146b47960d3": 1,
         "69e949da93ab9146b4796e2b": 2,
         "69e94a3c93ab9146b4797e45": 3,
-        "69e94a7d93ab9146b4798c77": 4
+        "69e94a7d93ab9146b4798c77": 4,
+        "69e966c01b3e241b910451cf": 2,
+        "69e966bce8d0230b2e255e2c": 2,
+        "69ea3cb370cc441f20303495": 1,
+        "69ea3cafc2ac703e52815fa1": 2,
+        "69ea3e03b1ff8d53ba42b70d": 2,
+        "69ea3f743ab778063cbffcc1": 1
     }
 }
