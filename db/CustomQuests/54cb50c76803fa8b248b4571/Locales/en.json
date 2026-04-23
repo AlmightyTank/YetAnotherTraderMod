@@ -1,11 +1,11 @@
 {
     "69d8dc6bf1921eeb784e3e74 name": "Unregistered Cargo",
-    "69d8dc6bf1921eeb784e3e74 description": "I’ve seen this before. When supply lines disappear, it doesn’t mean they’re gone. It means someone is controlling them.Not traders. Not scavs.Someone organized.That data you’ve been pulling — the same thing Skier is sniffing around — it’s not theory. It’s structure. Routes. Timing. Discipline.That’s logistics.I don’t care who built it. I care where it moves and how to break it.You build me a usable extract — something I can act on — and I’ll turn it into intercepted shipments, burned routes, and dead operators.Systems like that don’t survive contact.",
-    "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes, not theory. Build me something usable.",
-    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn’t paperwork anymore. It’s a target map.",
-    "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "Logistics extract delivered. Ready for use.",
+    "69d8dc6bf1921eeb784e3e74 description": "This isn’t missing cargo. I know what missing cargo looks like. This is controlled cargo. Routes don’t just disappear. Someone takes them over. What you’ve been pulling, what Skier is already sniffing around, that’s not fragments. That’s a system. Clean routes. Stable timing. No noise unless someone wants it. I’ve seen logistics like this before. That makes it a problem. I don’t care who built it. I care where it moves and how fast I can start cutting pieces out of it. You build me something usable, and I’ll turn it into burned routes and empty supply lines.",
+    "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes I can hit, not something to read.",
+    "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn’t data. This is targeting. I can work with this.",
+    "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "I have the extract. Now I can use it.",
     "69d8dc6bf1921eeb784e3e74 declinePlayerMessage": "",
-    "69d8dc6bf1921eeb784e3e74 failMessageText": "",
+    "69d8dc6bf1921eeb784e3e74 failMessageText": "If I can’t act on it, then it’s useless.",
     "69d8dc6bf1921eeb784e3e74 note": "Compile a tactical logistics extract from Tony’s recovered data and hand it to Prapor.",
 
     "69d8e498314238f2609f456b": "Compile a tactical logistics map from the recovered data in the hideout",
