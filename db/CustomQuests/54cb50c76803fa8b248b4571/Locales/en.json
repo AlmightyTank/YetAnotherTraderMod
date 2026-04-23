@@ -4,7 +4,7 @@
     "69d8dc6bf1921eeb784e3e74 startedMessageText": "I need routes I can hit, not something to read.",
     "69d8dc6bf1921eeb784e3e74 successMessageText": "Good. This isn’t data. This is targeting. I can work with this.",
     "69d8dc6bf1921eeb784e3e74 completePlayerMessage": "I have the extract. Now I can use it.",
-    "69d8dc6bf1921eeb784e3e74 declinePlayerMessage": "",
+    "69d8dc6bf1921eeb784e3e74 declinePlayerMessage": "You chose not to act. That’s your decision.",
     "69d8dc6bf1921eeb784e3e74 failMessageText": "If I can’t act on it, then it’s useless.",
     "69d8dc6bf1921eeb784e3e74 note": "Compile a tactical logistics extract from Tony’s recovered data and hand it to Prapor.",
 

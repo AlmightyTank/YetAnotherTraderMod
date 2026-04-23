@@ -666,7 +666,7 @@
                     "target": "f99e2f3b77c0485d2ae87dd9",
                     "traderId": "698f904cd0fa772942d237c7",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": true
                 },
                 {
                     "availableInGameEditions": [],
@@ -682,7 +682,7 @@
                     "target": "49c13d58f1f7326142035e9b",
                     "traderId": "698f904cd0fa772942d237c7",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": true
                 },
                 {
                     "availableInGameEditions": [],
@@ -698,7 +698,7 @@
                     "target": "021f67ffc02c83531eb08ead",
                     "traderId": "698f904cd0fa772942d237c7",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": true
                 },
                 {
                     "availableInGameEditions": [],
@@ -714,7 +714,7 @@
                     "target": "630f76cfd06c828229a23dc9",
                     "traderId": "698f904cd0fa772942d237c7",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": true
                 },
                 {
                     "availableInGameEditions": [],
@@ -730,7 +730,7 @@
                     "target": "40b6353558110d9543f3c6f1",
                     "traderId": "698f904cd0fa772942d237c7",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": true
                 }
             ]
         },
@@ -4771,7 +4771,10 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        4
+                        2,
+                        3,
+                        4,
+                        5
                     ],
                     "target": "69d8db4a3b45af4d32ab83fa",
                     "visibilityConditions": []
@@ -4782,26 +4785,14 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69e8daed9bacd987ddddbe0e",
+                    "id": "69e6ec35cb0f38c4e57fd2d8",
                     "index": 1,
                     "parentId": "",
                     "status": [
-                        4
-                    ],
-                    "target": "69e81419c37ec7ccba851faa",
-                    "visibilityConditions": []
-                },
-                {
-                    "availableAfter": 0,
-                    "conditionType": "Quest",
-                    "dispersion": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "69e6ec35cb0f38c4e57fd2d8",
-                    "index": 2,
-                    "parentId": "",
-                    "status": [
-                        4
+                        2,
+                        3,
+                        4,
+                        5
                     ],
                     "target": "69d8dc6bf1921eeb784e3e74",
                     "visibilityConditions": []
@@ -5038,7 +5029,7 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69e6ec9bdc01dfcec2bd5a6c",
+                    "id": "69ea4cad1b917b74564c6848",
                     "index": 2,
                     "parentId": "",
                     "status": [ 2, 3, 4, 5 ],
@@ -5051,8 +5042,8 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69e6ec9bdc01dfcec2bd5a6c",
-                    "index": 2,
+                    "id": "69ea4cb54db91cbfd6157bf1",
+                    "index": 3,
                     "parentId": "",
                     "status": [ 2, 3, 4, 5 ],
                     "target": "69d8dc6bf1921eeb784e3e74",

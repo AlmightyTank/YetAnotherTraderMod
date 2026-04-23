@@ -19,7 +19,7 @@
     "69d8db4a3b45af4d32ab83fa startedMessageText": "I don’t want scraps. Make it clean enough to use.",
     "69d8db4a3b45af4d32ab83fa successMessageText": "Good. This isn’t fragments. This is structure. Enough to move against him if I decide to.",
     "69d8db4a3b45af4d32ab83fa completePlayerMessage": "I have the extract. That gives me options.",
-    "69d8db4a3b45af4d32ab83fa declinePlayerMessage": "",
+    "69d8db4a3b45af4d32ab83fa declinePlayerMessage": "You chose not to act. That’s your decision.",
     "69d8db4a3b45af4d32ab83fa failMessageText": "If I can’t use it, then it’s worthless to me.",
     "69d8db4a3b45af4d32ab83fa note": "Assemble a readable extract from Tony’s recovered network data and hand it to Skier.",
 
