@@ -433,7 +433,7 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        5
+                        4
                     ],
                     "target": "69d8dc6bf1921eeb784e3e74",
                     "visibilityConditions": []
@@ -445,7 +445,7 @@
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "69e6fcdbdae0a75c2b5fdeec",
-                    "index": 0,
+                    "index": 1,
                     "parentId": "",
                     "status": [
                         5

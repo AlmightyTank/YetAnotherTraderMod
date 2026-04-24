@@ -77,7 +77,7 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        5
+                        4
                     ],
                     "target": "69d8db4a3b45af4d32ab83fa",
                     "visibilityConditions": []
@@ -89,7 +89,7 @@
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "69e6fcecd8e17392877828e9",
-                    "index": 0,
+                    "index": 1,
                     "parentId": "",
                     "status": [
                         5

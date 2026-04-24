@@ -4771,8 +4771,6 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        2,
-                        3,
                         4,
                         5
                     ],
@@ -4789,8 +4787,6 @@
                     "index": 1,
                     "parentId": "",
                     "status": [
-                        2,
-                        3,
                         4,
                         5
                     ],
@@ -5032,7 +5028,11 @@
                     "id": "69ea4cad1b917b74564c6848",
                     "index": 2,
                     "parentId": "",
-                    "status": [ 2, 3, 4, 5 ],
+                    "status": [
+                        2,
+                        4,
+                        5
+                    ],
                     "target": "69d8db4a3b45af4d32ab83fa",
                     "visibilityConditions": []
                 },
@@ -5045,7 +5045,11 @@
                     "id": "69ea4cb54db91cbfd6157bf1",
                     "index": 3,
                     "parentId": "",
-                    "status": [ 2, 3, 4, 5 ],
+                    "status": [
+                        2,
+                        4,
+                        5
+                    ],
                     "target": "69d8dc6bf1921eeb784e3e74",
                     "visibilityConditions": []
                 }
@@ -5326,7 +5330,7 @@
         "type": "Elimination"
     },
     "69d81d2211b64abb3f86ee12": {
-        "QuestName": "Clean House",
+        "QuestName": "Settled Authority",
         "_id": "69d81d2211b64abb3f86ee12",
         "acceptPlayerMessage": "69d81d2211b64abb3f86ee12 acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
@@ -5337,84 +5341,81 @@
         "conditions": {
             "AvailableForFinish": [
                 {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69ea854e44a6b03a73208c5a",
+                    "index": 1,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "59e36c6f86f774176c10a2a7"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": [],
+                    "zoneId": "settledauthority_001"
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69ea855d9757fddfcf06d71d",
+                    "index": 1,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "59e36c6f86f774176c10a2a7"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": [],
+                    "zoneId": "settledauthority_002"
+                },
+                {
                     "completeInSeconds": 0,
                     "conditionType": "CounterCreator",
                     "counter": {
                         "conditions": [
                             {
-                                "bodyPart": [],
-                                "compareMethod": ">=",
-                                "conditionType": "Kills",
-                                "daytime": {
-                                    "from": 0,
-                                    "to": 0
-                                },
-                                "distance": {
-                                    "compareMethod": ">=",
-                                    "value": 0
-                                },
+                                "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "enemyEquipmentExclusive": [],
-                                "enemyEquipmentInclusive": [],
-                                "enemyHealthEffects": [],
-                                "id": "69e4b68c99dd6fb5f11085e1",
-                                "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "AnyPmc",
-                                "value": 1,
-                                "weapon": [
-                                    "5c07c60e0db834002330051f",
-                                    "5447a9cd4bdc2dbd208b4567",
-                                    "5d43021ca4b9362eab4b5e25",
-                                    "5ac66d9b5acfc4001633997a",
-                                    "5bb2475ed4351e00853264e3"
-                                ],
-                                "weaponCaliber": [],
-                                "weaponModsExclusive": [],
-                                "weaponModsInclusive": [
-                                    [ "55d614004bdc2d86028b4568" ],
-                                    [ "59bffbb386f77435b379b9c2" ],
-                                    [ "55d6190f4bdc2d87028b4567" ],
-                                    [ "5c7955c22e221644f31bfd5e" ],
-                                    [ "57da93632459771cb65bf83f" ],
-                                    [ "57dbb57e2459774673234890" ],
-                                    [ "5a9fbb84a2750c00137fa685" ],
-                                    [ "5a34fe59c4a282000b1521a2" ],
-                                    [ "5cff9e5ed7ad1a09407397d4" ],
-                                    [ "5ea172e498dacb342978818e" ],
-                                    [ "5ea17bbc09aa976f2e7a51cd" ],
-                                    [ "5d44064fa4b9361e4f6eb8b5" ],
-                                    [ "60926df0132d4d12c81fd9df" ],
-                                    [ "626673016f1edc06f30cf6d5" ],
-                                    [ "638612b607dfed1ccb7206ba" ],
-                                    [ "63877c99e785640d436458ea" ],
-                                    [ "673f0b36536d64240f01acd6" ],
-                                    [ "673f0a9370a3ddcf0d0ee0b8" ],
-                                    [ "673f0a38259f5945d70e43a6" ]
+                                "id": "69ea8589d491d1fff344cfc9",
+                                "target": [
+                                    "streets"
                                 ]
                             },
                             {
-                                "conditionType": "Location",
+                                "conditionType": "ExitStatus",
                                 "dynamicLocale": false,
-                                "id": "69e4b68932a8ebc4f69e9fe0",
-                                "target": [
-                                    "tarkovstreets"
+                                "id": "69ea858c9d817f6393e68def",
+                                "status": [
+                                    "Survived",
+                                    "Transit"
                                 ]
                             }
                         ],
-                        "id": "69e4b67c812e0d5e3998f0cd"
+                        "id": "69ea85902d9fe5ec34961123"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "1e9026da7e4c46af8c992148",
-                    "index": 0,
-                    "isNecessary": true,
+                    "id": "69ea859332217495966e366a",
+                    "index": 1,
+                    "isNecessary": false,
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Elimination",
-                    "value": 3,
+                    "type": "Completion",
+                    "value": 2,
                     "visibilityConditions": []
                 }
             ],
@@ -5917,7 +5918,7 @@
                         {
                             "conditionType": "CompleteCondition",
                             "id": "5f16b4125eacb411e9fdaf31",
-                            "target": "a5ab7af2349a3ed39a36cb66"
+                            "target": "a5ab7af2349a3ed39a36cb67"
                         }
                     ]
                 }
